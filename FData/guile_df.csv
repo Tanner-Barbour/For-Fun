@@ -1,0 +1,81 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,2,8,4,3,30,70,,Can be rapid canceled
+Standing MP,6,3,13,6,3,60,100,,None
+Standing HP,8,3,18,7,-4,80,150,,Forces stand
+Standing LK,4,3,9,4,2,30,70,,None
+Standing MK,7,3,15,3,-1,70,100,,None
+Standing HK,14,3,18,2,-3,80,150,,None
+Crouching LP,4,3,7,4,2,30,70,,Can be rapid canceled
+Crouching MP,6,2,13,3,2,60,100,,None
+Crouching HP,9,5,16,2,-4,90(*70),150,,"Triggers Crush Counter  (D)
+                                                Forces stand
+                                                                                                                *From active frame 3F"
+Crouching LK,4,3,8,2,0,20,70,,Can be rapid canceled
+Crouching MK,7,2,15,2,-4,60,100,,None
+Crouching HK,7,5,20,D,-13,90+70,150+100,,"Triggers Crush Counter  (D)
+                                                                                                                                                                V*Only possible during 1st attack"
+Jumping LP,4,5,,,,40,70,,None
+Jumping MP,5,5,,,,70,100,,None
+Jumping HP,8,5,,,,90,150,,None
+Jumping LK,4,5,,,,40,70,,Can cross-up
+Jumping MK,7,5,,,,60,100,,None
+Jumping HK,10,5,,,,90,150,,None
+Knee Bazooka,8,5,20,-1,-3,50,100,← OR → + LK,None
+Rolling Sobat,12,2,19(*20),2,-4,60,100,← OR → + MK,*On whiff
+Reverse Spin Kick,16,3,18,4,-2,90,150,→ + HK,8F - 32F  throw invincibility
+Burn Straight,8,3,20(*25),2,-1,80,150,← + HP,"Triggers Crush Counter  (D)
+                                                                                                                                                                *On whiff"
+Spinning Back Knuckle,11,3,16,4,-1,90,150,→ + HP,"Triggers Crush Counter (+26F)
+                                                                Will not hit crouching opponents"
+Full Bullet Magnum,21,2,19,1,-7,60,100,→ + MP,None
+Guile High Kick,11,2,25,D,-3,80,150,↘ + HK,Will not hit crouching opponents
+Drake Fang,16,4,21,1,-7,60,100,↓ + MK ▶ → + MP,None
+Tall Edge,6,3,17,1,-8,60,100,↓ + LK ▶ MP,None
+Bullet Revolver,10,3,22,D,-8,70,150,↓ + LK ▶ MP ▶ → + HP,"Will not hit crouching opponents
+                                                                                                VS*on hit"
+Swing Out,10,3,22,D,-8,70,150,MP ▶ → + HP,"Will not hit crouching opponents
+                                                                                                VS*on hit"
+Taurus Combination,7,3,15,D,-4,50,80,LK ▶ MK,VS*on hit
+Dragon Suplex,5,3,17,D,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Judo Throw,5,3,17,D,,120,170,(NEAR OPPONENT) ← + LP LK,None
+Flying Mare,5,2,6 frame(s) after landing,D,,130,170,(CLOSE TO OPPONENT IN AIR) → OR + LP LK,None
+Flying Buster Chop,5,2,6 frame(s) after landing,D,,140,200,(CLOSE TO OPPONENT IN AIR) ← + LP LK,None
+[VS1] Sonic Blade,18,42,53 total frames,-9,-14,40,50,(WHEN SELECTING VSKILL I) MP MK,None
+[VS2] Dive Sonic,25 (*22),,59 total frames (*54),4,-7,40,50,(WHEN SELECTING VSKILL II) MP MK,"*Airborne for 7F
+*Values when activated from Bullet Revolver, Swing Out, Thrust Combination"
+Solid Puncher,1,,8,,,,,HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                                                                While active, Guile gains the Sonic Break special move, and his CA Sonic Hurricane is upgraded to Sonic Tempest"
+Reverse Back Knuckle,17,2,23,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Ambush Kick,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+Sonic Boom,10,,40 total frames,7,0,60,50,→ + P,None
+VSonic Boom,10,,40 total frames,7,2,60,50,→ + P,None
+VSonic Break (1st Projectile),10,,36 total frames,5,1,40,40,(DURING V-TRIGGER) HK HP,Uses 350F V-Gauge Timer
+VSonic Break (additional projectiles),10,,36 total frames,5,1,50,40,(DURING A SONIC BOOM OR SONIC BREAK) P,Uses 350F V-Gauge Timer
+EX Sonic Boom,10,,36 total frames,D,4,100,100,→ + P P,None
+VEX Sonic Boom,10,,36 total frames,D,4,100,100,→ + P P,None
+VEX Sonic Break,10,,36 total frames,D,11,70,100,(DURING A EX SONIC BOOM OR EX SONIC BREAK) P,Uses 450F V-Gauge Timer
+Sonic Cross,10(*46),,33 total frames,D,,80,100,(DURING V-SKILL) → + P,*Frames calculated from the fastest startup from Sonic Blade
+EX Sonic Cross,10(*46),,31 total frames,D,,140,150,(DURING V-SKILL) → + P P,*Frames calculated from the fastest startup from Sonic Blade
+L Somersault Kick,4,12,23+13 frame(s) after landing,D,-28,130(*100),200,↑ + LK,"1F - 7F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 2F"
+M Somersault Kick,5,12,23+13 frame(s) after landing,D,-28,130(*100),200,↑ + MK,"1F - 8F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 2F"
+H Somersault Kick,6,12,25+13 frame(s) after landing,D,-30,130(*100),200,↑ + HK,"3F - 9F  projectile invincibility
+                                                Subject to counter hit during move duration
+*From active frame 2F"
+EX Somersault Kick,4,12,27+17 frame(s) after landing,D,-36,150(*120),200,↑ + K K,"1F - 9F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)
+*From active frame 2F"
+Sonic Hurricane,1+5,50,104 total frames,D,-41,320,0,→ ← → + P,"6F - 56F  projectile invincibility
+1F - 5F  full invincibility"
+VSonic Tempest,1+5,50,104 total frames,D,5,350,0,→ ← → + P,"Uses 2000F V-Gauge Timer
+                                                                                                                                6F - 56F  projectile invincibility
+1F - 5F  full invincibility"

@@ -1,0 +1,66 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,9,5,2,30,70,,None
+Standing MP,6,3,15,8,3,60,100,,None
+Standing HP,10,3,22,4,-3,80,150,,None
+Standing LK,5,2,11,4,3,40,70,,None
+Standing MK,8,3,16,4,-2,60,100,,None
+Standing HK,12 ,3,23,3,-4,80,150,,"Triggers Crush Counter (+26F)
+                                                                                                                                                                Foot will not hit a crouching opponent"
+Crouching LP,4,3,10,3,2,30,70,,None
+Crouching MP,8,2,16,4,-2,70,100,,None
+Crouching HP,8,3,27,-2,-8,80,150,,None
+Crouching LK,4,2,9,3,2,20,70,,Crouching LP can be rapid canceled
+Crouching MK,7,2,17,2,-2,60,100,,None
+Crouching HK,10,2,24,D,-12,90,150,,Triggers Crush Counter (D)
+Jumping LP,4,6,,,,40,70,,None
+Jumping MP,9,4,,,,70,100,,None
+Jumping HP,12,3,,,,90,150,,None
+Jumping LK,3,5,,,,40,70,,None
+Jumping MK,7,5,,,,60,100,,Can cross-up
+Jumping HK,7,5,,,,90,150,,Causes blowback knockdown on airborne hit
+Psycho Spitze,14,2,25,0,-10,90,150,→ + HP,Triggers Crush Counter (D)
+Blaukraehe,15,6,14,6,3,70,150,↘ + HK,Can hit a knocked down opponent
+Zweitrit,12,3,12,D,-14,70,100,MK ▶ HK,None
+Psycho Seele,*13,7,52 total frames,D,,70,100,(WHEN SELECTING VSKILL II) MK ▶ HK ▶ OR ← OR ↓ OR ↙ + MP MK,"Projectile explodes 300 frames after appearing, or when hit with a staff attack
+If Falke takes damage before the projectile explodes, the projectile will be destroyed
+*After exploding"
+Luftjagd,16,Until landing,15 frame(s) after landing,,,60,100,(DURING JUMP) ↓ + MK,"Can cross-up
+                                                                                                                                                Falling motion can be canceled into a normal move on hit and block
+S*Can cancel the descent on hit and block into Psycho Feder, Psycho Jaeger"
+Wirbel Wind,5,3,17,,,140,150,(NEAR OPPONENT) → OR + LP LK,None
+Luftstrom,5,3,17,,,150,200,(NEAR OPPONENT) ← + LP LK,None
+Windstoss,5,2,6 frame(s) after landing,,,140,200,(CLOSE TO OPPONENT IN AIR) LP LK,None
+[VS1] Psycho Trombe,14,15,22,D,-10,60,100,(WHEN SELECTING VSKILL I) MP MK,*During projectile nullification
+[VS2] Psycho Mine,*13,7,52 total frames,D,,70,100,(WHEN SELECTING VSKILL II) OR ← OR ↓ OR ↙ + MP MK,"Projectile explodes 300 frames after appearing, or when hit with a staff attack
+If Falke takes damage before the projectile explodes, the projectile will be destroyed
+*After exploding"
+Staerken,1,,5,,,,,HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                Gains an exclusive special move"
+Psycho Impulse,17,4,25,D,-2,60,0,(DURING GUARD) → + LP,"1F - 29F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Psycho Aufstand,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+Psycho Kugel,16,6,26,7,2,60,120,P (HOLD AND RELEASE),None
+Psycho Kanonen,24,,55 total frames,4,-3,60,150,↓ + P (HOLD AND RELEASE),None
+Psycho Feder,16,,9 frame(s) after landing,,,80,120,(DURING JUMP) P (HOLD AND RELEASE),None
+Psycho Schneide,8,6,38(*33),D,-17,120,150,P P,"Invincibility at the head from 1 – 10F
+*on block/whiff"
+EX Psycho Schneide,12,7,44,D,-25,140,200,LP,"1F - 16F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+Katapult,16,4,31(*26),D,-10,90,150,K K,*on block/whiff
+EX Katapult,20,4,22,D,-10,40,80,LK,None
+EX Katapult (Hit),20,7,24,D,,80,150,LK,None
+Psycho Schrot,14 (*16),3(*14),23,D,4,30 (*90),60 (*90),(DURING V-TRIGGER I) HP HK,"Uses 1000F V-Gauge Timer
+                                                                                                                                                                                V-Skill can be canceled from punch-type normal and unique moves
+Can be canceled into Psycho Panzer on hit and block
+*Projectile value"
+Psycho Panzer,20,,53,D,-6,100,200,(DURING V-TRIGGER I) ↓ + HP HK,"Uses 1000F V-Gauge Timer
+                                                                                                                                                                                V-Skill can be canceled from punch-type normal and unique moves
+Can be canceled into Psycho Panzer on hit and block"
+Psycho Jaeger,15,,9 frame(s) after landing,,,80,150,(DURING V-TRIGGER I) (DURING JUMP) + HP HK,"Uses 1000F V-Gauge Timer
+                                                                                                                                                                                Can be canceled into from punch-type normal moves"
+Psycho Fluegel,1+3,3,58,D,-35,340,0,↓↘→ ↓↘→ + P,1F - 6F  full invincibility

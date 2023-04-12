@@ -1,0 +1,220 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,2,8,5,3,30,70,,None
+Standing MP,6,3,12,7,3,60,100,,None
+Standing HP,11,4,21,3,-3,80,150,,Triggers Crush Counter (D)
+Standing LK,5,3,10,4,1,40,70,,None
+Standing MK,9,3,17,2,-2,60,100,,None
+Standing HK,9,5,25,2,-5,90(*80),150(*100),,"*On max-distance hit
+CA*Only possible during 1st attack"
+Crouching LP,4,3,8,5,2,30,70,,None
+Crouching MP,7,3,15,5,2,60,100,,None
+Crouching HP,8,4,21,1,-3,90(*80),150,,"Forces stand
+                                                                                                                From active frame 2F"
+Crouching LK,4,2,9,4,1,20,70,,None
+Crouching MK,8,3,14,4,-2,60,100,,None
+Crouching HK,10,2,28,D,-14,100,150,,"Triggers Crush Counter (D)
+                                                                                                                                                                S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+Jumping LP,3,6,,,,40,70,,None
+Jumping MP,7,6,,,,60,100,,None
+Jumping HP,9,5,,,,90,150,,None
+Jumping LK,4,7,,,,40,70,,None
+Jumping MK,5,6,,,,70,100,,None
+Jumping HK,11,5,,,,90,150,,None
+Wild President,15,3,22,2,-4,90,150,→ + HP,"Triggers Crush Counter (+16F)
+                                                                                                                                                                S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+Strong President,9,5,23,D,-5,80(*70),150(*150),← + HP,Can only be canceled into Message to the People.
+Crash President,25,2,22,1,-7,90,150,→ + HK,None
+Flying President,9,7,,,,60,100,(DURING FORWARD JUMP) ↓ + MP,Can cross-up
+Message To The People * Pattern 1,,,1660 total frames,,,0,0,↓ ↓ + LK MK,"31F: EX Gauge +50
+80F: EX Gauge +50
+280F: EX Gauge +50
+480F: EX Gauge +50
+680F: EX Gauge +100
+880F: EX Gauge +100
+1080F: EX Gauge +100
+1280F: EX Gauge +100
+1460F: EX Gauge +300
+Note: Move can be canceled from 32F to 1430F."
+Message To The People * Pattern 2,,,1760 total frames,,,0,0,↓ ↓ + MK HK,"31F: EX Gauge +50
+80F: EX Gauge +50
+280F: EX Gauge +50
+480F: EX Gauge +50
+680F: EX Gauge +100
+880F: EX Gauge +100
+1080F: EX Gauge +100
+1280F: EX Gauge +100
+1555F: EX Gauge +300
+Note: Move can be canceled from 32F to 1530F"
+Message To The People * Pattern 3,,,1720 total frames,,,0,0,↓ ↓ + LK HK,"31F: EX Gauge +50
+80F: EX Gauge +50
+280F: EX Gauge +50
+480F: EX Gauge +50
+680F: EX Gauge +100
+880F: EX Gauge +100
+1080F: EX Gauge +100
+1280F: EX Gauge +100
+1525F: EX Gauge +300
+Note: Move can be canceled from 32F to 1510F"
+Message To The People (Cancel),,,,,,0,0,,Patterns 1-3 have the same functionality
+Violence President,5,3,17,,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Destroy President,5,3,17,,,130,200,(NEAR OPPONENT) ← + LP LK,None
+Shining President,5,3,17,,,140,200,(WHILE OPPONENT IS CROUCHING) (NEAR OPPONENT) → OR + LP LK,None
+[VS1] G Barrier,13(*13),13(*13),23,D,-17,50,100,(WHEN SELECTING VSKILL I) MP MK,"*Value while absorbing projectile
+V-Gauge +80 upon successful absorption of a projectile
+S*Can only be canceled into G Charge on hit
+Can only be canceled into Message to the People on hit."
+[VS1] Airborne G Barrier,13(*9),16(*26),11 frame(s) after landing,D,,50,100,(WHEN SELECTING VSKILL I) (DURING VERTICAL OR FORWARD JUMP) MP MK,"*Value while absorbing projectile
+V-Gauge +80 upon successful absorption of a projectile
+Can perform moves in the air after absorbing a projectile"
+V[VS1] G Barrier,13(*9),26(*30),63 total frames,D,-2,50+80,100+100,(WHEN SELECTING VSKILL I) (DURING V-TRIGGER I) MP MK,"Uses 500F V-Gauge Timer
+                                                                                                                                                                                *Value while absorbing projectile
+Gain 80 EX Gauge upon successfully absorbing a projectile"
+V[VS1] Airborne G Barrier,13(*9),13(*20),11 frame(s) after landing,D,,50+80,100+100,(WHEN SELECTING VSKILL I) (DURING V-TRIGGER I) (DURING VERTICAL OR FORWARD JUMP) MP MK,"Uses 500F V-Gauge Timer
+                                                                                                                                                                                *Value while absorbing projectile
+Gain 80 EX Gauge upon successfully absorbing a projectile"
+[VS2] G Protection,31,,60 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,"Increases defense when activated (equal to 1 attack's worth of combo scaling) Note: Can be stacked 3 times
+Presidentiality Level won't drop even if knocked down, but strengthened status will be lost"
+V[VS2] G Protection,31,,60 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Increases defense when activated (equal to 1 attack's worth of combo scaling) Note: Can be stacked 3 times
+Presidentiality Level won't drop even if knocked down, but strengthened status will be lost
+Armor from 3F to 31F"
+Maximum President,1,,8,,,0,0,HP HK,"V Timer will increase depending on Presidentiality Level when V-Trigger is activated, as detailed below
+Presidentiality level 1 -> 2500 frames
+Presidentiality level 2 -> 3000 frames
+Presidentiality level 3 -> 3500 frames
+
+While active, certain special moves will be strengthened, and G can cancel from one strengthened special move into another (once)"
+G Revenge,17,2,24,D,-2,60,0,(DURING GUARD) → + LP,"1F - 32F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+G Elimination,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L G Smash Over (Lv1),16,5,21,D,-4,100,100,→↓↘ + LP,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+M G Smash Over (Lv1),20,5,21,D,-4,100,100,→↓↘ + MP,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+H G Smash Over (Lv1),25(*22),5,21,D,-4,100,100,→↓↘ + HP,"*When in contact
+S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+L G Smash Over (Lv2),16,5,21,D,-4,120,120,→↓↘ + LP,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+M G Smash Over (Lv2),20,5,21,D,-4,120,120,→↓↘ + MP,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+H G Smash Over (Lv2),25(*22),5,21,D,-4,120,120,→↓↘ + HP,"*When in contact
+S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+G Smash Over (Lv3),13,5,22,D,-6,100,120,→↓↘ + HP,"S*Can be canceled into G Charge only on hit. Can be canceled into EX G Smash Under, EX G Spin Kick, EX G Burst, EX G Impact (cancelable version) on hit or on block
+Can only be canceled into Message to the People on hit."
+V G Smash Over,13,5,22,D,-6,100,120,(DURING V-TRIGGER I) →↓↘ + P,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                S*Cannot be canceled into V G Smash Over, G Charge
+Can only be canceled into Message to the People on hit."
+V G Smash Over (Cancel),13,5,22,D,-6,100,120,(DURING V-TRIGGER I) →↓↘ + P,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Can only be canceled into Message to the People on hit."
+EX G Smash Over,13,5,22,D,-6,100,120,→↓↘ + P P,"S*Cannot be canceled on block. Can only be canceled into G Charge on hit.
+Can only be canceled into Message to the People on hit."
+L G Smash Under (Lv1),13,5,25,D,-8,80,100,→↓↘ + LK,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+M G Smash Under (Lv1),16,5,25,D,-8,80,100,→↓↘ + MK,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+H G Smash Under (Lv1),23(*20),5,25,D,-8,80,100,→↓↘ + HK,"*When in contact
+S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+L G Smash Under (Lv2),13,5,22,D,-8,100,150,→↓↘ + LK,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+M G Smash Under (Lv2),16,5,22,D,-6,100,150,→↓↘ + MK,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+H G Smash Under (Lv2),23(*20),5,22,D,-6,100,150,→↓↘ + HK,"*When in contact
+S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+G Smash Under (Lv3),18(*13),5,22,D,-8,110,150,→↓↘ + HK,"*When in contact
+S*Can be canceled into G Charge only on hit. Can be canceled into EX G Smash Over, EX G Spin Kick, EX G Burst, EX G Impact (cancelable version) on hit or on block
+Can only be canceled into Message to the People."
+V G Smash Under,18(*13),5,22,D,-8,110,150,(DURING V-TRIGGER I) →↓↘ + K,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                *When in contact
+S*Cannot be canceled into V G Smash Under, G Charge
+Can only be canceled into Message to the People on hit."
+V G Smash Under (Cancel),18(*13),5,22,D,-8,110,150,(DURING V-TRIGGER I) →↓↘ + K,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                *When in contact
+Can only be canceled into Message to the People on hit."
+EX G Smash Under,18(*13),5,22,D,-8,110,150,→↓↘ + K K,"*When in contact
+S*Cannot be canceled on block. Can only be canceled into G Charge on hit.
+Can only be canceled into Message to the People on hit."
+L G Burst (Lv1),15,11,49 total frames,-6,-11,50,100,↓↘→ + LP,"S*Can only be canceled into G Charge
+Can be canceled on whiff, except the CA
+Can only be canceled into Message to the People."
+M G Burst (Lv1),20,11,49 total frames,-1,-6,50,100,↓↘→ + MP,"S*Can only be canceled into G Charge
+Can be canceled on whiff, except the CA
+Can only be canceled into Message to the People."
+H G Burst (Lv1),25,11,52 total frames,1,-4,50,100,↓↘→ + HP,"S*Can only be canceled into G Charge
+Can be canceled on whiff, except the CA
+Can only be canceled into Message to the People."
+L G Burst (Lv2),15,11,49 total frames,-3,-8,80,150,↓↘→ + LP,"S*Can only be canceled into G Charge
+Can be canceled on whiff, except the CA
+Can only be canceled into Message to the People."
+M G Burst (Lv2),20,11,49 total frames,2,-3,80,150,↓↘→ + MP,"S*Can only be canceled into G Charge
+Can be canceled on whiff, except the CA
+Can only be canceled into Message to the People."
+H G Burst (Lv2),25,11,52 total frames,4,-1,80,150,↓↘→ + HP,"S*Can only be canceled into G Charge
+Can be canceled on whiff, except the CA
+Can only be canceled into Message to the People."
+G Burst (Lv3),15,30,64 total frames,D,-2,100,150,↓↘→ + HP,"S*Can be canceled into G Charge only on hit. Can be canceled into EX G Smash Over, EX G Smash Under, EX G Spin Kick, EX G Burst, EX G Impact (cancelable version) on hit or on block
+Note: Can be canceled on whiff, excluding CA, V-Trigger
+Can only be canceled into Message to the People."
+V G Burst,15,30,64 total frames,D,-2,100,150,(DURING V-TRIGGER I) ↓↘→ + P,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                S*Cannot be canceled into V G Burst, G Charge
+Can be canceled on whiff, except the CA
+Can only be canceled into Message to the People."
+V G Burst (Cancel),15,30,64 total frames,D,-2,100,150,(DURING V-TRIGGER I) ↓↘→ + P,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Can be canceled on whiff, except the CA
+Can only be canceled into Message to the People."
+EX G Burst,15,30,64 total frames,D,-2,100,150,↓↘→ P P,"S*Can only be canceled into G Charge
+Can be canceled on whiff, except V-Trigger
+Can only be canceled into Message to the People."
+L G Spin Kick (Lv1),20,7,20,3,-5,70,150,↓↘→ + LK,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+M G Spin Kick (Lv1),25,7,22,3,-5,70,150,↓↘→ + MK,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+H G Spin Kick (Lv1),28,7,22,3,-5,70,150,↓↘→ + HK,"S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+L G Spin Kick (Lv2),17,9,19,5,-5,100,150,↓↘→ + LK,"First hit will not hit grounded opponents
+                                                                                S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+M G Spin Kick (Lv2),22,9,22,5,-5,100,150,↓↘→ + MK,"First hit will not hit grounded opponents
+                                                                                S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+H G Spin Kick (Lv2),25,9,22,5,-5,100,150,↓↘→ + HK,"First hit will not hit grounded opponents
+                                                                                S*Can only be canceled into G Charge
+Can only be canceled into Message to the People."
+G Spin Kick (Lv3),20,7,22,D,-2,110,150,↓↘→ + HK,"4F - 30F  projectile invincibility
+                                                S*Can be canceled into G Charge only on hit. Can be canceled into EX G Smash Over, EX G Smash Under, EX G Burst, EX G Impact (cancelable version) on hit or on block
+Can only be canceled into Message to the People."
+V G Spin Kick,20,7,22,D,-2,110,150,(DURING V-TRIGGER I) ↓↘→ + K,"Uses 300F V-Gauge Timer
+                                                                                                                                4F - 30F  projectile invincibility
+                                                S*Cannot be canceled into V G Spin Kick, G Charge
+Can only be canceled into Message to the People on hit."
+V G Spin Kick (Cancel),20,7,22,D,-2,110,150,(DURING V-TRIGGER I) ↓↘→ + K,"Uses 300F V-Gauge Timer
+                                                                                                                                4F - 30F  projectile invincibility
+                                                Can only be canceled into Message to the People on hit."
+EX G Spin Kick,20,7,22,D,-2,110,150,↓↘→ + K K,"4F - 30F  projectile invincibility
+                                                S*Can only be canceled into G Charge on hit
+Can only be canceled into Message to the People on hit."
+G Impact (Lv1),12,2,60,D,,60,100,→↘↓↙← + K,None
+G Impact (Lv2),12,2,60,D,,70,120,→↘↓↙← + K,"Hit recovery can be canceled into special moves, CA, V-Skill"
+G Impact (Lv3),12,2,60,D,,80,120,→↘↓↙← + K,"Hit recovery can be canceled into special moves, CA, V-Skill"
+V G Impact,12,2,60,D,,80,120,(DURING V-TRIGGER I) →↘↓↙← + K,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Hit recovery can be canceled into special moves, CA, V-Skill"
+V G Impact (Cancel),5,2,60,D,,80,120,(DURING V-TRIGGER I) →↘↓↙← + K,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Hit recovery can be canceled into special moves, CA, V-Skill"
+EX G Impact,12,2,60,D,,110,150,→↘↓↙← + K K,"Hit recovery can be canceled into special moves, V-Skill"
+EX G Impact (LV3 cancelable version),5,2,60,D,,110,150,→↘↓↙← + K K,"Hit recovery can be canceled into special moves, V-Skill"
+G Charge,,,64 total frames,,,0,0,↓ ↓ + P P,"Gain 1 President Lv on 43F
+Hold the buttons to use the Hold version"
+G Charge (Hold),,,128 total frames,,,0,0,↓ ↓ + P P,"Gain 1 President Lv on 43F, 120F"
+G Charge (Cancel),,,69 total frames,,,0,0,(DURING A G CHARGE-SUPPORTED ATTACK) P P,"Gain 1 President Lv on 58F
+Cannot use button hold for the cancel version"
+Pangaea Burst,1+5,13×3,73,D,-39,330,0,↓↘→ ↓↘→ + P,1F - 10F  full invincibility

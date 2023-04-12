@@ -1,0 +1,76 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,2,7,4,2,30,70,,None
+Standing MP,5,2,13,8,-2,60,100,,None
+Standing HP,7,3,18,2,-6,90,150,,None
+Standing LK,4,3,8,2,1,30,70,,None
+Standing MK,8,4,15,2,-2,60,100,,"8F - 17F  throw invincibility
+                                                Can move forward with directional input"
+Standing HK,13,2,20,2,-4,90,150,,Triggers Crush Counter  (D)
+Standing HK (Hold Button),35,1,3+20 frame(s) after landing,4,2,100,150,,Triggers Crush Counter (+26F)
+Crouching LP,3,2,6,3,1,20,70,,None
+Crouching MP,7,4,16,1,-1,60,100,,Will not hit crouching opponents
+Crouching HP,11,6,17,-2,-6,80,150,,None
+Crouching LK,4,2,8,3,1,20,70,,None
+Crouching MK,7,4,14,3,-2,60,100,,None
+Crouching HK,12,8,21,D,-12,90,150,,Triggers Crush Counter  (D)
+Jumping LP,3,5,,,,40,70,,None
+Jumping MP,7,5,,,,60,100,,None
+Jumping HP,8,5,,,,90,150,,None
+Jumping LK,4,8,,,,40,70,,Can cross-up
+Jumping MK,6,5,,,,70,100,,None
+Jumping HK,7,7,,,,90,150,,None
+Dive Bomb,16,Until landing,27 frame(s) after landing,D,,70,100,(DURING FORWARD JUMP) ↓ + MP,Can cross-up
+Lady Mika,10,3,12,D,3,80,150,→ + HP,Triggers Crush Counter  (D)
+Passion Press,8,2,20,0,-8,50,100,← OR → + MP,None
+Passion Rope Throw,2,2,50,,,30,0,← OR → + MP ▶ ← OR → + MP,Opponent takes damage upon hitting the wall
+Stomp Chop,4,2,14,1,-5,50,100,LK ▶ MP,Can be canceled with H Shooting Peach
+Shooting Start Combo,8,5,,,,60,100,(DURING JUMP) MP ▶ HP,None
+Daydream Headlock,5,3,17,,,140,200,(NEAR OPPONENT) → OR + LP LK,None
+Sell Down,5,3,17,,,140,200,(NEAR OPPONENT) ← + LP LK,None
+Dream Driver,5,3,17,,,100,120,(WHILE OPPONENT IS CROUCHING) (NEAR OPPONENT) → OR + LP LK,None
+[VS1] Mic Performance,75,25(*29),90 total frames,11,4,40,70,(WHEN SELECTING VSKILL I) MP MK,"Armor from 5F to 79F
+Increased command throw damage + V-Gauge meter gain based on the length of the button hold
+1F - 186F: 1.2x (V-Gauge + 50)
+187F - 395F: 1.5x (V-Gauge + 100)
+396F - 559F: 2x (V-Gauge + 100)
+560F - 707F: 3x (V-Gauge + 100)
+708F - 764F: 5x (V-Gauge + 100)
+765F - 940F: 9x (V-Gauge + 150)
+*Mic range differs if forward is held while releasing the button
+On successful powerup, allows rainbow typhoon and brimstone to be combo'd"
+[VS2] Pumped Up!,3,10,39,,,,,(WHEN SELECTING VSKILL II) MP MK,"Can counter high and overhead attacks
+Subject to counter hit during move duration"
+[VS2] Pumped Up! (upon successful parry),1+4,2,17,D,4,90,150,,"Take 40 recoverable damage
+Increases throw priority (1.2x) + allows Rainbow Typhoon and Brimstone to be combo'd"
+Nadeshiko (above),1+25,8,7 total frames,,,100,100,HP HK,None
+Nadeshiko (above) (Hold Button),1+120,8,11 total frames,,,100,100,HP HK (HOLD BUTTONS),None
+Nadeshiko (front),1+35,4,7 total frames,,,100,100,← + HP HK,None
+Nadeshiko (front) (Hold Button),1+116,4,11 total frames,,,100,100,← + HP HK (HOLD BUTTONS),None
+Nadeshiko (behind),1+35,4,7 total frames,,,100,100,→ + HP HK,None
+Nadeshiko (behind) (Hold Button),1+116,4,11 total frames,,,100,100,→ + HP HK (HOLD BUTTONS),None
+Peach Gator,17,2,24,D,-2,60,0,(DURING GUARD) → + LK,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Gutsy Lariat,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Shooting Peach,10,6,25,D,-7,80,150,↓↘→ + LP,None
+M Shooting Peach,13,10,25,D,-10,90,150,↓↘→ + MP,None
+H Shooting Peach,20,13,17,D,-12,100,150,↓↘→ + HP,None
+EX Shooting Peach,5,10,28,D,-15,130,200,↓↘→ + P P,Armor from 3F to 9F
+L Rainbow Typhoon,5,2,60,D,,180(*130),200,→↘↓↙← + LP,*Value when used in a combo while in powered up state
+M Rainbow Typhoon,5,2,60,D,,190(*140),200,→↘↓↙← + MP,*Value when used in a combo while in powered up state
+H Rainbow Typhoon,5,2,60,D,,200(*150),200,→↘↓↙← + HP,*Value when used in a combo while in powered up state
+EX Rainbow Typhoon,5,2,60,D,,240(*190),250,→↘↓↙← + P P,*Value when used in a combo while in powered up state
+L Brimstone,5,2,60,D,,120(*90),150,→↘↓↙← + LK,*Value when used in a combo while in powered up state
+M Brimstone,5,2,60,D,,130(*100),150,→↘↓↙← + MK,*Value when used in a combo while in powered up state
+H Brimstone,5,2,60,D,,140(*110),150,→↘↓↙← + HK,*Value when used in a combo while in powered up state
+EX Brimstone,5,2,60,D,,180(*150),200,→↘↓↙← + K K,*Value when used in a combo while in powered up state
+L Wingless Airplane,5,5,23+20 frame(s) after landing,D,,130,200,↓↘→ + LK,None
+M Wingless Airplane,7,8,20+20 frame(s) after landing,D,,130,200,↓↘→ + MK,None
+H Wingless Airplane,10,11,17+20 frame(s) after landing,D,,130,200,↓↘→ + HK,None
+EX Wingless Airplane,5,11,17+20 frame(s) after landing,D,,160,200,↓↘→ + K K,"5F - 15F  full invincibility
+                1F - 4F  invincible to mid-air attacks"
+Peach Assault,1+2,2,51,D,,360,0,↓↙← ↓↙← + P,1F - 4F  full invincibility

@@ -1,0 +1,113 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,5,2,10,4,3,40,90,,None
+Standing MP,7,2,16(*20),4,1,60,120,,*On whiff
+Standing HP,14,2,22,4,-6,90,150,,None
+Standing LK,4,3,6,6,3,30,90,,None
+Standing MK,9,3,16,2,-2,60,120,,None
+Standing HK,12,3,20,7,0,100,150,,Triggers Crush Counter (+31F)
+Crouching LP,5,3,10,4,2,40,90,,None
+Crouching MP,6,5,16,0,-5,70,120,,None
+Crouching HP,11,4,26,D,-9,80,120,,Triggers Crush Counter  (D)
+Crouching LK,5,2,11,4,2,30,90,,None
+Crouching MK,10,2,18,-1,-4,60,120,,None
+Crouching HK,12,3,25,D,-14,100,150,,Triggers Crush Counter  (D)
+Jumping LP,4,5,,,,50,90,,None
+Jumping MP,7,6,,,,70,120,,Can cross-up
+Jumping HP,7,5,,,,100,150,,None
+Jumping LK,5,5,,,,50,90,,None
+Jumping MK,7,4,,,,70,120,,None
+Jumping HK,9,5,,,,100,150,,None
+Booger,478,34,,,,10,0,(BRIEF NEUTRAL INPUT),No chip damage
+Bad Hammer,7,5,31,D,,90,150,↓ + HP ▶ HP,None
+Bull Slider,19,6,22,-1,-8,90,150,↘ + HP,None
+Bull Charge,25,4,18,3,-8,80,150,→ + HP,"Triggers Crush Counter  (D)
+                                                Forces stand
+                                                                                                                Armor from 3F to 18F"
+Bull Drop,7,7,18,2,-7,120,150,→ + HK,None
+Bad Skull,5,3,17,,,120,150,(NEAR OPPONENT) → OR + LP LK,None
+Bad Chain,5,3,17,,,140,200,(NEAR OPPONENT) ← + LP LK,None
+Break Time,,,52 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,None
+VBreak Time,,,52 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,V-Gauge Timer + 250F
+Banana Time,50,200,59 total frames,29,2,10,,(WHEN SELECTING VSKILL I) ← + MP MK,None
+Drink Time,50,,61 total frames,28,10,10,,(WHEN SELECTING VSKILL I) ↓ + MP MK,None
+[VS2] Chewing Time,,,61 total frames,,,,,(WHEN SELECTING VSKILL II) OR ↓ + MP MK,None
+V[VS2] Chewing Time,,,61 total frames,,,,,(WHEN SELECTING VSKILL II) OR ↓ + MP MK,V-Gauge Timer + 250F
+[VS2] Chewing Time (Hold Button),37,,,,,,,(WHEN SELECTING VSKILL II) OR ↓ + MP MK (HOLD BUTTONS),"Able to move forward/move backward/crouch after projectile trade hitbox appears
+Unable to change directions during Chewing Time even if characters' positions are reversed"
+[VS2] Bubble Gum,12,4,17,12,9,40(*150)(*260),50,(WHEN SELECTING VSKILL II) MP MK (AFTER HOLDING THE BUTTON) ▶ LP,"*1Blow Bubble: First time
+*2Blow Bubble: Second time
+Amount of V-Gauge gained differs based Blow Bubble use count
+(First time: 100, Second time: 120)"
+[VS2] Bubble Gum,16,,36 total frames,12,9,40(*150)(*260),50,(WHEN SELECTING VSKILL II) MP MK (AFTER HOLDING THE BUTTON) ▶ MP,"*1Blow Bubble: First time
+*2Blow Bubble: Second time
+Amount of V-Gauge gained differs based Blow Bubble use count
+(First time: 100, Second time: 120)"
+[VS2] Bubble Gum,16,,36 total frames,12,9,40(*150)(*260),50,(WHEN SELECTING VSKILL II) MP MK (AFTER HOLDING THE BUTTON) ▶ HP,"*1Blow Bubble: First time
+*2Blow Bubble: Second time
+Amount of V-Gauge gained differs based Blow Bubble use count
+(First time: 100, Second time: 120)"
+[VS2] Bubble Gum,12,4,22,7,4,40(*150)(*260),50,(WHEN SELECTING VSKILL II) MP MK (AFTER HOLDING THE BUTTON) ▶ ↓ + LP,"*1Blow Bubble: First time
+*2Blow Bubble: Second time
+Amount of V-Gauge gained differs based Blow Bubble use count
+(First time: 100, Second time: 120)"
+[VS2] Bubble Gum,16,,41 total frames,7,4,40(*150)(*260),50,(WHEN SELECTING VSKILL II) MP MK (AFTER HOLDING THE BUTTON) ▶ ↓ + MP,"*1Blow Bubble: First time
+*2Blow Bubble: Second time
+Amount of V-Gauge gained differs based Blow Bubble use count
+(First time: 100, Second time: 120)"
+[VS2] Bubble Gum,16,,41 total frames,7,4,40(*150)(*260),50,(WHEN SELECTING VSKILL II) MP MK (AFTER HOLDING THE BUTTON) ▶ ↓ + HP,"*1Blow Bubble: First time
+*2Blow Bubble: Second time
+Amount of V-Gauge gained differs based Blow Bubble use count
+(First time: 100, Second time: 120)"
+[VS2] Blow Bubble,,,17 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK (AFTER HOLDING THE BUTTON) ▶ OR ↓ + K,Changes hitbox/trade box/damage/V-Gauge gain of Bubble Gum (Up to 2 times)
+Enjoy Time,1+11,16,3,,,84,100,HP HK,"V-Gauge Timer + 4000F
+                                                                                                                                                                                While active, attack power increased by 1.2x, forward walk speed increased, increase in forward dash distance"
+Pepper Pot,17,2,23,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Bull Crush,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Bull Head,14,3,29,D,-10,100,150,↓↘→ + LP,None
+M Bull Head,18,3,30,D,-10,110,150,↓↘→ + MP,None
+H Bull Head,27,3,24,D,-5,140,150,↓↘→ + HP,None
+VL Bull Head,10,6,29,D,-9,120,150,↓↘→ + LP,"Uses 750F V-Gauge Timer
+                                                                                                                                                                                Armor from 3F to 6F
+CA*Only possible for the final part"
+VM Bull Head,15,8,29,D,-9,132,150,↓↘→ + MP,"Uses 750F V-Gauge Timer
+                                                                                                                                                                                Armor from 3F to 10F
+CA*Only possible for the final part"
+VH Bull Head,22,10,23,D,-9,168,150,↓↘→ + HP,"Uses 750F V-Gauge Timer
+                                                                                                                                                                                Armor from 3F to 12F
+CA*Only possible for the final part"
+EX Bull Head,14,8,23,D,-5,150,200,↓↘→ + P P,VS*2nd attack can be canceled with Chewing Time
+VEX Bull Head,8,17,23,D,-9,180,200,↓↘→ + P P,"Uses 750F V-Gauge Timer
+                                                                                                                                                                                Armor from 1F to 17F
+VS*Last attack can be canceled with Chewing Time"
+Bull Horn,15,6,14+15 frame(s) after landing,D,-18,120,200,P OR K (HOLD AND RELEASE),6F - 20F  projectile invincibility
+VBull Horn,15,12,16+15 frame(s) after landing,D,-18,144,200,P OR K (HOLD AND RELEASE),"Uses 750F V-Gauge Timer
+                                                                                                                                3F - 21F  projectile invincibility
+                                                Armor from 1F to 11F"
+EX Bull Horn,15,13,32,D,-21,150,250,P P OR K K (HOLD AND RELEASE),"Armor from 1F to 20F
+V*Only possible during 2nd attack
+VS*2nd attack can be canceled with Chewing Time"
+VEX Bull Horn,15,10,31,D,-17,180,250,P P OR K K (HOLD AND RELEASE),"Uses 750F V-Gauge Timer
+                                                                                                                                                                                Armor from 1F to 39F
+VS*Last attack can be canceled with Chewing Time"
+L Hanging Chain,25,16,24,D,-23,120,200,↓↘→ + LK,Will not hit airborne opponents
+M Hanging Chain,20(*19),16,24,D,-23,150,200,↓↘→ + MK,"Will not hit airborne opponents
+                                                                *When canceled into from S.MP or C.MP
+VS*Can be canceled with V-Skill II after successful hit"
+H Hanging Chain,25,10,31,D,,160,200,↓↘→ + HK,Will not hit grounded opponents
+EX Hanging Chain,15,17,21,D,-21,170,220,↓↘→ + K K,None
+L Bull Revenger,35,2,28,D,,170,230,→↘↓↙← + LK,None
+M Bull Revenger,40,2,28,D,,180,230,→↘↓↙← + MK,None
+H Bull Revenger,43,2,28,D,,190,230,→↘↓↙← + HK,None
+EX Bull Revenger,23,11,47,D,,180,230,→↘↓↙← + K K,"5F - 35F  throw invincibility
+                                                Forward movement distance can be controlled with directional input"
+L Killing Head,5,2,60,D,,180,200,→↘↓↙← + LP,None
+M Killing Head,5,2,60,D,,190,200,→↘↓↙← + MP,None
+H Killing Head,5,2,60,D,,200,200,→↘↓↙← + HP,None
+EX Killing Head,5,2,60,D,,220,250,→↘↓↙← + P P,None
+Skip To My Chain,1+5,5,60,D,-30,340,0,↓↘→ ↓↘→ + P,1F - 10F  full invincibility

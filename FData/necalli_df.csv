@@ -1,0 +1,129 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,3,2,9,3,1,30,70,,None
+VStanding LP,3,2,9,3,1,40,70,,None
+Standing MP,6,2,14,5,0,60,100,,None
+VStanding MP,6,3,13,6,0,70,100,,None
+Standing HP,9,4,19,1,-2,80,150,,Triggers Crush Counter  (crumple)
+VStanding HP,9,5,18,2,-2,90,150,,Triggers Crush Counter  (crumple)
+Standing LK,4,4,8,4,2,40,70,,None
+VStanding LK,4,4,8,4,2,40,70,,None
+Standing MK,5,3,12,6,2,60,100,,Forces stand
+VStanding MK,5,3,12,6,2,60,100,,Forces stand
+Standing HK,12,4,21,3,-4,90,150,,Triggers Crush Counter (+19F)
+VStanding HK,12,4,21,3,-4,90,150,,Triggers Crush Counter (+19F)
+Crouching LP,3,3,7,3,1,20,70,,Can be rapid canceled
+VCrouching LP,3,3,7,3,1,30,70,,Can be rapid canceled
+Crouching MP,5,2,13,4,2,60,100,,None
+VCrouching MP,5,2,13,5,2,70,100,,None
+Crouching HP,9,3,21,1,-4,80,150,,Triggers Crush Counter  (D)
+VCrouching HP,7,3,21,1,-4,90,150,,Triggers Crush Counter  (D)
+Crouching LK,4,2,9,3,1,20,70,,None
+VCrouching LK,4,2,9,3,1,20,70,,None
+Crouching MK,8,3,15,0,-4,50,100,,None
+VCrouching MK,8,3,15,0,-4,50,100,,None
+Crouching HK,7,4,21,D,-10,90,150,,Triggers Crush Counter  (D)
+VCrouching HK,7,4,21,D,-10,90,150,,Triggers Crush Counter  (D)
+Jumping LP,3,6,,,,40,70,,None
+VJumping LP,3,6,,,,50,70,,None
+Jumping MP,7,4,,,,60,100,,Causes blowback knockdown on airborne hit
+VJumping MP,7,4,,,,70,100,,Causes blowback knockdown on airborne hit
+Jumping HP,9,5,,,,90,150,,None
+VJumping HP,9,5,,,,100,150,,None
+Jumping LK,4,6,,,,40,70,,None
+VJumping LK,4,6,,,,40,70,,None
+Jumping MK,6,5,,,,60,100,,Can cross-up
+VJumping MK,6,5,,,,60,100,,Can cross-up
+Jumping HK,7,6,,,,90,150,,None
+VJumping HK,7,6,,,,90,150,,None
+Opening Dagger,23,3,23,1,-7,80,100,↘ + HP,"Triggers Crush Counter (+20F)
+                                                                                                                12F - 19F  throw invincibility"
+VOpening Dagger,23,3,24,1,-7,90,150,↘ + HP,"Triggers Crush Counter (+20F)
+                                                                                                                12F - 19F  throw invincibility"
+VOpening Dagger (Hold Button),38,3,18,7,2,100,150,↘ + HP (HOLD BUTTONS),"Triggers Crush Counter (+26F)
+                                                                                                                23F - 34F  throw invincibility"
+Road of the Sun,14,12,11 frame(s) after landing,,,80,100,(DURING FORWARD JUMP) ↓ + HK,None
+VRoad of the Sun,14,12,11 frame(s) after landing,,,80,100,(DURING FORWARD JUMP) ↓ + HK,None
+Sacrificial Altar (2),11,4,21,D,-8,60,100,MK ▶ HK,None
+VSacrificial Altar (2),11,4,21,D,-8,60,100,MK ▶ HK,None
+Sacrificial Altar (3),20,4,33,D,-9,40,50,(WHEN SELECTING VSKILL I) MK ▶ HK ▶ MP MK OR ← + MP MK,None
+VSacrificial Altar (3),20,4,33,D,-9,60,80,(WHEN SELECTING VSKILL I) MK ▶ HK ▶ MP MK OR ← + MP MK,None
+Messenger Of Chaos,24,*180,55 total frames,(crumple),-5,60,80,(WHEN SELECTING VSKILL II) MK ▶ HK ▶ MP MK,"*Attack hitbox appears after 180 frames or when in contact with the enemy
+(hitbox has 3 active frames)"
+VMessenger Of Chaos,24,*180,55 total frames,(crumple),-5,60,80,(WHEN SELECTING VSKILL II) MK ▶ HK ▶ MP MK,"*Attack hitbox appears after 180 frames or when in contact with the enemy
+(hitbox has 3 active frames)"
+Soul Sealer,5,3,17,,,120,120,(NEAR OPPONENT) → OR + LP LK,None
+VSoul Sealer,5,3,17,,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Soul Discriminator,5,3,17,,,110,120,(NEAR OPPONENT) ← + LP LK,None
+VSoul Discriminator,5,3,17,,,120,150,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Culminated Power,25,3,29,D,-1,50,100,(WHEN SELECTING VSKILL I) MP MK,Will not hit airborne opponents
+V[VS1] Culminated Power,20,3,34,D,-1,70,150,(WHEN SELECTING VSKILL I) MP MK,Will not hit airborne opponents
+[VS2] Crawling Beast,24,*180,55 total frames,(crumple),-5,60,80,(WHEN SELECTING VSKILL II) MP MK,"*Attack hitbox appears after 180 frames or when in contact with the enemy
+(hitbox has 3 active frames)"
+V[VS2] Crawling Beast,24,*180,55 total frames,(crumple),-5,60,80,(WHEN SELECTING VSKILL II) MP MK,"*Attack hitbox appears after 180 frames or when in contact with the enemy
+(hitbox has 3 active frames)"
+Torrent of Power,1,,4,,,,,HP HK,"V-Gauge Timer + 1000F
+                                                                                                                                                                                Gains an exclusive special move"
+The Calling,17,2,24,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Midnight Howl,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L The Disc's Guidance,18,3,25,D,-6,80,150,→ + LP,Nullifies projectiles from 6F-20F
+M The Disc's Guidance,21,3,26,D,-6,100,150,→ + MP,Nullifies projectiles from 6F-23F
+H The Disc's Guidance,24,3,26,D,-6,120,150,→ + HP,Nullifies projectiles from 6F-26F
+VL The Disc's Guidance,15,5,25,D,-6,100,150,→ + LP,"Nullifies projectiles from 6F-20F
+No charge time required when used from a special move cancel"
+VM The Disc's Guidance,17,5,26,D,-6,120,150,→ + MP,"Nullifies projectiles from 6F-23F
+No charge time required when used from a special move cancel"
+VH The Disc's Guidance,21,5,26,D,-6,140,150,→ + HP,"Nullifies projectiles from 6F-26F
+No charge time required when used from a special move cancel"
+EX The Disc's Guidance,17,7,31,D,-13,150,200,→ + P P,"Nullifies projectiles from 5F-47F
+V*Only possible during 2nd attack"
+VEX The Disc's Guidance,17,9,31,D,-13,170,200,→ + P P,"Nullifies projectiles from 5F-47F
+No charge time required when used from a special move cancel"
+L Raging Light,3,4,19+16 frame(s) after landing,D,-24,100,150,→↓↘ + LP,"1F - 3F  throw invincibility
+                                                Subject to counter hit during move duration"
+M Raging Light,5,7,21+16 frame(s) after landing,D,-28,110,150,→↓↘ + MP,"Invincibility at the legs from 1F
+Subject to counter hit during move duration"
+H Raging Light,7,6,26+19 frame(s) after landing,D,-33,120,150,→↓↘ + HP,"3F - 8F  attack & projectile invincibility
+                                                Subject to counter hit during move duration"
+VL Raging Light,3,4,19+16 frame(s) after landing,D,-24,120,150,→↓↘ + LP,"1F - 3F  throw invincibility
+                                                Subject to counter hit during move duration"
+VM Raging Light,5,9,25+16 frame(s) after landing,D,-29,130,150,→↓↘ + MP,"Invincibility at the legs from 1F
+Subject to counter hit during move duration"
+VH Raging Light,7,8,27+19 frame(s) after landing,D,-34,140,150,→↓↘ + HP,"3F - 8F  attack & projectile invincibility
+                                                Subject to counter hit during move duration"
+EX Raging Light,3,13,23+19 frame(s) after landing,D,-38,150,200,→↓↘ + P P,"1F - 7F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+VEX Raging Light,3,13,23+19 frame(s) after landing,D,-38,170,200,→↓↘ + P P,"1F - 7F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+L Mask of Tlalli,8,2,60,D,,140,200,→↘↓↙← + LK,None
+M Mask of Tlalli,8,2,60,D,,150,200,→↘↓↙← + MK,None
+H Mask of Tlalli,8,2,60,D,,160,200,→↘↓↙← + HK,None
+VL Mask of Tlalli,8,2,60,D,,160,200,→↘↓↙← + LK,None
+VM Mask of Tlalli,8,2,60,D,,170,200,→↘↓↙← + MK,None
+VH Mask of Tlalli,8,2,60,D,,180,200,→↘↓↙← + HK,None
+EX Mask of Tlalli,8,2,60,D,,80,70,→↘↓↙← + K K,None
+VEX Mask of Tlalli,8,2,60,D,,100,70,→↘↓↙← + K K,S*Can only be canceled with Clouded Mirror
+L Valiant Rebellion,14,3,20,2,-4,50,100,↓↘→ + LK,Nullifies projectiles from 14F-16F
+M Valiant Rebellion,19,3,20,5,-2,60,100,↓↘→ + MK,Nullifies projectiles from 19F-21F
+H Valiant Rebellion,23,3,16,D,0,80,150,↓↘→ + HK,Nullifies projectiles from 23F-25F
+VL Valiant Rebellion,14,4,19,2,-3,70,100,↓↘→ + LK,"Nullifies projectiles from 14F-17F
+S*Can only be canceled with Clouded Mirror"
+VM Valiant Rebellion,19,5,18,5,-1,80,100,↓↘→ + MK,"Nullifies projectiles from 19F-23F
+S*Can only be canceled with Clouded Mirror"
+VH Valiant Rebellion,23,6,13,D,2,100,150,↓↘→ + HK,"Nullifies projectiles from 23F-28F
+S*Can only be canceled with Clouded Mirror"
+EX Valiant Rebellion,10,4,21,2,2,120,200,↓↘→ + K K,"Nullifies projectiles from 10F-11F, 36F-37F
+V*Only possible during 1st attack"
+VEX Valiant Rebellion,10,6,20,2,2,140,200,↓↘→ + K K,"Nullifies projectiles from 10F-12F, 36F-38F"
+VClouded Mirror,43(*18),4,23,D,-2,70,100,(DURING V-TRIGGER I) HP HK,"16F - 47F  projectile invincibility
+                                                *Launches airborne opponents on hit"
+VClouded Mirror (HOLD BUTTON),57(*32),8,24,(crumple),2,100,120,(DURING V-TRIGGER I) HP HK (HOLD BUTTONS),"25F - 63F  projectile invincibility
+                                                Can hit downed opponents
+*Launches airborne opponents on hit"
+Ceremony of Honor,1+6,2,45,D,-25,330,0,↓↘→ ↓↘→ + P,1F - 8F  full invincibility
+VSoul Offering,1+6,2,45,D,-25,370,0,↓↘→ ↓↘→ + P,1F - 8F  full invincibility

@@ -1,0 +1,103 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,2,10,4,2,30,70,,None
+Standing MP,7,3,12,6,3,60,100,,None
+Standing HP,12,3,18,4,-2,90,150,,Triggers Crush Counter (+22F)
+Standing HP (Hold Button),22,3,15,9,5,100,150,,Triggers Crush Counter (+31F)
+Standing LK,5,2,8,4,3,40,70,,None
+Standing MK,9,2,18,1,-2,60,100,,None
+Standing HK,9,6,19,4,-2,80(*90),150,,"Frames 1F – 2F will not hit grounded opponents
+                                                                                *From active frame 2F
+Recovery frames for V-Cancel/regular are for canceling on the 4th active frame"
+Standing HK (Hold Button),22,5,18,8,2,100,150,,Frames 1F – 2F will not hit grounded opponents
+Crouching LP,4,3,9,4,1,30,70,,None
+Crouching MP,6,2,15,5,0,60,100,,None
+Crouching HP,7,5,21,D,-8,90,150,,None
+Crouching LK,4,2,7,4,1,20,70,,None
+Crouching MK,8,2,17(*21),4,-2,60,100,,*On whiff
+Crouching HK,11,2,27,D,-14,100,150,,Triggers Crush Counter  (D)
+Jumping LP,3,5,,,,40,70,,None
+Jumping MP,5,5,,,,70,100,,None
+Jumping HP,8,4,,,,90,150,,None
+Jumping LK,4,6,,,,40,70,,Can cross-up
+Jumping MK,7,5,,,,60,100,,None
+Jumping HK,9,4,,,,90,150,,None
+Quarrel Punch,7,4,14,2,-2,70,100,→ + MP,None
+Quarrel Kick,15,4,18,4,-4,90,150,↘ + HK,None
+Terrible Smash,21,2,20,1,-8,80,150,→ + HP,None
+Killer Straight,5,3,14,1,-4,50,80,LP ▶ MP,None
+Break Rush,17,2,20,1,-8,60,150,→ + MP ▶ → + HP,None
+Spartan Bomb (Forward),5,3,17,D,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Spartan Bomb (Back),5,3,17,D,,130,150,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Metallic Aura,,,50 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,"The moves Chariot Tackle, Dangerous Headbutt, and Violence Knee Drop gain armor."
+[VS2] Indignant Thunder,,,50 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,"After use, changes the properties of the next Metallic Sphere fired"
+Aegis Reflector (Forward),1+9,250,20 total frames,12,7,60,0,← + HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                While active, Urien gains the special move Aegis Reflector"
+Aegis Reflector (Back),1+4,230,13 total frames,14,9,60,0,→ OR + HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                While active, Urien gains the special move Aegis Reflector"
+Aegis Reflector (Up),1+14,250,32 total frames,5,0,60,0,↓ + HP HK,"V-Gauge Timer + 3000F
+                                                                                Will not hit crouching opponents
+                                                                                                While active, Urien gains the special move Aegis Reflector"
+Anger Snap Fist,17,2,24,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Tyrant Kick,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Chariot Tackle,10,6,22,0,-5,80,150,→ + LK,"*Value for V-Skill1 version
+                                                                Gains armor from 3F - 12F during Metallic Aura"
+M Chariot Tackle,13,11,21,-3,-9,90,150,→ + MK,"*Value for V-Skill1 version
+                                                                Gains armor from 3F - 15F during Metallic Aura"
+H Chariot Tackle,16,8,21,D,-6,100,150,→ + HK,"*Value for V-Skill1 version
+                                                                Gains armor from 5F - 18F during Metallic Aura"
+EX Chariot Tackle,7,13,20,D,-2,150,200,→ + K K,"*Value for V-Skill1 version
+                                                                Gains armor from 3F - 9F during Metallic Aura"
+L Dangerous Headbutt,8,3,18,1,-2,100,150,↑ + LP,"Will not hit crouching opponents
+                                                *Value for V-Skill1 version
+                                                                Gains armor from 3F - 10F during Metallic Aura"
+M Dangerous Headbutt,11,4,18,1,-2,110,150,↑ + MP,"Will not hit crouching opponents
+                                                *Value for V-Skill1 version
+                                                                Gains armor from 3F - 13F during Metallic Aura"
+H Dangerous Headbutt,13,5,17,D,-2,120,150,↑ + HP,"Will not hit crouching opponents
+                                                *Value for V-Skill1 version
+                                                                Gains armor from 3F - 15F during Metallic Aura"
+EX Dangerous Headbutt,12,5,"34
+(*119)
+(*224)",D,-17,80,80,↑ + P P,"*Value for V-Skill1 version
+                1F - 16F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)
+*1on hit
+*2On Block"
+L Violence Knee Drop,25,Until landing,17 frame(s) after landing,D,-3,100,200,↑ + LK,"*Value for V-Skill1 version
+                                                                Gains armor from 3F - 27F during Metallic Aura"
+M Violence Knee Drop,25,Until landing,17 frame(s) after landing,D,-5,100,200,↑ + MK,"*Value for V-Skill1 version
+                                                                Gains armor from 3F - 27F during Metallic Aura"
+H Violence Knee Drop,25,Until landing,17 frame(s) after landing,D,-6,100,200,↑ + HK,"*Value for V-Skill1 version
+                                                                Gains armor from 3F - 27F during Metallic Aura"
+EX Violence Knee Drop,25,Until landing,17 frame(s) after landing,D,2,150,200,↑ + K K,"*Value for V-Skill1 version
+                                                                Movement distance can be controlled with directional input
+Gains armor from 3F - 27F during Metallic Aura"
+L Metallic Sphere,14,,50 total frames,-1,-7,60,100,↓↘→ + LP,None
+M Metallic Sphere,14,,50 total frames,1,-7,60,100,↓↘→ + MP,None
+H Metallic Sphere,13,,49 total frames,D,,70,100,↓↘→ + HP,Will not hit grounded opponents
+L Metallic Sphere (Hold Button),53,,81 total frames,7,4,90,120,↓↘→ + LP (HOLD BUTTONS),None
+M Metallic Sphere (Hold Button),53,,83 total frames,5,2,90,120,↓↘→ + MP (HOLD BUTTONS),None
+H Metallic Sphere (Hold Button),42,,72 total frames,D,,100,120,↓↘→ + HP (HOLD BUTTONS),Will not hit grounded opponents
+EX L Metallic Sphere,12,,44 total frames,3,2,90,120,↓↘→ + LP MP,None
+EX M Metallic Sphere,12,,44 total frames,3,2,90,120,↓↘→ + LP HP,None
+EX H Metallic Sphere,13,,45 total frames,D,,100,120,↓↘→ + MP HP,Will not hit grounded opponents
+EX L Metallic Sphere (Hold Button),41,,68 total frames,17,13,120,150,↓↘→ + LP MP (HOLD BUTTONS),None
+EX M Metallic Sphere (Hold Button),41,,68 total frames,17,13,120,150,↓↘→ + LP HP (HOLD BUTTONS),None
+EX H Metallic Sphere (Hold Button),32,,59 total frames,D,,130,150,↓↘→ + MP HP (HOLD BUTTONS),Will not hit grounded opponents
+L Metallic Sphere (VS2 Ver.),14,,50 total frames,3,-2,90,120,(DURING V-SKILL II) ↓↘→ + LP,None
+M Metallic Sphere (VS2 Ver.),14,,50 total frames,3,-2,90,120,(DURING V-SKILL II) ↓↘→ + MP,None
+H Metallic Sphere (VS2 Ver.),13,,49 total frames,D,,90,120,(DURING V-SKILL II) ↓↘→ + HP,Will not hit grounded opponents
+EX Metallic Sphere L (VS2 Ver.),12,,44 total frames,D,12,120,150,(DURING V-SKILL II) ↓↘→ + LP MP,None
+EX Metallic Sphere M (VS2 Ver.),12,,44 total frames,D,12,120,150,(DURING V-SKILL II) ↓↘→ + LP HP,None
+EX Metallic Sphere H (VS2 Ver.),13,,45 total frames,D,,130,150,(DURING V-SKILL II) ↓↘→ + MP HP,Will not hit grounded opponents
+V2nd Aegis Reflector (Forward),14,250,30 total frames,6,1,60,0,← + HP HK,Uses all of the V-Gauge Timer
+V2nd Aegis Reflector (Back),24,230,30 total frames,16,11,60,0,→ OR + HP HK,Uses all of the V-Gauge Timer
+V2nd Aegis Reflector (Up),16,250,32 total frames,6,1,60,0,↓ + HP HK,"Uses all of the V-Gauge Timer
+                                                                                Will not hit crouching opponents"
+Dominant Crush,1+5,19,60,D,-47,340,0,↓↘→ ↓↘→ + P,1F - 24F  full invincibility

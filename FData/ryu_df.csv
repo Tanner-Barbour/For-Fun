@@ -1,0 +1,122 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,3,2,7,4,2,30,70,,None
+VStanding LP,3,2,7,6,2,30,100,,None
+Standing MP,5,3,10,6,2,60,100,,None
+VStanding MP,5,3,10,8,2,60,130,,None
+Standing HP,8,3,20,3,-1,90,150,,Triggers Crush Counter  (D)
+VStanding HP,8,3,20,5,-1,90,180,,Triggers Crush Counter  (D)
+Standing LK,4,3,11,-1,-2,30,70,,None
+Standing MK,8,3,16,2,-2,70,100,,None
+Standing HK,10,2,20,4,-1,90,150,,"Triggers Crush Counter (+16F)
+                                                                Will not hit crouching opponents
+                                                                                                Cannot be rapid canceled into V-Trigger on block"
+Crouching LP,4,3,5,3,2,30,70,,Can be rapid canceled
+VCrouching LP,4,3,5,5,2,30,100,,Can be rapid canceled
+Crouching MP,6,3,12,4,2,60,100,,None
+VCrouching MP,6,3,12,6,2,60,130,,None
+Crouching HP,6,4,24,-7,-10,90(*70),150,,"Forces stand
+                                                                                                                Active frames cannot be canceled
+*From active frame 2F"
+VCrouching HP,6,4,24,-5,-10,90(*70),180,,"Forces stand
+                                                                                                                Active frames cannot be canceled
+*From active frame 2F"
+Crouching LK,4,2,7,2,1,20,70,,Can be rapid canceled
+Crouching MK,6,3,13,2,-1,50,100,,None
+Crouching HK,7,2,22,D,-11,90,150,,Triggers Crush Counter  (D)
+Jumping LP,3,6,,,,40,70,,None
+VJumping LP,3,6,,,,40,100,,None
+Jumping MP,7,6,,,,60,100,,Causes blowback knockdown on airborne hit
+VJumping MP,7,6,,,,60,130,,Causes blowback knockdown on airborne hit
+Jumping HP,7,5,,,,90,150,,None
+VJumping HP,7,5,,,,90,180,,None
+Jumping LK,4,6,,,,40,70,,Can cross-up
+Jumping MK,6,4,,,,60,100,,Can cross-up
+Jumping HK,9,5,,,,90,150,,None
+Collarbone Breaker,22,4,17,1,-7,60,100,→ + MP,None
+VCollarbone Breaker,22,4,17,1,-7,60,130,→ + MP,None
+Solar Plexus Strike,17,4,18,8,-2,80,150,→ + HP,S*Only Shoryuken and EX Shoryuken can be canceled
+VSolar Plexus Strike,17,4,18,8,-2,90,180,→ + HP,S*Only Shoryuken and EX Shoryuken can be canceled
+Axe Kick,9,7,16,4,-2,80,150,← + HK,Forces stand
+Jodan Nirengeki,9,2,26,D,-7,70,100,HP ▶ HK,VS*Can be canceled with V-Skill II after successful hit
+Jodan Sanrengeki(1)(Standing),9,2,28,-2,-9,70,100,MP ▶ HP,None
+VJodan Sanrengeki(1)(Standing),9,2,28,-2,-9,80,130,MP ▶ HP,None
+Jodan Sanrengeki(1)(Crouching),9,2,21,-2,-9,70,100,MP ▶ ↓ + HP,None
+VJodan Sanrengeki(1)(Crouching),9,2,21,-2,-9,80,130,MP ▶ ↓ + HP,None
+Jodan Sanrengeki(2),9,2,26,D,-7,70,100,MP ▶ HP OR ↓ + HP ▶ HK,VS*Can be canceled with V-Skill II after successful hit
+Shoulder Throw,5,3,17,,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Somersault Throw,5,3,17,,,150,200,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Mind's Eye,3,7,32,,,,,(WHEN SELECTING VSKILL I) MP MK,"The startup for a Mind's Eye canceled from a successful Mind's Eye is 1F
+No counter hit while the move is active (does not apply to cancel Mind's Eye)
+Recover 50 frames of V Timer on successful parry with V Trigger active
+S*Cancelable by EX special move only on a successful parry
+CA*Cancelable only on a successful parry"
+[VS2] Thust Strike,25,2,26,D,-4,70,100,(WHEN SELECTING VSKILL II) MP MK,Counter for all hit levels from 10F to 21F
+[VS2] Thust Strike (upon successful parry),1,4(*2),37(*21),D,4,120,200,(WHEN SELECTING VSKILL II) MP MK,"1F - 23F  full invincibility
+                                                Fully invincible from frames 1-11 when first hit whiffs
+*When the first hit whiffs"
+V[VS2] Thust Strike,25,2,26,D,-4,70,130,(WHEN SELECTING VSKILL II) MP MK,Counter for all hit levels from 10F to 21F
+V[VS2] Thust Strike (upon successful parry),1,4(*2),37(*21),D,4,120,250,(WHEN SELECTING VSKILL II) MP MK,"1F - 23F  full invincibility
+                                                Fully invincible from frames 1-11 when first hit whiffs
+*When the first hit whiffs"
+Denjin Renki,1,,4,,,,,HP HK,"V-Gauge Timer + 1000F
+                                                                                                                                                                                While active, all punch-type Normal/Unique/Special moves and CA will be strenghtened"
+Hashogeki,17,2,24,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Fumikomi Jodan Kagizuki,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Hadoken,14,,45 total frames,-1,-6,60,100,↓↘→ + LP,None
+M Hadoken,14,,45 total frames,-1,-6,60,100,↓↘→ + MP,None
+H Hadoken,14,,45 total frames,-1,-6,60,100,↓↘→ + HP,None
+VL Hadoken,14,,42 total frames,D,-2,70,150,↓↘→ + LP,None
+VM Hadoken,14,,42 total frames,D,-2,70,150,↓↘→ + MP,None
+VH Hadoken,14,,42 total frames,D,-2,70,150,↓↘→ + HP,None
+VHadoken (Lv2),5,,,D,0,100,200,↓↘→ + P (HOLD BUTTONS),None
+VHadoken (Lv3),6,,,D,GB,130,300,↓↘→ + P (max hold button),During guard break+32F
+EX Hadoken,11,,42 total frames,D,2,100,150,↓↘→ + P P,None
+VEX Hadoken (Lv1),11,,40 total frames,D,2,120,200,↓↘→ + P P,None
+VEX Hadoken (Lv2),5,,,D,GB,150,300,↓↘→ + P P (HOLD BUTTONS),During guard break+32F
+L Shoryuken,3,12,19+11 frame(s) after landing,D,-24,110(*60),150(*100),→↓↘ + LP,"1F - 3F  throw invincibility
+                                                Subject to counter hit during move duration
+*From active frame 2F"
+M Shoryuken,4,11,26+13 frame(s) after landing,D,-32,120(*60),150(*100),→↓↘ + MP,"1F - 6F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 3F"
+H Shoryuken,5,10,29+15 frame(s) after landing,D,-36,130(*60),150,→↓↘ + HP,"3F - 6F  attack & projectile invincibility
+                                                Subject to counter hit during move duration
+*From active frame 2F"
+VL Shoryuken,3,12,19+11 frame(s) after landing,D,-24,120(*80),200(*150),→↓↘ + LP,"1F - 3F  throw invincibility
+                                                Subject to counter hit during move duration
+*From active frame 2F"
+VM Shoryuken,4,11,26+13 frame(s) after landing,D,-32,130(*80),200(*150),→↓↘ + MP,"1F - 6F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 3F"
+VH Shoryuken,5,10,29+15 frame(s) after landing,D,-36,140(*80),200,→↓↘ + HP,"3F - 6F  attack & projectile invincibility
+                                                Subject to counter hit during move duration
+*From active frame 2F"
+EX Shoryuken,3,12,29+15 frame(s) after landing,D,-37,160(*80),200(*100),→↓↘ + P P,"1F - 15F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)
+*From active frame 2F"
+VEX Shoryuken,3,12,29+15 frame(s) after landing,D,-37,180(*100),200,→↓↘ + P P,"1F - 15F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)
+*From active frame 2F"
+L Tatsumaki Senpukyaku,10,2,18+12 frame(s) after landing,D,-10,80,150,↓↙← + LK,None
+M Tatsumaki Senpukyaku,12,4,16+14 frame(s) after landing,D,-12,90,150,↓↙← + MK,"6F - 45F  projectile invincibility
+                                                Chip damage is 1/6ths the hit damage"
+H Tatsumaki Senpukyaku,14,6,16+15 frame(s) after landing,D,-13,100,150,↓↙← + HK,"9F - 61F  projectile invincibility
+                                                Chip damage is 1/6ths the hit damage"
+EX Tatsumaki Senpukyaku,10,11,11+15 frame(s) after landing,D,-19,140,150,↓↙← + K K,"7F - 36F  projectile invincibility
+                                                S*Only Shoryuken and EX Shoryuken can be canceled"
+Airborne Tatsumaki Senpukyaku,9,6,14 frame(s) after landing,D,,100,200,(DURING JUMP) ↓↙← + K,None
+EX Airborne Tatsumaki Senpukyaku,8,10,14 frame(s) after landing,D,,170,250,(DURING JUMP) ↓↙← + K K,Can cross-up
+L Jodan Sokutou Geri,10,2,28,D,-15,90,150,←↙↓↘→ + LK,None
+M Jodan Sokutou Geri,16,2,28,D,-15,100,150,←↙↓↘→ + MK,None
+H Jodan Sokutou Geri,18,2,28,D,-15,110,150,←↙↓↘→ + HK,None
+EX Jodan Sokutou Geri,17,2,33,D,-13,80,150,←↙↓↘→ + K K,S*Only Tatsumaki Senpukyaku and EX Tatsumaki Senpukyaku can be canceled
+Shinku Hadoken,1+3,,65 total frames,D,-25,320,0,↓↘→ ↓↘→ + P,1F - 3F  full invincibility
+VDenjin Hadoken,1+3,,65 total frames,D,GB,350,300,↓↘→ ↓↘→ + P,"1F - 3F  full invincibility
+                                                Uses all of the V-Timer
+During guard break+9F"

@@ -1,0 +1,111 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,5,4,3,30,50,,"Can be rapid canceled
+                                                                                                                                VS*Can only be canceled V-Skill II"
+Standing MP,6,3,13,6,3,60,80,,VS*Can only be canceled V-Skill II
+Standing HP,10,3,20,4,-2,70,120,,"Triggers Crush Counter  (+9F)
+                                                                                                                                                                VS*Can only be canceled V-Skill II"
+Standing LK,5,3,9,1,0,30,50,,VS*Can only be canceled V-Skill II
+Standing MK,8,3,16(*18),1,-2,60,80,,"VS*Can only be canceled V-Skill II
+*On whiff"
+Standing HK,13 ,3,22(*32),2,-4,90,120,,"VS*Can only be canceled V-Skill II
+*On whiff"
+Crouching LP,4,2,6,4,2,30,50,,"Can be rapid canceled
+                                                                                                                                VS*Can only be canceled V-Skill II"
+Crouching MP,6,3,11(*13),5,1,60,80,,"VS*Can only be canceled V-Skill II
+*On whiff"
+Crouching HP,8,5,21,3,-4,80,120,,"VS*Can only be canceled V-Skill II
+Can be canceled up to active frame 2F"
+Crouching LK,4,2,7,3,1,20,50,,"Can be rapid canceled
+                                                                                                                                VS*Can only be canceled V-Skill II"
+Crouching MK,7,2,14,1,-1,50,80,,VS*Can only be canceled V-Skill II
+Crouching HK,9,2,22,D,-12,90,120,,Triggers Crush Counter  (D)
+Jumping LP,4,5,,,,30,70,,None
+Jumping MP,6,3,,,,60,100,,"VS*Can only be canceled V-Skill I
+Causes blowback knockdown on airborne hit"
+Jumping HP,8,5,,,,90,150,,None
+Jumping LK,4,5,,,,30,70,,None
+Jumping MK,8,5,,,,60,100,,Can cross-up
+Jumping HK,10,4,,,,90,150,,None
+Saikyo Chop,22,3,24,1,-7,80,120,→ + HP,None
+Saikyo Jawbreaker,11,4,20,5,3,80,120,← + HK,Triggers Crush Counter  (crumple)
+Saikyo Taikuzushi,5,3,17,D,,120,130,(NEAR OPPONENT) → OR + LP LK,None
+Saikyo Haraigoshi,5,3,17,D,,130,150,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Saikyo-Style Burairuten no Kamae I,27,5,18,2,-2,10,10,(WHEN SELECTING VSKILL I) MP MK,"Opponent's V-Gauge increases by 20 when hitbox appears.
+Subject to counter hit during move duration"
+[VS1] Saikyo-Style Burairuten no Kamae II,,,55 total frames,,,,,(WHEN SELECTING VSKILL I) ← + MP MK,"Opponent's V-Gauge increases by 20 on the 29th frame.
+Subject to counter hit during move duration"
+[VS1] Saikyo-Style Burairuten no Kamae III,11,4,8 frame(s) after landing,,,10,10,(WHEN SELECTING VSKILL I) (DURING JUMP) MP MK,"Opponent's V-Gauge increases by 20 when hitbox appears.
+Special counter hit when active"
+[VS2] Saikyo-Style Otokoboe I,14,2,25（*34）,-2,-6,30,50,(WHEN SELECTING VSKILL II) MP MK,"Opponent's V-Gauge increases by 20 when active.
+All normal attacks except for crouching heavy kick can be canceled when active
+When canceling from a normal attack, normal attacks and special attacks can be canceled into on the 11th frame.
+Normal attacks from a canceled V-Skill II have their stats cut by half.
+A standing heavy punch from a canceled V-Skill II will have the same effect as a crush counter and float the opponent.
+Subject to counter hit during move duration"
+[VS2] Saikyo-Style Otokoboe II,14,2,25（*34）,-2,-6,30,50,(WHEN SELECTING VSKILL II) ↓ + MP MK,"Opponent's V-Gauge increases by 20 when active.
+All normal attacks except for crouching heavy kick can be canceled when active
+When canceling from a normal attack, normal attacks and special attacks can be canceled into on the 11th frame.
+Normal attacks from a canceled V-Skill II have their stats cut by half.
+A standing heavy punch from a canceled V-Skill II will have the same effect as a crush counter and float the opponent.
+Subject to counter hit during move duration"
+Haoh Gadoken,13,50,82 total frames,D,3,100,150,HP HK,None
+Haoh Gadoken (Hold Button),94,,156 total frames,D,GB,220,150,HP HK (HOLD BUTTONS),Wall bound when the attack connects
+Saikyo-Style Kaihi Jutsu,,,45 total frames,,,,,(DURING GUARD) → + LP,"1F - 40F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Saikyo Donukigeri,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Gadoken,14,10,43 total frames,2,-2,50,80,↓↘→ + LP,"VS*Can only be canceled V-Skill I
+V-Skill 1 allows cancel on whiff."
+M Gadoken,14,9,43 total frames,1,-2,50,80,↓↘→ + MP,"VS*Can only be canceled V-Skill I
+V-Skill 1 allows cancel on whiff."
+H Gadoken,14,8,43 total frames,0,-2,50,80,↓↘→ + HP,"VS*Can only be canceled V-Skill I
+V-Skill 1 allows cancel on whiff."
+L Gadoken (Powered-up version),12,20,39 total frames,D,1,60,150,↓↘→ + LP (Chance to trigger on activation),"VS*Can only be canceled V-Skill I
+V-Skill 1 allows cancel on whiff."
+M Gadoken (Powered-up version),12,18,39 total frames,D,1,60,150,↓↘→ + LP (Chance to trigger on activation),"VS*Can only be canceled V-Skill I
+V-Skill 1 allows cancel on whiff."
+H Gadoken (Powered-up version),12,16,39 total frames,D,1,60,150,↓↘→ + LP (Chance to trigger on activation),"VS*Can only be canceled V-Skill I
+V-Skill 1 allows cancel on whiff."
+L Gadoken (Hold Button),32,30,59 total frames,10,4,80,100,↓↘→ + LP (HOLD BUTTONS),"VS*Can only be canceled V-Skill I
+V-Skill 1 allows cancel on whiff."
+M Gadoken (Hold Button),32,28,59 total frames,10,4,80,100,↓↘→ + MP (HOLD BUTTONS),"VS*Can only be canceled V-Skill I
+V-Skill 1 allows cancel on whiff."
+H Gadoken (Hold Button),32,26,59 total frames,10,4,80,100,↓↘→ + HP (HOLD BUTTONS),"VS*Can only be canceled V-Skill I
+V-Skill 1 allows cancel on whiff."
+EX Gadoken,16,10,44 total frames,5,2,70,100,↓↘→ + P P,"VS*Can only be canceled V-Skill I
+V-Skill 1 allows cancel on whiff."
+L Koryuken,4,8,24+15 frame(s) after landing,D,-29,100(*50),120(*80),→↓↘ + LP,"1F - 5F  throw invincibility
+                                                VS*Can only be canceled V-Skill I
+*From active frame 3F"
+M Koryuken,5,8,26+15 frame(s) after landing,D,-31,110(*50),120(*80),→↓↘ + MP,"1F - 6F  invincible to mid-air attacks
+                                VS*Can only be canceled V-Skill I
+*From active frame 3F"
+H Koryuken,6,8,30+15 frame(s) after landing,D,-35,120(*50),120(*80),→↓↘ + HP,"6F - 9F  attack & projectile invincibility
+                                                VS*Can only be canceled V-Skill I
+*From active frame 3F"
+EX Koryuken,4,8,32+16 frame(s) after landing,D,-38,140(*60),150(*100),→↓↘ + P P,"1F - 5F  full invincibility
+                                                VS*Can only be canceled V-Skill I
+*From active frame 3F"
+L Dankukyaku,19,9,7+7 frame(s) after landing,-1,-5,50,80,↓↙← + LK,VS*Can only be canceled V-Skill I
+M Dankukyaku,12,6,10+10 frame(s) after landing,2,-2,70,100,↓↙← + MK,VS*Can only be canceled V-Skill I
+H Dankukyaku,16,3/（9）/3/（10）/3,12+11 frame(s) after landing,D,-4,90,120,↓↙← + HK,VS*Can only be canceled V-Skill I
+EX Dankukyaku,10,6,12+6 frame(s) after landing,D,-2,140,150,↓↙← + K K,"VS*Can only be canceled V-Skill I
+Second attack only triggers when the first one hits or is blocked"
+L Danretsuken,10,2/（4）/2/（5）/2,27,D,-10,80(*60),80(*60),↓↙← + LP,"VS*Can only be canceled V-Skill I
+Lock animation occurs when the first attack connects.
+*When the first hit doesn't connect"
+M Danretsuken,14,2/（4）/2/（5）/2,27,D,-10,90(*60),100(*60),↓↙← + MP,"VS*Can only be canceled V-Skill I
+Lock animation occurs when the first attack connects.
+*When the first hit doesn't connect"
+H Danretsuken,18,2/（4）/2/（5）/2,27,D,-10,100(*60),120(*60),↓↙← + HP,"VS*Can only be canceled V-Skill I
+Lock animation occurs when the first attack connects.
+*When the first hit doesn't connect"
+EX Danretsuken,12,2/（4）/2/（6）/2,27,D,-10,80(*60),150(*60),↓↙← + P P,"VS*Can only be canceled V-Skill I
+Lock animation occurs when the first attack connects.
+*When the first hit doesn't connect"
+Hisshou Buraiken,6,5,47,D,-30,340,0,↓↘→ ↓↘→ + P,"1F - 10F  full invincibility
+                                                Lock animation occurs when the first attack connects."

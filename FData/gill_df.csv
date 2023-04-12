@@ -1,0 +1,144 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,9,4,2,30,70,,None
+Standing MP,7,3,13,6,3,60,100,,None
+Standing HP,13,3,17,6(*10),-2,90,120,,"Does Anti-type damage
+*Value when used on opponent afflicted with the opposing state"
+Standing LK,4,3,8,5,3,30,70,,None
+Standing MK,9,3,16,3,-4,70,100,,None
+Standing HK,11,3,23,2(*D),-4,80,150,,"Does Anti-type damage
+*Value when used on opponent afflicted with the opposing state"
+Crouching LP,3,2,9,3,1,30,70,,None
+Crouching MP,6,2,16,4,-2,60,100,,None
+Crouching HP,7,5,21,D,-9,80(*70),150,,"Does Anti-type damage
+CA*S*V*Only possible during 2nd attack
+*For the 2nd hit"
+Crouching LK,4,2,8,3,0,20,70,,None
+Crouching MK,8,2,17,2,-2,60,100,,None
+Crouching HK,12,2,26,D,-13,90,120,,"Does Anti-type damage
+Opponent cannot quick recover if anti-type damage was dealt"
+Jumping LP,3,5,,,,40,70,,None
+Jumping MP,6,3,,,,60,100,,None
+Jumping HP,10,4,,,,80,150,,Does Anti-type damage
+Jumping LK,3,6,,,,40,70,,Can cross-up
+Jumping MK,6,5,,,,70,100,,None
+Jumping HK,10,3,,,,90,120,,Does Anti-type damage
+Cryo Drop Elbow,22,3,19,1(*D),-8,80,150,→ + HP,"Does Anti-type damage
+Opponent cannot quick recover if anti-type damage was dealt
+*Value when used on opponent afflicted with the opposing state"
+Pyro Quarrel Kick,15,4,21(*127),4(*2D),-6,90,120,→ + HK,"Does Anti-type damage
+*1On whiff
+*2Value when used on opponent afflicted with the opposing state"
+Cryo Rise Kick,9,4,21,5(*13),-7,80,150,← + HK,"Does Anti-type damage
+*Value when used on opponent afflicted with the opposing state"
+Guilty Straight,7,3,20,-2,-5,60,100,LP ▶ MP,None
+Penalty Break,7,3,17,-3,-8,50,100,↓ + LK ▶ ↓ + MK,None
+Impact Claw,5,3,17,,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Guilty Bomb,5,3,17,,,130,150,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Meteor Strike,44,Until landing,50 total frames,,,60,80,(WHEN SELECTING VSKILL I) OR ← OR → + MP MK,"Does Anti-type damage
+Grants anti-type damage"
+V[VS1] Meteor Strike,44,Until landing,50 total frames,,,70,100,(WHEN SELECTING VSKILL I) (DURING V-TRIGGER I) OR ← OR → + MP MK,"Does Anti-type damage
+Grants anti-type damage"
+[VS2] Blocking (Standing),2,9,30,,,,,(WHEN SELECTING VSKILL II) MP MK,"The parry cancel that comes out after a successful parry occurs on the 1st frame
+No counter hit while the move is active (does not apply to cancel Blocking)"
+[VS2] Blocking (Crouching),2,9,30,,,,,(WHEN SELECTING VSKILL II) ↓ + MP MK,"The parry cancel that comes out after a successful parry occurs on the 1st frame
+No counter hit while the move is active (does not apply to cancel Blocking)"
+Primal Fire,1,,5,,,,,HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                When used, Pyrokinesis/Pyro Cyber Lariat will be strengthened, and Burn Storm/Flame Javelin/Volcanic Storm will become available"
+Pryo Reverse Kick,17,2,24,D,-2,60,0,(DURING GUARD) → + LK,"1F - 31F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Radiant Judgment,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Pyrokinesis,14,,49 total frames,-2,-6,70,80,↓↘→ + LP,Does Anti-type damage
+M Pyrokinesis,14,,49 total frames,-2,-6,70,80,↓↘→ + MP,Does Anti-type damage
+H Pyrokinesis,14,,49 total frames,,,70,80,↓↘→ + HP,"Will not hit grounded opponents
+                                                                                Does Anti-type damage"
+EX Pyrokinesis L,14,,45 total frames,2,1,90,80,↓↘→ + LP MP,"Does Anti-type damage
+Grants anti-type damage"
+EX Pyrokinesis M,14,,45 total frames,2,1,90,80,↓↘→ + LP HP,"Does Anti-type damage
+Grants anti-type damage"
+EX Pyrokinesis H,14,,43 total frames,,,90,80,↓↘→ + MP HP,"Will not hit grounded opponents
+                                                                                Does Anti-type damage
+Grants anti-type damage"
+VL Pyrokinesis,14,,49 total frames,0,-4,70,80,↓↘→ + LP,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Does Anti-type damage
+Grants anti-type damage
+VS*Can be canceled with Meteor Strike on hit or block"
+VM Pyrokinesis,14,,49 total frames,0,-4,70,80,↓↘→ + MP,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Does Anti-type damage
+Grants anti-type damage
+VS*Can be canceled with Meteor Strike on hit or block"
+VH Pyrokinesis,14,,49 total frames,,,70,80,↓↘→ + HP,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Does Anti-type damage
+Grants anti-type damage
+VS*Can be canceled with Meteor Strike on hit or block"
+L Cryokinesis,22,,51 total frames,1,-4,50,120,↓↙← + LP,Does Anti-type damage
+M Cryokinesis,22,,51 total frames,1,-4,50,120,↓↙← + MP,Does Anti-type damage
+H Cryokinesis,22,,51 total frames,,,50,120,↓↙← + HP,"Will not hit grounded opponents
+                                                                                Does Anti-type damage"
+EX Cryokinesis L,22,,51 total frames,2,3,50,140,↓↙← + LP MP,"Does Anti-type damage
+Grants anti-type damage"
+EX Cryokinesis M,22,,51 total frames,2,3,50,140,↓↙← + LP HP,"Does Anti-type damage
+Grants anti-type damage"
+EX Cryokinesis H,22,,51 total frames,,,50,140,↓↙← + MP HP,"Will not hit grounded opponents
+                                                                                Does Anti-type damage
+Grants anti-type damage"
+L Pyro Cyber Lariat,12(*9),4,20,D,-6,80,80,↓↘→ + LK,"Does Anti-type damage
+*When in contact"
+M Pyro Cyber Lariat,22(*15),4,20,D,-6,100,80,↓↘→ + MK,"Does Anti-type damage
+*When in contact"
+H Pyro Cyber Lariat,31(*21),4,20,D,-6,120,80,↓↘→ + HK,"Does Anti-type damage
+*When in contact"
+EX Pyro Cyber Lariat,22(*12),4,22,D,-12,120,80,↓↘→ + K K,"Does Anti-type damage
+Grants anti-type damage
+*When in contact
+Has armor from 3F until the end of the attack active frames of the base hit"
+VL Pyro Cyber Lariat,12(*9),4,20,D,-6,80,80,↓↘→ + LK,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Does Anti-type damage
+Grants anti-type damage
+*When in contact
+VS*Can be canceled with Meteor Strike on hit or block"
+VM Pyro Cyber Lariat,22(*15),4,20,D,-6,100,80,↓↘→ + MK,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Does Anti-type damage
+Grants anti-type damage
+*When in contact
+VS*Can be canceled with Meteor Strike on hit or block"
+VH Pyro Cyber Lariat,31(*21),4,20,D,-6,120,80,↓↘→ + HK,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Does Anti-type damage
+Grants anti-type damage
+*When in contact
+VS*Can be canceled with Meteor Strike on hit or block"
+L Cryo Cyber Lariat,12(*9),4,20,D,-6,60,120,↓↙← + LK,"Does Anti-type damage
+*When in contact"
+M Cryo Cyber Lariat,22(*15),4,20,D,-6,60,140,↓↙← + MK,"Does Anti-type damage
+*When in contact"
+H Cryo Cyber Lariat,31(*21),4,20,D,-6,60,160,↓↙← + HK,"Does Anti-type damage
+*When in contact"
+EX Cryo Cyber Lariat,22(*12),4,22,D,-12,60,160,↓↙← + K K,"Does Anti-type damage
+Grants anti-type damage
+*When in contact
+Has armor from 3F until the end of the attack active frames of the base hit"
+L Moonsault Knee Drop,33,5,11 frame(s) after landing,D,-2,100,120,→↓↘ + LK,Recovery value is against a standing block Ryu
+M Moonsault Knee Drop,35,5,11 frame(s) after landing,D,-2,100,120,→↓↘ + MK,Recovery value is against a standing block Ryu
+H Moonsault Knee Drop,37,3,11 frame(s) after landing,D,-2,100,120,→↓↘ + HK,Recovery value is against a standing block Ryu
+EX Moonsault Knee Drop,10,14,10 frame(s) after landing,D,-2,120,160,→↓↘ + K K,"5F - 12F  invincible to mid-air attacks
+                                Forward movement distance can be controlled with directional input
+Recovery value is against a standing block Ryu"
+VBurn Storm,12,14,17,D,-9,120,80,(DURING V-TRIGGER I) HP HK,"Uses 800F V-Gauge Timer
+                                                                                                                                                                                Does Anti-type damage
+Can be canceled into via regular moves and unique attacks (aside from Cryo Drop Elbow)
+Can be transitioned into Volcanic Storm
+Grants anti-type damage"
+VFlame Javelin,22,,62 total frames,D,-2,90,100,(DURING V-TRIGGER I) ↓ OR ↙ OR ↘ + HP HK,"Uses 700F V-Gauge Timer
+                                                                                                                                                                                Does Anti-type damage
+Can be canceled into via regular moves and unique attacks (aside from Cryo Drop Elbow)
+Grants anti-type damage
+Shows the recovery difference when the down-back version of the attack is blocked at close-range"
+VVolcanic Storm,19,,62 total frames,D,-4,90,100,(DURING V-TRIGGER I) HP HK ▶ OR ← OR → + HP HK,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                Does Anti-type damage
+Grants anti-type damage
+Shows the recovery difference when the back version of the attack is blocked at close-range"
+Seraphic Wing）,5,29,39,D,-32,340,0,↓↘→ ↓↘→ + P,1F - 8F  full invincibility

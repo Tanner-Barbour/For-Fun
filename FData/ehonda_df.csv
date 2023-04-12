@@ -1,0 +1,122 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,5,3,9,5,3,40,90,,None
+Standing MP,7,4,13,5,2,70,120,,None
+Standing HP,8,6,22,-2,-7,90(*80),150,,"S*CA*Can be canceled up to active frame 3F
+*From active frame 4F"
+Standing LK,4,3,8,4,2,40,90,,None
+Standing MK,5,2,14,7,4,60,120,,Forces stand
+Standing HK,8 ,5,21,0/5,-4/2,90(*80),150,,"First hit only forces stand
+                Second hit will not hit crouching opponents
+                                                                                                *For the 2nd hit"
+Crouching LP,5(*3),3,9,5,2,40,90,,"Can be rapid canceled
+                                                                                                                                *Can be performed by rapid button press"
+Crouching MP,6,3,14,4,2,60,120,,None
+Crouching HP,10,2,21,4,-5,100,150,,Triggers Crush Counter (+25F)
+Crouching LK,4,2,13,3,0,30,90,,"Can chain cancel into crouching LP
+S*Can only be canceled into Hundred Hand Slap"
+Crouching MK,6,3,14,5,-2,60,120,,None
+Crouching HK,7,4,17,D,-9,100,150,,"Triggers Crush Counter (D)
+                                                                                                                                                                V*Can be canceled only if it hits from the front"
+Jumping LP,4,5,,,,50,90,,None
+Jumping MP,6,7,,,,70,120,,None
+Jumping HP,7,3,,,,90,150,,None
+Vertical Jumping HP,10,5,,,,90,150,,Can move forward or backward using the direction keys
+Jumping LK,4,9,,,,50,90,,None
+Jumping MK,6,4,,,,70,120,,None
+Jumping HK,9,6,,,,90,150,,None
+Harai-Geri,12,3,24,2,-7,80,150,→ + HK,Triggers Crush Counter (+20F)
+Chikara-Ashi,20,6,16,5,4,90,120,↘ + HK,"Can hit downed opponents
+S*Can be canceled from 12F until the attack active frames"
+Flying Sumo Press,12,9,,,,70,120,(DURING FORWARD JUMP) ↓ + MK,None
+Tokoshizume,20,6,16,5,2,70,100,MP ▶ ↘ + HK,S*Can be canceled from 12F until the attack active frames
+Tsurane Harite,7,4,19,D,-6,50,100,LP ▶ MP,S*VS*Only on hit
+Hirate,13,4,24,D,,70,120,LP ▶ MP ▶ MP MK,None
+Saba-Ori,5,3,17,,,130,170,(NEAR OPPONENT) → OR + LP LK,None
+Tawara Throw,5,3,17,,,140,170,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Neko Damashi,12,4,24,3,-6,60,120,(WHEN SELECTING VSKILL I) MP MK,None
+[VS2] Sumo Spirit,,,50 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,"Changes the properties of the next Hundred Hand Slap used
+Parameter changes; can be canceled into from regular moves that are cancelable into V Trigger/Harai-Geri/Chikara-Ashi/Tokoshizume"
+Onigawara,1,,5,,,,,HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                Will be able to use Oni-Daikaku and Oni-Muso"
+Raiden-Ho,17,2,24,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Super Sumo Impact,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Sumo Headbutt,10,17,10+14 frame(s) after landing,D,-4,120(*100),180(*150),→ + LP,"CA*Only for the base hit
+S*Can be canceled into Oni-Daikaku on hit only
+*Consecutive hits value"
+M Sumo Headbutt,8,22,9+14 frame(s) after landing,D,-7,140(*110),180(*150),→ + MP,"CA*Only for the base hit
+S*Can be canceled into Oni-Daikaku on hit only
+*Consecutive hits value"
+H Sumo Headbutt,12,28,11+16 frame(s) after landing,D,-12,160(*120),180(*150),→ + HP,"Upper body invincibility from 1F - 14F for mid-air attacks
+CA*Only for the base hit
+S*Can be canceled into Oni-Daikaku on hit only
+*Consecutive hits value"
+EX Sumo Headbutt,7,25,9+23 frame(s) after landing,D,-26,160(*130),200(*180),→ + P P,"Has armor from 3F until the attack active frames end
+*Consecutive hits value"
+L Hundred Hand Slap,7,8,14,3,2,100,160,LP (REPEAT BUTTON),"V*CA*Only possible during 2nd attack
+S*Can be canceled into Oni-Daikaku"
+M Hundred Hand Slap,17,10,14,3,1,110,170,MP (REPEAT BUTTON),"V*CA*Only possible during 3rd attack
+S*Can be canceled into Oni-Daikaku"
+H Hundred Hand Slap,19,14,15,2,-2,120,180,HP (REPEAT BUTTON),"V*CA*Only possible during 3rd attack
+S*Can be canceled into Oni-Daikaku"
+L Hundred Hand Slap (VS2 Ver.),7,8,14,4,2,110,170,(DURING V-SKILL II) LP (REPEAT BUTTON),"V*CA*Only possible during 2nd attack
+S*Can be canceled into Oni-Daikaku"
+M Hundred Hand Slap (VS2 Ver.),17,10,14,4,1,120,180,(DURING V-SKILL II) MP (REPEAT BUTTON),"V*CA*Only possible during 3rd attack
+S*Can be canceled into Oni-Daikaku"
+H Hundred Hand Slap (VS2 Ver.),19,14,15,4,-2,130,190,(DURING V-SKILL II) HP (REPEAT BUTTON),"V*CA*Only possible during 3rd attack
+S*Can be canceled into Oni-Daikaku"
+EX Hundred Hand Slap,16,14,15,4,-2,100,150,P P (REPEAT BUTTON),"V*Only possible for the final part
+S*Can be canceled into Oni-Daikaku"
+EX Hundred Hand Slap (VS2 Ver.),16,14,15,6,-2,110,160,(DURING V-SKILL II) P P (REPEAT BUTTON),"V*Only possible for the final part
+S*Can be canceled into Oni-Daikaku"
+L Sumo Smash,11,9,24 frame(s) after landing,D,-2,120(*100),180(*160),↑ + LK,"*Only if the descending part hits
+Recovery value is against a standing block Ryu"
+M Sumo Smash,13,10,24 frame(s) after landing,D,-2,120(*100),180(*160),↑ + MK,"*Only if the descending part hits
+Recovery value is against a standing block Ryu"
+H Sumo Smash,16,16,24 frame(s) after landing,D,-2,120(*100),180(*160),↑ + HK,"*Only if the descending part hits
+Recovery value is against a standing block Ryu"
+Sumo Smash(Cross-up),,,,D,-4,80,120,,Recovery value is against a standing block Ryu
+EX Sumo Smash,8,18,19 frame(s) after landing,D,5,160(*140),200(*180),↑ + K K,"1F - 20F  throw invincibility
+                                                *Only if the descending part hits
+Ascent travel distance can be controlled
+Recovery value is against a standing block Ryu"
+EX Sumo Smash(Cross-up),,,,D,-2,100,150,,None
+L Oicho Throw,7,2,60,D,,140,180,→↘↓↙← + LP,None
+M Oicho Throw,7,2,60,D,,160,180,→↘↓↙← + MP,None
+H Oicho Throw,7,2,60,D,,180,180,→↘↓↙← + HP,None
+EX Oicho Throw,5,3,59,D,,200,200,→↘↓↙← + P P,None
+VOni-Daikaku,10,24,10+10 frame(s) after landing,D,-2,120(*100),200,(DURING V-TRIGGER I) HP HK,"Uses 1000F V-Gauge Timer
+                                                                                                                                                                                Can be canceled into from normal and unique attacks, and from Hundred Hand Slap
+S*Can cancel into Oni-Muso only on hit
+CA*Only for the base hit
+Can be held up to 50F (Honda will perform the max-hold version after 50F)
+Has armor from 4F until 2F before the attack active frames
+*Consecutive hits value"
+VOni-Daikaku (Cancelable version of Sumo Headbutt),10,24,10+10 frame(s) after landing,D,-2,100(*80),200,(DURING V-TRIGGER I) HP HK,"Uses 1000F V-Gauge Timer
+                                                                                                                                                                                Cancelable by Sumo Headbutt only on hit
+S*Can cancel into Oni-Muso only on hit
+CA*Only for the base hit
+Can be held up to 50F (Honda will perform the max-hold version after 50F)
+Has armor from 4F until 2F before the attack active frames
+*Consecutive hits value"
+VOni-Daikaku(Max Hold),60,24,10+10 frame(s) after landing,D,GB,180(*160),200,(DURING V-TRIGGER I) HP HK (max hold button),"Uses 1000F V-Gauge Timer
+                                                                                                                                                                                Can be canceled into from normal and unique attacks, and from Hundred Hand Slap
+S*Can cancel into Oni-Muso only on hit
+CA*Only for the base hit
+During guard break+27F
+Has armor from 4F until the end of the attack active frames of the base hit
+Projectile invincibility from the end of the attack active frames of the base hit up to the 1F after the end of the attack active frames
+*Consecutive hits value"
+VOni-Muso,3,24,10+10 frame(s) after landing,D,,120,200,(DURING V-TRIGGER I) HP HK ▶ HP HK,"Uses 1200F V-Gauge Timer
+                                                                                                                                                                                Can only be performed if Oni-Daikaku hits
+CA*Only for the base hit"
+VOni-Muso (Sumo Headbutt canceled into Oni-Daikaku version),3,24,10+10 frame(s) after landing,D,,100,200,(DURING V-TRIGGER I) HP HK ▶ HP HK,"Uses 1200F V-Gauge Timer
+                                                                                                                                                                                Can be transitioned into only from successful hit with Oni-Daikaku (Sumo Headbutt Cancelable Version)
+CA*Only for the base hit"
+Kamigashima,9,29,9+28 frame(s) after landing,D,-26,340,0,↓↘→ ↓↘→ + P,"14F - 36F  projectile invincibility
+1F - 13F  full invincibility"

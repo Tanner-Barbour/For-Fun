@@ -1,0 +1,115 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,6,4,2,30,70,,None
+Standing MP,5,3,10,7,3,50,100,,None
+Standing HP,8,2,22,2,-2,80,150,,None
+Standing LK,5,3,9,3,1,40,70,,None
+Standing MK,7,3,16,3,-2,60,100,,None
+Standing HK,13 ,2,23,2,-4,90,150,,Triggers Crush Counter (+20F)
+Crouching LP,3,2,7,3,2,30,70,,Can be rapid canceled
+Crouching MP,5,3,12,4,2,50,100,,None
+Crouching HP,7,3,26,-3,-6,70,150,,None
+Crouching LK,4,2,8,2,0,20,70,,Can be rapid canceled
+Crouching MK,6,2,14,2,-1,50,100,,None
+Crouching HK,8,2,22,D,-10,90,150,,Triggers Crush Counter (D)
+Jumping LP,3,5,,,,40,70,,None
+Jumping MP,6,5,,,,70,100,,Causes blowback knockdown on airborne hit
+Jumping HP,7,5,,,,90,150,,None
+Jumping LK,4,4,,,,40,70,,None
+Jumping MK,8,5,,,,70,100,,Can cross-up
+Jumping HK,8,4,,,,90,150,,None
+Elbow Crush,22,2,23,0,-7,80,150,→ + HP,None
+Knee Slide,8,8,16,-4,-7,30,70,↘ + LK,None
+Quick Side-Kick,8,2,20,-2,-6,30,50,LP ▶ LK,None
+Spin Drive,11,5,25,-3,-8,50,80,LP ▶ LK ▶ MK,None
+Street-Style Set,13,2,35,D,-15,60,120,LP ▶ LK ▶ MK ▶ HK,None
+Carry Bonus,5,3,17,D,,100,150,LP ▶ LK ▶ MK ▶ ↓ + HP,None
+Drop Target,9,5,,,,70,100,(DURING JUMP) MP ▶ HP,None
+German Suplex,5,3,17,,,120,150,(NEAR OPPONENT) → OR + LP LK,None
+Back-Carry Throw,5,3,17,,,150,200,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Tap-Kick,8,6,20,2,-8,60,100,(WHEN SELECTING VSKILL I) MP MK,"V*CA*Only possible during 3rd attack
+Final attack only performed on hit"
+V[VS1] Tap-Kick,8,6,20,D,-8,70,100,(WHEN SELECTING VSKILL I) (DURING V-TRIGGER I) MP MK,"CA*Only possible during 3rd attack
+Final attack only performed on hit"
+[VS2] Arrest Heel,28,4,16 frame(s) after landing,D,-4,90,120,(WHEN SELECTING VSKILL II) MP MK,None
+V[VS2] Arrest Heel,28,4,16 frame(s) after landing,D,-4,100,120,(WHEN SELECTING VSKILL II) (DURING V-TRIGGER I) MP MK,None
+Burning Fight,1,,8,,,,,HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                Tornado Spinner, Cyclone Spinner, Flipper Shot, Hurricane Spinner,Fire Spinner and Nubbing Needle become enhanced moves that use V-Timer
+V-Skill will be enhanced"
+Hammer Knuckle,17,2,24,D,-2,60,0,(DURING GUARD) → + LP,"1F - 31F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Peacekeeper,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+Gun Smoke,,,40 total frames,,,,,↓↘→ + P,"Lucia will perform Braking after the move ends
+Can perform Braking, Rough Chase, Tornado Spinner, and Cyclone Spinner from 14F"
+Braking,,,12 total frames,,,,,↓↘→ + P ▶ ←,None
+Rough Chase,7,6,18,3,-6,70,80,↓↘→ + P ▶ P,None
+Tornado Spinner,4,4,23+14 frame(s) after landing,D,-35,140,150,↓↘→ + P ▶ K,None
+VTornado Spinner,4,5,17+14 frame(s) after landing,D,-30,170,200,(DURING V-TRIGGER I) ↓↘→ + P ▶ K,"Uses 700F V-Gauge Timer
+                                                                                                                                                                                Final hit only performed on hit"
+Cyclone Spinner,5,5,23,D,-8,120,150,(WHEN SELECTING VSKILL I) ↓↘→ + P ▶ MP MK,None
+VCyclone Spinner,5,5,19,D,-6,160,180,(WHEN SELECTING VSKILL I) (DURING V-TRIGGER I) ↓↘→ + P ▶ MP MK,"Uses 700F V-Gauge Timer
+                                                                                                                                                                                Final attack only performed on hit"
+Nubbing Needle,11,5,8+12 frame(s) after landing,2,-2,80,150,(WHEN SELECTING VSKILL II) ↓↘→ + P ▶ MP MK,None
+VNubbing Needle,11,5,8+12 frame(s) after landing,D,-2,130,150,(WHEN SELECTING VSKILL II) (DURING V-TRIGGER I) ↓↘→ + P ▶ MP MK,"Uses 700F V-Gauge Timer
+                                                                                                                                                                                Final attack only performed on hit"
+EX Gun Smoke,,,33 total frames,,,,,↓↘→ + P P,"Lucia will perform Braking after the move ends
+Can be transitioned into Rough Chase/Tornado Spinner/Cyclone Spinner/Nubbing Needle from frame 10
+Can be transitioned into from frame 12 of Braking only"
+EX Braking,,,12 total frames,,,,,↓↘→ + P P ▶ ←,None
+EX Rough Chase,7,3,27,D,-8,80,120,↓↘→ + P P ▶ P,None
+EX Tornado Spinner,4,5,17+14 frame(s) after landing,D,-30,160(*100),200(*100),↓↘→ + P P ▶ K,"Final hit only performed on hit
+*For the 2nd hit"
+VEX Tornado Spinner,4,6,16+14 frame(s) after landing,D,-29,180(*110),220(*120),(DURING V-TRIGGER I) ↓↘→ + P P ▶ K,"Uses 400F V-Gauge Timer
+                                                                                                                                                                                Final hit only performed on hit
+*Only for the 3rd or 4th hit"
+EX Cyclone Spinner,5,5,19,D,-6,150,180,(WHEN SELECTING VSKILL I) ↓↘→ + P P ▶ MP MK,"Final attack only performed on hit
+V*Only possible during 1st attack"
+VEX Cyclone Spinner,5,5,19,D,-4,170,200,(WHEN SELECTING VSKILL I) (DURING V-TRIGGER I) ↓↘→ + P P ▶ MP MK,"Uses 400F V-Gauge Timer
+                                                                                                                                                                                Final attack only performed on hit"
+EX Nubbing Needle,11,5,8+12 frame(s) after landing,D,-2,120,150,(WHEN SELECTING VSKILL II) ↓↘→ + P P ▶ MP MK,Final attack only performed on hit
+VEX Nubbing Needle,11,5,8+12 frame(s) after landing,D,2,150,200,(WHEN SELECTING VSKILL II) (DURING V-TRIGGER I) ↓↘→ + P P ▶ MP MK,"Uses 700F V-Gauge Timer
+                                                                                                                                                                                Final attack only performed on hit"
+Firecracker,12,7,19,0,-4,30,30,↓↘→ + K,Can perform Flipper Shot on 20F
+L Flipper Shot,9,,38 total frames,1,-5,60,100,↓↘→ + K ▶ LK,Properties change if hit by Fire Spinner
+M Flipper Shot,12,,40 total frames,2,-4,60,100,↓↘→ + K ▶ MK,None
+H Flipper Shot,12,,40 total frames,2,-4,60,100,↓↘→ + K ▶ HK,None
+EX Firecracker,12,7,19,0,-4,50,50,↓↘→ + K K,Can perform EX Flipper Shot on 20F
+EX Flipper Shot L,9,,38 total frames,7,2,80,120,↓↘→ + K K ▶ LK OR ↓↘→ + K ▶ LK MK,Properties change if hit by Fire Spinner
+EX Flipper Shot M,12,,40 total frames,4,3,80,120,↓↘→ + K K ▶ MK OR ↓↘→ + K ▶ LK HK,None
+EX Flipper Shot H,12,,40 total frames,4,3,80,120,↓↘→ + K K ▶ HK OR ↓↘→ + K ▶ MK HK,None
+VFirecracker,12,7,19,0,-4,50,50,(DURING V-TRIGGER I) ↓↘→ + K,Can perform V-Flipper Shot on 20F
+VFlipper Shot,9,,38 total frames,7,2,90,120,(DURING V-TRIGGER I) ↓↘→ + K ▶ LK,"Uses 400F V-Gauge Timer
+                                                                                                                                                                                Properties change if hit by Fire Spinner"
+VFlipper Shot,12,,40 total frames,4,3,90,120,(DURING V-TRIGGER I) ↓↘→ + K ▶ MK,Uses 400F V-Gauge Timer
+VFlipper Shot,12,,40 total frames,4,3,90,120,(DURING V-TRIGGER I) ↓↘→ + K ▶ HK,Uses 400F V-Gauge Timer
+L Hurricane Spinner,7,12,20+15 frame(s) after landing,D,-38,100(*60),150(*100),→↓↘ + LK,"1F - 9F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*For the hitbox in the back"
+M Hurricane Spinner,9,12,23+15 frame(s) after landing,D,-41,110(*60),150(*100),→↓↘ + MK,"7F - 12F  projectile invincibility
+                1F - 12F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*For the hitbox in the back"
+H Hurricane Spinner,13,12,30+15 frame(s) after landing,D,-48,120(*60),150(*100),→↓↘ + HK,"11F - 16F  projectile invincibility
+                1F - 16F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*For the hitbox in the back"
+EX Hurricane Spinner,7,13,33+15 frame(s) after landing,D,-46,150,200,→↓↘ + K K,"1F - 10F  full invincibility
+                                                Final attack only performed on hit
+Subject to counter hit during move duration (1.2x damage)"
+VHurricane Spinner,7,13,33+15 frame(s) after landing,D,-46,160,200,(DURING V-TRIGGER I) →↓↘ + K,"Uses 1000F V-Gauge Timer
+                                                                                                                                1F - 10F  full invincibility
+                                                Final attack only performed on hit
+Subject to counter hit during move duration (1.2x damage)"
+L Fire Spinner,15,3,9+20 frame(s) after landing,0,-4,60,100,↓↙← + LK,None
+M Fire Spinner,18,3,10+21 frame(s) after landing,2,-4,70,100,↓↙← + MK,None
+H Fire Spinner,21,3,8+20 frame(s) after landing,D,-4,80,100,↓↙← + HK,None
+EX Fire Spinner,17,3,6+13 frame(s) after landing,D,-2,70,120,↓↙← + K K,None
+VFire Spinner,17,3,6+13 frame(s) after landing,D,-2,80,120,(DURING V-TRIGGER I) ↓↙← + K K,Uses 700F V-Gauge Timer
+Hard Hit Knee,1+7,16,54,D,-32,340,0,↓↙← ↓↙← + K,"1F - 14F  full invincibility
+                                                Complete invincibility until the end of attack active frames on hit"
+VHard Hit Knee,1+7,16,54,D,-32,360,0,↓↙← ↓↙← + K,"1F - 14F  full invincibility
+                                                Complete invincibility until the end of attack active frames on hit"

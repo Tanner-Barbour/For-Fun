@@ -1,0 +1,100 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,6,4,3,30,70,,None
+Standing MP,5,3,16 (*19),2,-2,50,100,,"*On whiff
+VS*Can be cancelled with [VS1] Install Art on hit or guard."
+Standing HP,7,3,23 (*20),2,-4,80,150,,*On Block
+Standing LK,4,3,11,4,3,40,70,,None
+Standing MK,7,3,18,1,-2,70,100,,"Foot will not hit a crouching opponent.
+VS*Can be cancelled with [VS1] Install Art on hit or guard."
+Standing HK,10 ,9,22,D,-6,80,150,,"Second hit will not hit crouching opponents
+                                                                                                S*V*CA*Only possible during 2nd attack
+Forced standing effect on first hit.
+Causes blowback knockdown on airborne hit"
+Crouching LP,3,2,8,4,2,30,70,,None
+Crouching MP,6,3,14,5,2,60,100,,None
+Crouching HP,12,4,26,D,-10,80,150,,"Triggers Crush Counter  (D)
+                                                                                                                                                                VS*Can be cancelled with [VS1] Install Art on hit or guard."
+Crouching LK,4,3,7,3,2,20,70,,VS*Can be cancelled with [VS1] Install Art on hit or guard.
+Crouching MK,7,3,13 (*12),2,-2,60,100,,*on block/whiff
+Crouching HK,11,4,22,2,-4,80,150,,VS*Can be cancelled with [VS1] Install Art on hit or guard.
+Jumping LP,4,5,,,,40,70,,None
+Jumping MP,7,6,,,,70,100,,Causes blowback knockdown on airborne hit
+Jumping HP,9,6,,,,90,150,,None
+Jumping LK,4,6,,,,40,70,,Can cross-up
+Jumping MK,7,7,,,,60,100,,None
+Jumping HK,10,5,,,,80,150,,None
+Step Shoot,9,3,17,2,-2,60,100,→ + MP,None
+Hazard Blow,20,3,23,1,-4,90,150,→ + HP,Triggers Crush Counter  (crumple)
+Head Hunter,23,2,21,1,-7,80,150,→ + HK,None
+Turning Slicer,23,3,15,4,-2,90,150,↘ + HK,Triggers Crush Counter  (+14F)
+Twin Claw,10,4,28,-5,-12,60,100,MP ▶ HP,"Forces stand
+                                                                                                                S*VS*Only on hit"
+Tanden Combination,18,25,19,2,-,10,0,(WHEN SELECTING VSKILL I) MP ▶ HP ▶ on hit MP MK,VS*Transferrable to [VS1] Tanden Install On hit or guard.
+Shoot Slicer,11,3,21 (*26),2,-8,60,80,→ + MP ▶ HK,*on block/whiff
+Fatal Rush,12,3,29,D,-12,70,100,↗ + MP ▶ HK ▶ HP,None
+Death Throw,5,3,17,,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Death Throw,5,3,17,,,130,150,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Tanden Engine,20,25,21,3,-2,10,0,(WHEN SELECTING VSKILL I) MP MK,28 frames of projectile invincibility after hit or guard.
+[VS1] Tanden Install,4,9,25,D,-16,60,0,(WHEN SELECTING VSKILL I) MP MK ▶ P,1F - 8F  projectile invincibility
+[VS1] Install Art,,,,,,,,(WHEN SELECTING VSKILL I) (AFTER HITTING Tanden Install) MP MK,"See the ""Install Art"" section for special moves usable with [VS1] Install Art."
+[VS2] Tanden Booster,,,49 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,None
+[VS2] Tanden Booster (Stop),,,19 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK ▶ MP MK,None
+[VS2] Hecatoncheires Glide,14,16,22,2,-2,100,120,(WHEN SELECTING VSKILL II) MP MK ▶ ↓↘→ + P,None
+[VS2] Mad Spiral,7,18,18+29 frame(s) after landing,D,-39,120,150,(WHEN SELECTING VSKILL II) MP MK ▶ →↓↘ + P,1F - 24F  projectile invincibility
+[VS2] Spin Pendulum,5,13,25,D,-9,80,120,(WHEN SELECTING VSKILL II) MP MK ▶ ↓↙← + K,4F - 24F  projectile invincibility
+Tanden Ignition,1,,10,,,,,HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                While active, various attacks are added to Hecatoncheires, Mad Cradle, Cruel Disaster, and Annihilate Sword."
+Calamity Shutter,17,2,24,D,-2,60,0,(DURING GUARD) → + LP,"1F - 31F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Hell's Punishment,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Hecatoncheires,11,8,20,2,-4,80,120,↓↘→ + LP,"CA*V*Only possible during 4th attack
+VS*Second and fourth attacks can be cancelled with [VS1] Install Art on hit or guard."
+M Hecatoncheires,17,12,20,2,-4,90,120,↓↘→ + MP,"CA*V*Only possible during 6th attack
+VS*Fourth and sixth attacks can be cancelled with [VS1] Install Art on hit or guard."
+H Hecatoncheires,25,16,20,3,-2,100,120,↓↘→ + HP,"CA*V*Only possible during 8th attack
+VS*Sixth and eighth attacks can be cancelled with [VS1] Install Art on hit or guard."
+EXHecatoncheires,10,16,24,D,-2,120,150,↓↘→ + P P,"On guard or miss, the move ends with the eighth attack.
+V*Only possible on eighth/ninth attack
+VS*Can be cancelled with [VS1] Install Art on 9th hit or eighth hit on guard."
+L Mad Cradle,4,10,22+11 frame(s) after landing,D,-25,90(*60),150 (*100),→↓↘ + LP,"1F - 3F  throw invincibility
+                                                *From active frame 3F"
+M Mad Cradle,5,10,28+13 frame(s) after landing,D,-33,110 (*60),150 (*100),→↓↘ + MP,"1F - 6F  invincible to mid-air attacks
+                                *From active frame 3F"
+H Mad Cradle,10,10,34+15 frame(s) after landing,D,-41,120 (*60),150,→↓↘ + HP,"1F - 10F  invincible to mid-air attacks
+                                *From active frame 3F"
+EX Mad Cradle,4,16,30+15 frame(s) after landing,D,-40,150,150,→↓↘ + P P,1F - 9F  full invincibility
+L Cruel Distaster,14,3,26,D,-8,80,100,↓↙← + LK,"4F - 11F  projectile invincibility
+                                                VS*Can be cancelled with [VS1] Install Art on hit or guard."
+M Cruel Distaster,21,3,28(*26),D,-4,90,120,↓↙← + MK,"4F - 18F  projectile invincibility
+                                                *On Block
+VS*Can be cancelled with [VS1] Install Art on hit or guard."
+H Cruel Distaster,27,3,28(*21),D,2,100,150,↓↙← + HK,"4F - 26F  projectile invincibility
+                                                *On Block
+VS*Can be cancelled with [VS1] Install Art on hit or guard."
+EX Cruel Distaster,15,3,33,D,-12,100,150,↓↙← + K K,"4F - 12F  projectile invincibility
+                                                On guard or miss, the move ends at the first attack.
+Can be cancelled with jump on hit.
+VS*Can be cancelled with [VS1] or [VS2] Tanden Booster Install Art on hit or guard."
+L Annihilate Sword,14,6,13 frame(s) after landing,,,70,150,(DURING VERTICAL OR FORWARD JUMP) ↓↙← + LK,None
+M Annihilate Sword,23,6,13 frame(s) after landing,,,80,150,(DURING VERTICAL OR FORWARD JUMP) ↓↙← + MK,None
+H Annihilate Sword,27,6,20 frame(s) after landing,D,,90,150,(DURING VERTICAL OR FORWARD JUMP) ↓↙← + HK,None
+EX Annihilate Sword,10,12,13 frame(s) after landing,D,,130,200,(DURING VERTICAL OR FORWARD JUMP) ↓↙← + K K,None
+VTitanomachy,14,5,31,D,2,120,100,(DURING V-TRIGGER I) ↓↘→ + P ▶ HP HK,"Uses 700F V-Gauge Timer
+                                                                                                                                                                                Can be cancelled when Hecatoncheires Install Art hits or is guarded."
+VMad Spin,7,Until landing+2,21 frame(s) after landing,2,-2,*n×10,*n×10+20,(DURING V-TRIGGER I) →↓↘ + P ▶ HP HK,"Uses 700F V-Gauge Timer
+                                                                                                                                                                                Can be cancelled when Mad Cradle hits, or certain Install Arts hit, or when guarded.
+*(Hits until landing)"
+VMad Spin (Special Edition),11,2,75,D,-2,80,100,(DURING V-TRIGGER I) (from ALEX's Install Art) HP HK,"Uses 700F V-Gauge Timer
+                                                                                                                                                                                Recovery shortened by 52 frames on block"
+VCyclone Disaster,11,11,21,D,-4,70,100,(DURING V-TRIGGER I) ↓↙← + K ▶ HP HK,"Uses 700F V-Gauge Timer
+                                                                                                                                                                                Can be cancelled when Cruel Disaster Install Art hits or is guarded.
+EX Cruel Disaster can only be cancelled on hit."
+VHell's Gate,5,8,17,D,-4,90,120,(DURING V-TRIGGER I) (DURING FORWARD JUMP) ↓↙← + K ▶ HP HK,"Uses 700F V-Gauge Timer
+                                                                                                                                                                                Can be cancelled when Annihilate Sword Install Art hits or is guarded."
+Tanden Destruction,6,5,47,D,-30,330,0,↓↘→ ↓↘→ + P,1F - 10F  full invincibility
+VTanden Extreme,6,5,47,D,-30,350,0,(DURING V-TRIGGER I) ↓↘→ ↓↘→ + P,1F - 10F  full invincibility

@@ -1,0 +1,77 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,3,3,7,3,2,20,70,,None
+Standing MP,6,2,16,5,3,60,100,,None
+Standing HP,11,3,24,5,-6,80,150,,None
+Standing LK,4,3,11,3,1,40,70,,None
+Standing MK,7,3,18,0,-4,70,100,,None
+Standing HK,8,3,21,4,-4,80,150,,"Triggers Crush Counter (+22F)
+                                                                                                                                                                VS*Can only be canceled V-Skill II"
+Crouching LP,4,3,9,4,3,30,70,,Can be rapid canceled
+Crouching MP,6,5,13,6,4,60,100,,None
+Crouching HP,15,3,22,-1,-11,80,150,,VS*Can only be canceled V-Skill II
+Crouching LK,4,2,12,1,-2,20,70,,"Can be rapid canceled
+                                                                                                                                VS*Can only be canceled V-Skill II"
+Crouching MK,7,3,15,4,-2,60,100,,VS*Can only be canceled V-Skill II
+Crouching HK,10,3,22,D,-14,90,150,,"Triggers Crush Counter (D)
+                                                                                                                                                                VS*Can only be canceled V-Skill II"
+Jumping LP,4,4,,,,40,70,,None
+Jumping MP,6,3,,,,60,100,,Causes blowback knockdown on airborne hit
+Jumping HP,12,3,,,,90,150,,None
+Jumping LK,3,5,,,,40,70,,Can cross-up
+Jumping MK,7,5,,,,60,100,,Causes blowback knockdown on airborne hit
+Jumping HK,9,5,,,,90,150,,None
+Whiplash,13,4,,,,80,150,(DURING FORWARD JUMP) → + HP,None
+Slap & Smash,9,3,,,,70,100,(DURING JUMP) MP ▶ HP,None
+Slap & Slash,9,7,,,,70,100,(DURING JUMP) MP ▶ → + HP,None
+Slap Shot,5,3,17,,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Frankensteiner,5,3,17,,,140,200,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Perfume Swing,25,18,24+4 frame(s) after landing,D,-21,60,80,(WHEN SELECTING VSKILL I) OR ← + MP MK,"Will not hit crouching opponents
+                                                                                                Can perform jump attacks from 53F
+The jump attacks cause knockback damage on mid-air hit, and increase V-Gauge on hit or block."
+[VS2] Cartwheel,,,29 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,Collision box disappears from frames 4 to 20
+[VS2] Cartwheel (Attack),33,4,21+10 frame(s) after landing,D,-12,60,100,(WHEN SELECTING VSKILL II) MP MK (HOLD BUTTONS),S*Only on hit
+Poison Cocktail,1,,5,,,,,HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                Gains an exclusive special move"
+Power Cord,17,2,24,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Danger Zone,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Avant Line,15,2,27,1,-7,60,100,↓↘→ + LP,None
+M Avant Line,15,2,27,2,-8,80,150,↓↘→ + MP,Poison only performs the next attack on hit or block
+H Avant Line,15,2,27,D,-17,110,150,↓↘→ + HP,Poison only performs the next attack on hit or block
+EX Avant Line,12,7,24,D,-2,120,150,↓↘→ + P P,"Can be transitioned only on hit from frame 5 to the end of the attack
+S*Can be canceled by V Trigger exclusive Special Move, only after final attack (or on fourth attack on block)"
+Heart Raid(Hold),,,,,,-,-,↓↙← + P (HOLD BUTTONS),"Can perform Heart Raid, Hold – Forward Movement, Hold – Backwards Movement, and Hold Cancel from 14F."
+Heart Raid(Hold-Forward Movement),,,32 total frames,,,-,-,↓↙← + P (HOLD BUTTONS) + →,"Can perform Heart Raid and Hold Cancel during movement.
+After movement, Poison will return to the Hold state."
+Heart Raid(Hold-Backwards Movement),,,32 total frames,,,-,-,↓↙← + P (HOLD BUTTONS) + ←,"Can perform Heart Raid and Hold Cancel during movement.
+After movement, Poison will return to the Hold state."
+Heart Raid(Hold Cancel),,,12 total frames,,,-,-,↓↙← + P (HOLD BUTTONS) + K,None
+L Heart Raid,9,2,26,2,-6,80,150,↓↙← + LP,None
+M Heart Raid,9,2,26,2,-6,90,150,↓↙← + MP,None
+H Heart Raid,10,2,17,D,,120,200,↓↙← + HP,Will not hit grounded opponents
+EX Heart Raid L,18,4,24,D,-2,100,100,↓↙← + LP MP,"V*Only possible during 1st attack
+S*2nd hit can be canceled into Shocking Heel on hit only"
+EX Heart Raid M,19,4,24,2,1,130,200,↓↙← + LP HP,V*Only possible during 1st attack
+EX Heart Raid H,9,4,29,D,,140,200,↓↙← + MP HP,"Will not hit grounded opponents
+                                                                                V*Only possible during 1st attack"
+L Shocking Heel,8,6,27,D,-12,80,150,↓↘→ + LK,None
+M Shocking Heel,15,6,27,D,-12,90,150,↓↘→ + MK,None
+H Shocking Heel,25,6,27,D,-12,110,150,↓↘→ + HK,None
+EX Shocking Heel,18,7,32,D,-17,80,150,↓↘→ + K K,"VS*Only on hit
+S*Can be canceled into Heart Raid on hit only"
+L Love Me Tender,21,3,1+18,2,-4,70,120,↓↙← + LK,None
+M Love Me Tender,28,3,2+17,3,-4,80,120,↓↙← + MK,None
+H Love Me Tender,30,3,1+18,D,-2,100,150,↓↙← + HK,None
+EX Love Me Tender,24,3,18,D,-4,120,200,↓↙← + K K,3F - 26F  projectile invincibility
+VFire Squall,19,,44 total frames,D,-2,40（*+51）,100,OR ← + HP HK,"Uses 1500F V-Gauge Timer
+                                                                                                                                                                                Can be canceled into from each normal and special move
+Area where the projectile hits causes fire damage
+*Value within the parenthesis is the fire damage
+*Effective value reduces if the fire damage is stacked
+VS*Can only be canceled V-Skill II"
+Love Hurricane,1+9,2,57,D,-37,340,0,↓↘→ ↓↘→ + P,1F - 15F  full invincibility

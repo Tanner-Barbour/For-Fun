@@ -1,0 +1,90 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,8,4,2,30,70,,Can be rapid canceled
+Standing MP,5,3,13,7,3,60,100,,VS*Can only be canceled V-Skill II
+Standing HP,9,3,21,3,-2,80,150,,None
+Standing LK,4,3,12,-1,-2,30,70,,None
+Standing MK,8,3,17(*15),3,1,60,100,,"VS*Can only be canceled V-Skill II
+*On whiff"
+Standing HK,12,2,26,1,-4,80,150,,"Triggers Crush Counter  (+20F)
+                                                                                                                                                                VS*Can only be canceled V-Skill II"
+Crouching LP,3,2,9,3,1,20,70,,Can be rapid canceled
+Crouching MP,6,4,13,5,2,60,100,,None
+Crouching HP,8,5,23,-2,-5,90,150,,Forces stand
+Crouching LK,4,2,8,3,0,20,70,,VS*Can only be canceled V-Skill II
+Crouching MK,6,2,14,2,-3,50,100,,None
+Crouching HK,8,2,25,D,-13,90,150,,"Triggers Crush Counter  (D)
+                                                                                                                                                                VS*Can only be canceled V-Skill II"
+Jumping LP,4,6,,,,40,70,,None
+Jumping MP,6,7,,,,60,100,,Causes blowback knockdown on airborne hit
+Jumping HP,8,5,,,,90,150,,None
+Jumping LK,4,8,,,,40,70,,Can cross-up
+Jumping MK,7,5,,,,60,100,,None
+Jumping HK,10,5,,,,90,150,,None
+Floral Kick,21,2,23,1,-7,70,100,→ + MK,None
+Furiko Upper,7,3,26,-4,-7,80,150,← + HP,Triggers Crush Counter  (D)
+Chin Buster Kick,12,3,20,4,2,80,150,↘ + HK,"Forces stand
+                                                                                                                VS*Can only be canceled V-Skill II
+Causes blowback knockdown on airborne hit"
+Hanakaze,5,3,17,,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Sakura Shoulder Throw,5,3,17,,,150,200,(NEAR OPPONENT) ← + LP LK,None
+Sailor Hop,5,2,6 frame(s) after landing,,,160,200,(CLOSE TO OPPONENT IN AIR) LP LK,None
+[VS1] Harukaze,,,54+15 frame(s) after landing,,,,,(WHEN SELECTING VSKILL I) MP MK,None
+[VS1] Sakura Otoshi,11,3,6 frame(s) after landing(*115),D,-2,50 (*2100) (*3150),40 (*2120) (*3240),(WHEN SELECTING VSKILL I) MP MK ▶ P,"Can be performed up to 3 times on hit only. Startup for the 2nd and 3rd hits is 5F
+Value upon making contact with a standing Ryu, blocking, at the highest point
++6F on block at the lowest point
+-9F on block at the highest point
+Landing recovery for the 3rd attack, hit only, is 5F
+*1on hit
+*2Up to the 2nd hit
+*3Up to the 3rd hit"
+[VS1] Oukakyaku,18,Until landing,11 frame(s) after landing,3,-2,80,100,(WHEN SELECTING VSKILL I) MP MK ▶ K,"Value upon making contact with a standing Ryu at the highest point
+Lowest point: hit +12F, block +7F
+Highest point: hit +0F, block -5F"
+[VS1] Kashinfu,8,3,15 frame(s) after landing,D,,150,200,(WHEN SELECTING VSKILL I) MP MK ▶ LP LK,Can only throw standing opponents
+[VS2] Haru Hayate,,,34 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,None
+[VS2] Haru Hayate (Attack),26,5,14+11 frame(s) after landing,D,-7,70,100,(WHEN SELECTING VSKILL II) MP MK (HOLD BUTTONS),None
+Haruarashi,1,,5,,,,,HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                While active, Hadoken, Tengyo Hadoken, and CA will be strengthened"
+Floral Spin,17,2,24(*27),D,-2,60,0,(DURING GUARD) → + LK,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation
+on hit"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Floral Side-Kick,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Hadoken,15,42,48 total frames,-2,-8,60,100,↓↘→ + LP,None
+M Hadoken,15,49,48 total frames,-2,-8,60,100,↓↘→ + MP,None
+H Hadoken,15,56,48 total frames,-2,-8,60,100,↓↘→ + HP,None
+Hadoken (Charge),41,,71 total frames,D,3,80,150,↓↘→ + P (HOLD BUTTONS),None
+VHadoken,14,,42 total frames,D,1,80,150,↓↘→ + P,"Uses 800F V-Gauge Timer
+                                                                                                                                                                                VS*Can be canceled into V-Skill II on hit or block only"
+VHadoken (Charge),33,,60 total frames,D,10,100,150,↓↘→ + P (HOLD BUTTONS),Uses 800F V-Gauge Timer
+EX Hadoken,14,,45 total frames,D,1,100,150,↓↘→ + P P,None
+Tengyo Hadoken,17,27,45 total frames,D,4,60,100,↓↘→ + K,Will not hit crouching opponents
+Tengyo Hadoken (Charge),39,34,75 total frames,D,1,100,150,↓↘→ + K (HOLD BUTTONS),Will not hit crouching opponents
+VTengyo Hadoken,15,34,45 total frames,D,9,80,150,↓↘→ + K,"Will not hit crouching opponents
+                                                                                                VS*Can be canceled into V-Skill II on hit or block only"
+VTengyo Hadoken (Charge),31,34,55 total frames,D,13,110,150,↓↘→ + K (HOLD BUTTONS),Will not hit crouching opponents
+EX Tengyo Hadoken,15,34,45 total frames,D,-1,100,150,↓↘→ + K K,Will not hit crouching opponents
+L Shouoken,4,7,26+18 frame(s) after landing,D,-31,100,150,→↓↘ + LP,None
+M Shouoken,9,7,28+18 frame(s) after landing,D,-32,110,150,→↓↘ + MP,None
+H Shouoken,14,12,34+18 frame(s) after landing,D,-37,120,150,→↓↘ + HP,None
+EX Shouoken,4,18,36+21 frame(s) after landing,D,-45,150,200,→↓↘ P P,"1F - 12F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+L Shunpukyaku,17,2,13+9 frame(s) after landing,2,-2,60,150,↓↙← + LK,None
+M Shunpukyaku,21,4,10+14 frame(s) after landing,3,-6,80,150,↓↙← + MK,None
+H Shunpukyaku,24,6,8+14 frame(s) after landing,2,-2,100,150,↓↙← + HK,None
+EX Shunpukyaku,15(*12),6,4+18 frame(s) after landing,,-2,,,↓↙← + K K,"*When canceled by standing light punch, crouching light punch, crouching medium kick
+V*Third attack can be canceled when blocked"
+EX Shunpukyaku (Hit),15,11,23,D,,120,150,↓↙← + K K,V*Only possible during 3rd attack
+Airborne Shunpukyaku,13,4,16 frame(s) after landing,D,,100,150,(DURING JUMP) ↓↙← + K,Strength changes travel distance
+EX Airborne Shunpukyaku,12,19,16 frame(s) after landing,D,,140,200,(DURING JUMP) ↓↙← + K K,None
+Hogasho,21,7,22,9,5,80,150,(DURING V-TRIGGER I) HP HK,"Uses 500F V-Gauge Timer
+                                                                                                                                                                                Cannot be performed by canceling from a special move cancellable move
+Note: Recovery is extended by 5F on whiff"
+Sakura Rain,1+5,,77 total frames,D,-23,250（*330）,0,↓↘→ ↓↘→ + P,"1F - 7F  full invincibility
+                                                *During release hit"
+VSakura Rain,1+5,,77 total frames,D,-23,280（*350）,0,(DURING V-TRIGGER I) ↓↘→ ↓↘→ + P,"1F - 7F  full invincibility
+                                                *During release hit"

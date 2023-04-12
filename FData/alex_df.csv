@@ -1,0 +1,108 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,7,4,2,30,70,,None
+Standing MP,6,2,12,5,3,60,100,,None
+Standing HP,9,4,22,0,-3,90,150,,"1F will not hit grounded opponents
+Causes blowback knockdown on mid-air hit"
+Standing LK,5,3,8,2,0,40,70,,None
+Standing MK,7,3,15,2,-2,70,100,,None
+Standing HK,17,3,25,1,-4,100,150,,"Triggers Crush Counter  (crumple)
+                                                                                                                                                                Causes blowback knockdown on mid-air hit"
+Crouching LP,4,2,7,5,2,30,70,,None
+Crouching MP,7,2,17,2,-1,70,100,,None
+Crouching HP,10,6,23,D,-8,90,150,,Diagonal input changes the forward movement distance
+Crouching LK,4,3,6,4,0,20,70,,None
+Crouching MK,9,2,18,0,-3,60,100,,None
+Crouching HK,10,2,24,D,-12,100,150,,Triggers Crush Counter  (D)
+Jumping LP,4,5,,,,40,70,,None
+Jumping MP,5,7,,,,70,100,,None
+Jumping HP,8,3,,,,90,150,,None
+Jumping LK,4,5,,,,40,70,,Can cross-up
+Jumping MK,6,6,,,,70,100,,None
+Jumping HK,9,5,,,,90,150,,None
+Flying Cross Chop,14,16,15 frames after hit landing 35 frames after block or miss landing,8,,90,150,(DURING FORWARD JUMP) ↓ + HP,None
+Chop,22,2,18,1,-8,60,100,→ + MP,None
+Lariat,11,4,16,8,4,80,150,→ + HP,"Triggers Crush Counter (+15F)
+                                                Forces stand"
+Face-Crush Chop,5,3,17,,,120,120,(NEAR OPPONENT) → OR + LP LK,None
+Leg Tomahawk,5,3,17,,,160,200,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Overhaul,,,50 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,"Physical attacks gain Hard Hit property
++5F advantage on Hard Hit, +3F advantage for Crush Counter moves"
+[VS2] Overchain,,,50 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,"After use, allows one Special Move to be canceled into a different Special Move
+Note: EX Special Moves can only be canceled into other EX Special Moves
+Canceled special moves that connect or are blocked will increase V Gauge"
+Rage Shift,1,,5,,,,,HP HK,"V-Gauge Timer + 1700F
+                                                                                                                                                                                While active, Alex gains the special move Sledge Hammer"
+Big Boot,17,2,23,D,-2,60,0,(DURING GUARD) → + LK,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+War Hammer,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Flash Chop,12,3,20,2,-4,70,150,↓↘→ + LP,None
+M Flash Chop,18,3,19,3,-4,80,150,↓↘→ + MP,None
+H Flash Chop,25,3,21,2,-6,90,150,↓↘→ + HP,None
+EX Flash Chop,11,5,19,D,-2,140,200,↓↘→ + P P,None
+L Flash Chop (VS2 Ver.),12,3,20,2,-4,70,100,(DURING V-SKILL II) (During Slash Elbow/Air Stampede) ↓↘→ + LP,None
+M Flash Chop (VS2 Ver.),18,3,19,3,-4,80,100,(DURING V-SKILL II) (During Slash Elbow/Air Stampede) ↓↘→ + MP,None
+H Flash Chop (VS2 Ver.),25,3,21,2,-6,100,100,(DURING V-SKILL II) (During Slash Elbow/Air Stampede) ↓↘→ + HP,None
+EX Flash Chop (VS2 Ver.),11,5,19,D,-2,140,150,(DURING V-SKILL II) (During Slash Elbow/Air Stampede) ↓↘→ + P P,None
+L Slash Elbow,16,5,22,3,-2,80,150,→ + LK,None
+M Slash Elbow,18,5,22,D,-6,90,150,→ + MK,None
+H Slash Elbow,24,5,19,D,-7,100,150,→ + HK,None
+EX Slash Elbow,14,3,29,D,-17,150,200,→ + K K,"First hit only forces stand
+                                                                                                                Startup frames for when in close contact
+Armor from 3F until attack startup"
+L Slash Elbow (VS2 Ver.),16,5,22,3,-2,80,150,(DURING V-SKILL II) (During Slash Elbow/Air Stampede) → + LK,None
+M Slash Elbow (VS2 Ver.),18,5,22,D,-6,90,150,(DURING V-SKILL II) (During Slash Elbow/Air Stampede) → + MK,None
+H Slash Elbow (VS2 Ver.),24,5,19,D,-7,100,100,(DURING V-SKILL II) (During Slash Elbow/Air Stampede) → + HK,None
+EX Slash Elbow (VS2 Ver.),14,3,29,D,-17,150,150,(DURING V-SKILL II) (During Slash Elbow/Air Stampede) → + K K,"First hit only forces stand
+                                                                                                                Startup frames for when in close contact
+Armor from 3F until attack startup"
+L Air Knee Smash,6,8,21+17 frame(s) after landing,D,,130,200,→↓↘ + LK,Will not hit grounded opponents
+M Air Knee Smash,9,10,19+23 frame(s) after landing,D,,130,200,→↓↘ + MK,Will not hit grounded opponents
+H Air Knee Smash,11,10,19+25 frame(s) after landing,D,,130,200,→↓↘ + HK,Will not hit grounded opponents
+EX Air Knee Smash,6,8,21+27 frame(s) after landing,D,,140,200,→↓↘ + K K,"Will not hit crouching opponents
+                                                5F - 13F  projectile invincibility
+                5F - 13F  invincible to mid-air attacks"
+L Air Knee Smash (VS2 Ver.),6,8,21+17 frame(s) after landing,D,,130,150,(DURING V-SKILL II) (During Flash Chop/Slash Elbow/Air Stampede) →↓↘ + LK,Will not hit grounded opponents
+M Air Knee Smash (VS2 Ver.),9,10,19+23 frame(s) after landing,D,,130,150,(DURING V-SKILL II) (During Flash Chop/Slash Elbow/Air Stampede) →↓↘ + MK,Will not hit grounded opponents
+H Air Knee Smash (VS2 Ver.),11,10,19+25 frame(s) after landing,D,,130,150,(DURING V-SKILL II) (During Flash Chop/Slash Elbow/Air Stampede) →↓↘ + HK,Will not hit grounded opponents
+EX Air Knee Smash (VS2 Ver.),6,8,21+27 frame(s) after landing,D,,140,150,(DURING V-SKILL II) (During Flash Chop/Slash Elbow/Air Stampede) →↓↘ + K K,"Will not hit crouching opponents
+                                                5F - 13F  projectile invincibility
+                5F - 13F  invincible to mid-air attacks"
+L Air Stampede,27,3,17,D,-5,120,200,↑ + LK,None
+M Air Stampede,30,3,21,D,-5,120,200,↑ + MK,None
+H Air Stampede,33,3,22,D,-5,120,200,↑ + HK,None
+EX Air Stampede,29,3,18,D,2,140,200,↑ + K K,"1F - 30F  projectile invincibility
+                                                Movement distance can be controlled with left/right directional input"
+L Air Stampede (VS2 Ver.),27,3,17,D,-5,120,150,(DURING V-SKILL II) (During Flash Chop/Slash Elbow) ↑ + LK,None
+M Air Stampede (VS2 Ver.),30,3,21,D,-5,120,150,(DURING V-SKILL II) (During Flash Chop/Slash Elbow) ↑ + MK,None
+H Air Stampede (VS2 Ver.),33,3,22,D,-5,120,150,(DURING V-SKILL II) (During Flash Chop/Slash Elbow) ↑ + HK,None
+EX Air Stampede (VS2 Ver.),29,3,18,D,2,140,150,(DURING V-SKILL II) (During Flash Chop/Slash Elbow) ↑ + K K,"1F - 30F  projectile invincibility
+                                                Movement distance can be controlled with left/right directional input"
+L Head Crush,36,2,30,3,,160,250,↑ + LP,Forward movement distance can be controlled with directional input
+M Head Crush,40,2,30,3,,160,250,↑ + MP,Forward movement distance can be controlled with directional input
+H Head Crush,44,2,30,3,,160,250,↑ + HP,Forward movement distance can be controlled with directional input
+EX Head Crush,30,2,50,3,,180,300,↑ + P P,"1F - 4F  throw invincibility
+                                                Forward movement distance can be controlled with directional input"
+L Power Bomb,9,2,60,D,,170,200,→↘↓↙← + LP,None
+M Power Bomb,6,2,60,D,,180,230,→↘↓↙← + MP,None
+H Power Bomb,6,2,60,D,,190,250,→↘↓↙← + HP,None
+EX Power Bomb,5,3,59,D,,230,250,→↘↓↙← + P P,None
+Power Drop,5,2,52,D,,120,200,(When H Flash Chop hits or is blocked) →↘↓↙← + P,None
+EX Power Drop,5,2,52,D,,180,250,(When H Flash Chop hits or is blocked) →↘↓↙← + P P,None
+VSledge Hammer (Parry),2,12,23,,,,,HP HK,"Uses 100F V-Gauge Timer
+                                                                                                                                                                                Regain 200F V-Gauge timer upon a successful counter
+Upon successful parry, 18F of unique hit stop
+During hit stop and while active, can be canceled into Sledge Hammer again"
+VSledge Hammer (Attack),20,2,29,5(*-1),-12,80,150(*100),HP HK,"Uses 400F V-Gauge Timer
+                                                                                                                                                                                *Value when side-switching doesn’t happen"
+VSledge Hammer (Charge Attack),68,2,25,11(*D),GB+4,130,200(*150),HP HK (HOLD BUTTONS),"Uses 400F V-Gauge Timer
+                                                                                                                                                                                V-Gauge Timer is used during attack startup
+*Value when side-switching doesn’t happen"
+VPower Drop (Sledge Hammer Version),5,2,52,D,,140,250,(ONLY TRIGGERS WITH SLEDGE HAMMER) →↘↓↙← + P,None
+VEX Power Drop (Sledge Hammer Version),5,2,52,D,,200,300,(ONLY TRIGGERS WITH SLEDGE HAMMER) →↘↓↙← + P P,None
+Heavy Hammer,1+4,2,,D,,340,0,↓↘→ ↓↘→ + P,1F - 6F  full invincibility
+Heavy Hammer (1st Hit Blocked or Miss),,5,46,D,-25,230,0,↓↘→ ↓↘→ + P,None

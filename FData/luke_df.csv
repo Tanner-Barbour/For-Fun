@@ -1,0 +1,98 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,5,3,13(*17),2,-4,30,70,,*On whiff
+Standing MP,7,3,17(*19),2,-2,70,100,,*On whiff
+Standing HP,10,3,23,1,-5,80,150,,None
+Standing LK,5,2,11,1,-2,40,70,,None
+Standing MK,8,4,16,2,-2,70,100,,None
+Standing HK,10 ,6,17,-1,-4,90,150,,None
+Crouching LP,3,2,6,4,2,30,70,,Can be rapid canceled
+Crouching MP,6,3,13,5,2,60,100,,None
+Crouching HP,7,5,24,0,-6,80,150,,Can be canceled before the 2nd active frame
+Crouching LK,4,2,8,3,1,20,70,,Can be rapid canceled
+Crouching MK,7,2,14,2,-3,50,100,,None
+Crouching HK,8,2,26,D,-12,90,150,,Triggers Crush Counter (D)
+Jumping LP,4,5,,,,40,70,,None
+Jumping MP,6,3,,,,60,100,,Causes blowback knockdown on airborne hit
+Jumping HP,8,5,,,,90,150,,None
+Jumping LK,4,5,,,,40,70,,Can cross-up
+Jumping MK,8,5,,,,60,100,,Can cross-up
+Jumping HK,10,4,,,,90,150,,None
+Rawhide,22,3,18,0,-7,70,100,→ + MP,Slams the opponent to the ground on a mid-air hit
+Brutal Spike,5,4,14,4,2,60,100,← + MP,None
+Heavy Impact,16,2,19,5,-2,90,150,→ + HP,Triggers Crush Counter (+10F)
+Outlaw Kick,10,4,18,5,-2,80,150,← + HK,"Triggers Crush Counter (crumple)
+                                                                Will not hit crouching opponents
+                                                                                                Causes blowback knockdown on airborne hit"
+Triple Impact (2),7,3,21,0,-8,50,80,LP ▶ MP,None
+Triple Impact (3),10,2,30,D,-12,70,100,LP ▶ MP ▶ HP,None
+Snapback Combo (2),13,2,21,2,-6,30,60,MP ▶ MP,None
+Snapback Combo (3),10,2,24,0,-8,30,60,MP ▶ MP ▶ MP,None
+Snapback Combo (4),12,2,30,D,-15,50,100,MP ▶ MP ▶ MP ▶ MP,None
+Punisher,5,3,17,D,,130,150,OR → + LP LK,None
+Scrapper,5,3,17,D,,140,160,← + LP LK,None
+[VS1] Hard Shot,,,50 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,"After activation, strengthens the next Flash Knuckle performed"
+[VS2] Suppressor,16,2,19(*114),2,-2,60(*280),100,(WHEN SELECTING VSKILL II) MP MK,"12F - 17F  throw invincibility
+                                                Frames 7 to 11 counter against throws
+If an opponent's throw connects during this period, the strengthened version of this move will trigger
+*1on hit
+*2Values for strengthened version"
+Fully Armed,,,5 total frames,,,,,HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                                                                While active, Rock Smasher and Thermobaric Thrash become available
+Other than when using the specified moves above, the V-Gauge Timer will increase and decrease based on the following conditions:
+1. The V-Gauge Timer will recover 6 frames every 10 frames
+2. When Luke lands an attack, the V-Gauge Timer will recover frames equivalent to 75% of the damage inflicted
+3. When Luke is hit by an attack, he'll lose double the amount of V-Gauge that he would gain in normal circumstances
+4. Whenever the V-Gauge Timer is decreased, no increases will occur for the next 90 frames"
+Ejector,17,2,24,D,-2,60,0,(DURING GUARD) → + LK,"1F - 26F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Downward Strike,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Sand Blaster,12,5,48 total frames,1,-10,60,100,↓↘→ + LP,S*Can cancel into Rock Smasher
+M Sand Blaster,15,7,48 total frames,1,-8,60,100,↓↘→ + MP,S*Can cancel into Rock Smasher
+H Sand Blaster,18,9,48 total frames,1,-5,60,100,↓↘→ + HP,S*Can cancel into Rock Smasher
+EX Sand Blaster,15,9,43 total frames,D,2,90,150,↓↘→ + P P,S*Can cancel into Thermobaric Thrash
+Rock Smasher,14,,70 total frames,D,-2,120,120,(DURING V-TRIGGER I) HP HK,"Uses 900F V-Gauge Timer
+                                                                                                                                                                                Can be canceled into from his V-Trigger cancelable moves, or from Sand Blaster"
+Thermobaric Thrash,16,,101 total frames,D,-2,180,200,(DURING V-TRIGGER I) ↓↘→ + P P ▶ HP HK,"Uses 900F V-Gauge Timer
+                                                                                                                                                                                Can only be performed after an EX Sand Blaster"
+L Rising Rocket,4,11,24+16 frame(s) after landing,D,-29,110(*60),150(*100),→↓↘ + LP,"1F - 6F  throw invincibility
+                1F - 6F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 4F"
+M Rising Rocket,5,11,26+16 frame(s) after landing,D,-31,120(*60),150(*100),→↓↘ + MP,"1F - 7F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 4F"
+H Rising Rocket,8,11,29+16 frame(s) after landing,D,-34,130(*60),150(*100),→↓↘ + HP,"5F - 10F  attack & projectile invincibility
+                1F - 4F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 4F"
+EX Rising Rocket,4,11,31+16 frame(s) after landing,D,-35,160,200,→↓↘ + P P,"1F - 9F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+L Flash Knuckle,11,3,27,D,-11,60,100,↓↙← + LP,The held button version will trigger after holding the button for 13 frames
+M Flash Knuckle,16,3,22,2,-5,80,120,↓↙← + MP,The held button version will trigger after holding the button for 18 frames
+H Flash Knuckle,22,2,23,D,-2,120,150,↓↙← + HP,The held button version will trigger after holding the button for 28 frames
+L Flash Knuckle (Hold Button),18-33,3,27,D,-8,70,100,↓↙← + LP (HOLD BUTTONS),Second attack only triggers when the first one hits or is blocked
+M Flash Knuckle (Hold Button),25-35,3,26,D,-2,90,120,↓↙← + MP (HOLD BUTTONS),Second attack only triggers when the first one hits or is blocked
+H Flash Knuckle (Hold Button),39-49,2,29,D,2,130,150,↓↙← + HP (HOLD BUTTONS),Second attack only triggers when the first one hits or is blocked
+EX Flash Knuckle,13,3,22,D,-8,80,100,↓↙← + P P,Second attack only triggers when the first one hits or is blocked
+[VS1] L Flash Knuckle,11,3,27,D,-8,70,100,(DURING V-SKILL I) ↓↙← + LP,"The held button version will trigger after holding the button for 13 frames
+Second attack only triggers when the first one hits or is blocked"
+[VS1] M Flash Knuckle,16,3,26,D,-2,90,120,(DURING V-SKILL I) ↓↙← + MP,"The held button version will trigger after holding the button for 18 frames
+Second attack only triggers when the first one hits or is blocked"
+[VS1] H Flash Knuckle,22,2,29,D,2,130,150,(DURING V-SKILL I) ↓↙← + HP,"The held button version will trigger after holding the button for 28 frames
+Second attack only triggers when the first one hits or is blocked"
+[VS1] L Flash Knuckle (Hold Button),18-33,3,27,D,-2,80,100,(DURING V-SKILL I) ↓↙← + LP (HOLD BUTTONS),Second attack only triggers when the first one hits or is blocked
+[VS1] M Flash Knuckle (Hold Button),25-35,3,26,D,3,100,120,(DURING V-SKILL I) ↓↙← + MP (HOLD BUTTONS),Second attack only triggers when the first one hits or is blocked
+[VS1] H Flash Knuckle (Hold Button),39-49,2,29,D,4,140,150,(DURING V-SKILL I) ↓↙← + HP (HOLD BUTTONS),Second attack only triggers when the first one hits or is blocked
+Avenger,,,50 total frames,,,,,↓↘→ + K,Can transition into its derivative attacks between frames 14 and 41
+No Chaser,11,8,16,D,-4,100,150,↓↘→ + K ▶ P,None
+Impaler,16,2,32,D,-12,100,150,↓↘→ + K ▶ K,None
+EX Avenger,,,50 total frames,,,,,↓↘→ + K K,"Armor from 3F to 40F
+Can transition into its derivative attacks between frames 14 and 41"
+EX No Chaser,9,8,16,D,-6,120,150,↓↘→ + K K ▶ P,None
+EX Impaler,16,2,32,D,-12,120,150,↓↘→ + K K ▶ K,None
+Annihilator,5,3,45,D,-26,340,0,↓↘→ ↓↘→ + P,Lock animation occurs when the first attack connects.

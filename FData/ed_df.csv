@@ -1,0 +1,67 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,2,8,5,3,30,70,,Can be rapid canceled
+Standing MP,6,3,16,10,3,60,100,,None
+Standing HP,11,3,21,2,-2,90,150,,"Triggers Crush Counter  (D)
+                                                                                                                                                                Value is the fastest startup"
+Standing LK,3,3,8,2,1,30,70,,Can be rapid canceled
+Standing MK,7,3,15,4,2,70,100,,None
+Standing HK,14,4,22,2,-4,80,150,,Triggers Crush Counter (+20F)
+Crouching LP,4,2,8,5,3,30,70,,Can be rapid canceled
+Crouching MP,6,3,12,5,2,60,100,,None
+Crouching HP,8,6,21,1,-5,80(*70),150,,"Triggers Crush Counter  (D)
+                                                Forces stand
+                                                                                                                *From active frame 2F"
+Crouching LK,4,2,8,2,0,20,70,,None
+Crouching MK,7,2,17,1,-3,50,100,,None
+Crouching HK,10,5,24(*22),D,-10,90,150,,"Triggers Crush Counter  (D)
+                                                                                                                                                                *On whiff"
+Jumping LP,4,5,,,,40,70,,None
+Jumping MP,7,4,,,,70,100,,Causes knockdown on mid-air hit
+Jumping HP,9,4,,,,90,150,,None
+Jumping LK,3,6,,,,40,70,,None
+Jumping MK,8,5,,,,60,100,,Can cross-up
+Jumping HK,9,5,,,,90,150,,None
+Psycho Blow,5,3,17,D,,130,150,OR → + LP LK,None
+Cheat & Smash,5,3,17,D,,140,200,← + LP LK,None
+[VS1] Psycho Snatcher - Ground,21,6,40,D,-2,80,200,(WHEN SELECTING VSKILL I) MP MK,"Will not hit airborne opponents
+                                                                Value is the fastest startup
+If the Snatcher hits, Ed automatically closes the distance with a body blow"
+[VS1] Psycho Snatcher - Ground (Hold Button),35,6,40,D,3,120,0,(WHEN SELECTING VSKILL I) MP MK (HOLD BUTTONS),"Will not hit airborne opponents
+                                                                If the Snatcher hits, Ed launches the opponent while bringing them closer, if it's blocked, he brings them closer on the ground"
+[VS1] Psycho Snatcher - Air,9,4,47,D,,100,150,(WHEN SELECTING VSKILL I) ↓ + MP MK,"Will not hit grounded opponents
+                                                                                Value is the fastest startup
+If the Snatcher hits, Ed automatically flies up to the opponent with a punch strike"
+[VS1] Psycho Snatcher - Air (Hold Button),26,6,40,D,,80,100,(WHEN SELECTING VSKILL I) ↓ + MP MK (HOLD BUTTONS),"Will not hit grounded opponents
+                                                                                If the Snatcher hits, Ed slams the opponent into the ground and they'll bounce up"
+[VS2] Psycho Swing,22,3,20,D,-6,70,100,(WHEN SELECTING VSKILL II) MP MK,5F - 24F  projectile invincibility
+[VS2] Psycho Swing (Hold Button),38,3,19,D,-2,80,120,(WHEN SELECTING VSKILL II) MP MK (HOLD BUTTONS),5F - 37F  projectile invincibility
+[VS2] Psycho Smash,11,5,21,D,-6,70,100,(WHEN SELECTING VSKILL II) ↓ + MP MK,None
+[VS2] Psycho Smash (Hold Button),31,5,17(*19),D,3,90,120,(WHEN SELECTING VSKILL II) ↓ + MP MK (HOLD BUTTONS),*On whiff
+Psycho Cannon,1+15(*12),,25 total frames(*21),D,,140,175,HP HK,*Press the forward direction to change the projectile's speed
+Kill Step,,,31 total frames,,,,,(DURING GUARD) → + LK,"1F - 25F  attack invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Psycho Split,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+Psycho Flicker,6,6,22,3,-2,80,150,P (REPEAT BUTTON),No changes based on button strength
+Psycho Spark,11,8,16,1,-2,50,80,→ + MP,Treated as a projectile
+Psycho Shoot,13,,39 total frames,4,-4,50,70,(DURING Psycho Spark) P,Button strength changes projectile speed
+EX Psycho Shoot,13,,36 total frames,D,8,100,150,(DURING Psycho Spark) P P,None
+Psycho Knuckle,30,12,27,(crumple),-2,100,150,HP (HOLD BUTTONS),"Moves behind the opponent on hit and block
+Crumple time is longer the closer the attack hits
+VS*Can only be canceled V-Skill II"
+Psycho Upper,16,5,33,D,-16,120,150,P P,None
+EX Psycho Upper,16(*13),11,32,D,-20,140,200,LP,"1F - 18F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)
+*During cancel"
+Psycho Rising,12,18,26 frame(s) after landing,D,-38,50,100,K K,"3F - 9F  projectile invincibility
+10F - 13F  full invincibility
+                                                Subject to counter hit during move duration"
+Psycho Splash,14,Until landing,26 frame(s) after landing,D,,70,100,(AFTER Psycho Rising HITS) P,Can only be done on hit
+EX Psycho Splash,14,Until landing,13 frame(s) after landing,D,,80,100,(AFTER Psycho Rising HITS) P P,"Can only be done on hit
+Projectile invincible while active"
+Psycho Barrage,1+9,14,49,D,-21,340,0,↓↘→ ↓↘→ + P,"1F - 19F  full invincibility
+                                                The active frames are for whiff"

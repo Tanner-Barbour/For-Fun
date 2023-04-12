@@ -1,0 +1,85 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,2,6,4,3,30,70,,Can be rapid canceled
+Standing MP,6,3,15,2,0,60,100,,None
+Standing HP,8,3,22,0,-5,90,150,,Triggers Crush Counter (+14F)
+Standing LK,3,3,7,3,1,30,70,,None
+Standing MK,7,4,15,2,0,70,100,,None
+Standing HK,9,4,14(*15),2,-2,90,150,,*On whiff
+Crouching LP,4,3,6,4,3,30,70,,Can be rapid canceled
+Crouching MP,6,3,13,6,3,60,100,,None
+Crouching HP,9,2,17,7,3,80,150,,Forces stand
+Crouching LK,4,3,6,4,1,20,70,,None
+Crouching MK,8,3,16,4,-4,50,100,,None
+Crouching HK,8,2,24,D,-12,90,150,,Triggers Crush Counter  (D)
+Jumping LP,3,6,,,,40,70,,None
+Jumping MP,5,5,,,,70,100,,None
+Jumping HP,7,5,,,,90,150,,None
+Jumping LK,4,5,,,,40,70,,None
+Jumping MK,6,5,,,,60,100,,Can cross-up
+Diagonal Jumping HK,9,5,,,,90,150,,None
+Vertical Jump HK,8,6,,,,90,150,,"Can cross-up
+                                                                                                                                                Causes blowback knockdown on airborne hit"
+Chopping Assault,22,3,16,0,-7,60,100,→ + MP,9F - 22F  throw invincibility
+Spinning Back Knuckle,15,3,30,-3,-13,90,150,→ + HP,Triggers Crush Counter  (crumple)
+Knee Bazooka,7,6,18,-1,-5,60,70,→ + LK,7F - 22F  throw invincibility
+Jumping Sobat,11,2,18,2,-3,70,100,→ + MK,8F - 17F  throw invincibility
+Side Knee Attack,5,4,14,4,2,60,100,← + MK,None
+Step Kick,14,4,17,3,-3,90,150,→ + HK,None
+Rapid Punch,6,3,14,1,-6,50,80,LP ▶ MP,None
+Rapid Kick,5,4,15,D,-6,60,80,LK ▶ MK,None
+Wind Shear (2),9,4,22,2,-7,40,50,MP ▶ LK,8F - 23F  throw invincibility
+Wind Shear (3),6,3,24,D,,70,100,MP ▶ LK ▶ HP,None
+Down Burst,18,3,16,1,-7,60,100,↓ + MP ▶ → + MP,5F - 18F  throw invincibility
+(Raptor/Bullet) Combination (2),9,3,26,D,-10,55,80,MK ▶ HK,None
+Raptor Combination (3),14,4,17,D,,55,100,MK ▶ HK ▶ MK,None
+Bullet Combination (3),8,2,23,D,,55,100,(WHEN SELECTING VSKILL I) MK ▶ HK ▶ MP MK,None
+Dragon Suplex,5,3,17,D,,140,150,(NEAR OPPONENT) → OR + LP LK,None
+Target Down,5,3,17,D,,150,200,(NEAR OPPONENT) ← + LP LK,None
+Air Jack,5,2,6 frame(s) after landing,D,,140,200,(CLOSE TO OPPONENT IN AIR) + LP LK,None
+[VS1] Bullet Clear,8 (*6),4(*8),21,5,-5,70,100,(WHEN SELECTING VSKILL I) MP MK,"*Value while absorbing projectile
+V-Gauge +80 upon successful absorption of a projectile"
+[VS2] Silent Sharpness,,,53 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,Strengthens the next Sonic Scythe used
+Sonic Move - Hide,,,9,,,,,OR ↓ + HP HK,"1F - 3F  projectile & throw invincibility
+4F  full invincibility
+                                                出現後2F間投げ無敵"
+Sonic Move - Blitz Air,,,24+4 frame(s) after landing,,,,,← + HP HK,4F  full invincibility
+Sonic Move - Steel Air,,,24+4 frame(s) after landing,,,,,→ + HP HK,4F  full invincibility
+Sonic Move - Avoid,,,44,,,,,(DURING GUARD) → + LK,"1F - 15F, 42F - 45F  attack & projectile invincibility
+16F - 41F  full invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Vengeful Bullet,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Sonic Boom,15,,47 total frames,-2,-6,60,100,↓↘→ + LP,None
+M Sonic Boom,17,,47 total frames,0,-4,60,100,↓↘→ + MP,None
+H Sonic Boom,22,,45 total frames,4,-2,60,100,↓↘→ + HP,None
+EX Sonic Boom,11,,37 total frames,4,2,60,100,↓↘→ + P P,None
+EX Sonic Boom (2),10,,36 total frames,3,2,60,100,↓↘→ + P P ▶ P,None
+L Moonsault Slash,37,3,11,4,1,60,100,↓↘→ + LK,None
+M Moonsault Slash,37,3,12,4,2,60,100,↓↘→ + MK,None
+H Moonsault Slash,37,3,14,4,3,60,100,↓↘→ + HK,None
+EX Moonsault Slash,39,9,10,7,3,120,150,↓↘→ + K K,None
+L Tragedy Assault,17,2,23,D,-5,100,150,→↓↘ + LP,50 reduction of the opponent's V-Gauge on hit
+M Tragedy Assault,22,2,26,D,-6,120,150,→↓↘ + MP,100 reduction of the opponent's V-Gauge on hit
+H Tragedy Assault,34,2,28,D,-8,160,200,→↓↘ + HP,150 reduction of the opponent's V-Gauge on hit
+EX Tragedy Assault,8,5,48,D,-23,120,150,→↓↘ + P P,"Nash gains 30 vitality on hit
+V*Only on hit"
+L Sonic Scythe,10,3,24,D,-7,100,100,↓↙← + LK,None
+M Sonic Scythe,15,3,22,D,-10,110,100,↓↙← + MK,None
+H Sonic Scythe,13,5,21,D,-15,120,150,↓↙← + HK,"13F - 20F  invincible to mid-air attacks
+                                V*Only possible during 1st attack"
+L Sonic Scythe (VS2 Ver.),10,8,19,D,2,100,100,(DURING V-SKILL II) ↓↙← + LK,None
+M Sonic Scythe (VS2 Ver.),15,6,22,D,-5,120,120,(DURING V-SKILL II) ↓↙← + MK,None
+H Sonic Scythe (VS2 Ver.),13,5,21,D,-15,120,150,(DURING V-SKILL II) ↓↙← + HK,"13F - 20F  invincible to mid-air attacks
+                                V*Only possible during 1st attack"
+EX Sonic Scythe,6,13,34,D,-19,160,200,↓↙← + K K,"1F - 6F  throw invincibility
+                6F - 14F  invincible to mid-air attacks
+                                V*Only possible during 1st, 3rd, 4th attack"
+EX Sonic Scythe (VS2 Ver.),6,16,34,D,-19,180,200,(DURING V-SKILL II) ↓↙← + K K,"1F - 6F  throw invincibility
+                6F - 14F  invincible to mid-air attacks
+                                V*Only possible during 1st, 4th, 5th attack"
+Judgement Saber,1+9,3,40,D,-31,330,0,↓↙← ↓↙← + P,"11F - 12F  projectile invincibility
+1F - 10F  full invincibility"

@@ -1,0 +1,82 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,6,5,2,30,70,,VS*Can only be canceled into V-Nishodoku
+Standing MP,7,4,15,2,-3,60,100,,"Second hit will not hit airborne opponents
+                                                                S*CA*V*Only possible during 1st attack
+VS*Can only be canceled into V-Nishodoku"
+Standing HP,7,3,19,1,-2,90,150,,"Triggers Crush Counter (+16F)
+                                                                                                                                                                VS*Can only be canceled into V-Nishodoku"
+Standing LK,6,3,7,5,3,40,70,,VS*Can only be canceled into V-Nishodoku
+Standing MK,5,4,14,3,1,60(*60),100(*100),,"Second hit will not hit crouching opponents
+                                First hit will not hit airborne opponents
+                                                                *During 2nd mid-air hit
+VS*Can only be canceled into V-Nishodoku"
+Standing HK,12,4,16,6,1,80,150,,"S*CA*Only possible during 1st attack
+VS*Can only be canceled into V-Nishodoku
+Will be blown away if hit while mid-air during first attack"
+Crouching LP,4,3,8,3,1,30,70,,VS*Can only be canceled into V-Nishodoku
+Crouching MP,6,2,16,1,-2,50,100,,VS*Can only be canceled into V-Nishodoku
+Crouching HP,9,5,19,D,-6,90,150,,VS*Can only be canceled into V-Nishodoku
+Crouching LK,5,3,7,4,1,20,70,,None
+Crouching MK,8,5,14,5,3,60,100(*100),,"Second hit will not hit airborne opponents
+                                                                S*CA*Only possible during 1st attack
+*During 1st mid-air hit
+VS*Can only be canceled into V-Nishodoku"
+Crouching HK,9,4,24,D,-12,100,150,,"Triggers Crush Counter  (D)
+                                                                                                                                                                V*Only possible during 1st attack"
+Jumping LP,4,5,,,,40,50,,None
+Jumping MP,5,4,,,,70,100,,Causes blowback knockdown on airborne hit
+Jumping HP,8,5,,,,90,150,,During neutral jump only - can move forward with directional input
+Jumping LK,4,6,,,,40,50,,Can cross-up
+Jumping MK,5,4,,,,70,100,,None
+Forward Jump HK,9,4,,,,80,150,,Can cross-up
+Vertical/Back Jump HK,9,4,,,,80,150,,None
+Nirenko,12,4,21,0,-5,100,200,↘ + HP,S*CA*Only possible during 1st attack
+Senpukuga (Prone),,,54 total frames,,,,,↓ + LP,"Can extend the move duration by a max of 86F by continuing to hold down
+S*Can be canceled into Nishikyu from 22F"
+Senpukuga (Attack),10,4,14,6,2,70,100,↓ + LP ▶ K,None
+Shimonshu,5,3,17,,,120,150,(NEAR OPPONENT) → OR + LP LK,None
+Kyoshitsugeki,5,3,17,,,120,150,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Nishodoku,22,250,40 total frames,,,50 poison,,(WHEN SELECTING VSKILL I) MP MK,"Will not hit airborne opponents
+                                                                Causes poison effect on hit"
+V[VS1] Nishodoku,22,259,45 total frames,4,0,60+50 poison,100,(WHEN SELECTING VSKILL I) (DURING V-TRIGGER I) MP MK,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                Causes poison effect on hit
+Can be canceled into from special move-cancelable normal moves"
+[VS2] Sodokubu,3,10,54,,,0,0,(WHEN SELECTING VSKILL II) MP MK,"Can counter striking attacks
+Subject to counter hit during move duration"
+[VS2] Sodokubu (upon successful parry),3,8,62,D,-42,60+50 poison,120,,None
+V[VS2] Sodokubu (upon successful parry),3,8,62,D,-42,80+50 poison,150,,None
+Dokunomu,1,,2,,,,,HP HK,"V-Gauge Timer + 900F
+                                                                                                                                                                                While active, coming into contact with F.A.N.G will poison the opponent
+No charge time required for charge moves used from a special move cancel"
+Nikaiho,,,31 total frames,,,,,(DURING GUARD) → + LP,"1F - 25F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Ryosenbu,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+Nishikyu,13,,60 total frames,-7,-11,40+50 poison,100,↑ + P,"Causes poison effect on hit
+S*Can only cancel into Nikankyaku, EX Nikankyaku"
+EX Nishikyu,13,,49 total frames,3,-1,90+50 poison,100,↑ + P P,"Causes poison effect on hit
+S*Can only cancel into Nikankyaku"
+L Ryobenda,14,3,29,D,-9,60+50 poison,200,→ + LK,Causes poison effect on hit
+M Ryobenda,19,80,46 total frames,1,-8,40+50 poison,100,→ + MK,Causes poison effect on hit
+H Ryobenda,23,120,52 total frames,-1,-10,40+50 poison,100,→ + HK,Causes poison effect on hit
+EX Ryobenda,15,2,48 total frames,D,2,60+50 poison,200,→ + K K,"Causes poison effect on hit
+S*Airborne portion can be canceled into Nikyoushu"
+EX Ryobenda (Placed Poison),,220,,,,40+50 poison,44,→ + K K,Causes poison effect on hit
+L Sotoja,13,8,23,0,-11,70+50 poison,200,→ + LP,Causes poison effect on hit
+M Sotoja,16,8,23(*22),D/-1,-9,80+50 poison,200,→ + MP,"Causes poison effect on hit
+*1st hit"
+H Sotoja,21,8,24(*23),D/-2,-10,100+50 poison,200,→ + HP,"Causes poison effect on hit
+*1st hit"
+EX Sotoja,14,8,18,D,-2,100+50 poison,200,→ + P P,Causes poison effect on hit
+L Nikankyaku,,,29 total frames,,,,,→↓↘ + LK,6F - 28F  projectile invincibility
+M Nikankyaku,,,29 total frames,,,,,→↓↘ + MK,6F - 28F  projectile invincibility
+H Nikankyaku,,,31 total frames,,,,,→↓↘ + HK,6F - 28F  projectile invincibility
+EX Nikankyaku,,,33 total frames,,,,,→↓↘ + K K,"25F - 30F  projectile invincibility
+1F - 24F  attack & projectile invincibility"
+Nikyoushu,,,9 frame(s) after landing,,,,,(DURING JUMP) LP,Enters special counterable state from the start of the move until landing
+Shishiruirui,10,9,4 frame(s) after landing,D,,292+60 poison,0,↓↘→ ↓↘→ + P,"1F - 25F  full invincibility
+                                                Only the projectile has a projectile-nullifying hitbox"

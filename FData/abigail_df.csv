@@ -1,0 +1,157 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,5,3,10,4,3,40,70,,None
+Standing MP,9,3,18,7,5,70,100,,None
+Standing HP,20,4,25,0,-3,90,150,,Triggers Crush Counter  (crumple)
+Standing LK,6,3,12,4,3,50,70,,None
+Standing MK,11,3,18,2,0,80,100,,None
+Standing HK,18,4,29,D,-8,90,150,,Triggers Crush Counter  (D)
+Crouching LP,6,3,12,2,1,40,70,,None
+Crouching MP,13,4,18,3,-2,70,100,,None
+Crouching HP,11,5,35,-13,-18,90,150,,"Triggers Crush Counter  (D)
+                                                Forces stand"
+Crouching LK,4,2,12,5,2,40,70,,None
+Crouching MK,12,2,21,0,-3,60,100,,None
+Crouching HK,16,6,32,D,-14,120,150,,"Triggers Crush Counter  (D)
+                                                                                                                                                                V*Only possible during 1st attack"
+Jumping LP,5,5,,,,60,70,,None
+Jumping MP,14,5,,,,70,100,,Will not hit crouching opponents
+Jumping HP,12,6,,,,110,150,,Causes blowback knockdown on mid-air hit
+Jumping LK,4,5,,,,60,70,,None
+Jumping MK,10,5,,,,70,100,,Can cross-up
+Diagonal Jumping HK,14,5,,,,90,150,,Causes knockdown on airborne hit
+VStanding HP,20,4,25,0,-3,103,150,,"Triggers Crush Counter  (crumple)
+                                                                                                                                                                Armor from 5F to 14F (1 hit)"
+VStanding HP (LV2),30,4,25,(crumple),-3,115,150,,"Uses 500F V-Gauge Timer
+                                                                                                                                                                                Release the button between 24F - 39F to perform
+Armor from 5F to active frame 3F (1 hit)"
+VStanding HP (LV3),45,4,25,(crumple),GB,115,150,,"Uses 500F V-Gauge Timer
+                                                                                                                                                                                Armor from 5F to 39F (1 hit)
+Armor from 40F to 44F (100 hits)
+During guard break +18F"
+VCrouching HP,11,5,35,-13,-18,103,150,,"Triggers Crush Counter  (crumple)
+                                                                                                                                                                Armor from 5F to 6F (1 hit)"
+VCrouching HP (LV2),21,5,35,D,-18,103,150,,"Uses 500F V-Gauge Timer
+                                                                                                                                                                                Release the button between 16F - 34F to perform
+Armor from 5F to active frame 3F (1 hit)"
+VCrouching HP (LV3),40,5,35,D,GB,103,150,,"Uses 500F V-Gauge Timer
+                                                                                                                                                                                Armor from 5F to 34F (1 hit)
+Armor from 35F to 39F (100 hits)
+During guard break +1F"
+Abi Hammer,21,3,23,3,-8,70,100,→ + MP,"Active frame 1F only will not hit grounded opponents
+                                                                                Causes knockdown on airborne hit
+On the ground hit possible only for active frame 3F"
+Abi Lift,10,5,18,4,1,90,150,→ + HP,Will not hit crouching opponents
+Abi Blaster,7,2,35,-3,-6,90,150,← + HP,"Can nullify projectiles (gain 30 CA gauge upon absorption)
+Causes blowback knockdown on mid-air hit"
+Abi Scissor,13,2,30,D,-14,100,150,↙ + HK,None
+Vroom Vroom,3,2,11,4,3,30,70,LP ▶ LP,None
+Bang Bang,4,2,10,4,3,30,70,↓ + LP ▶ ↓ + LP,None
+Abi Twist,17,2,28,D,-9,90,150,← + HP ▶ HP,None
+VAbi Lift,10,5,18,4,1,103,150,→ + HP,"Will not hit crouching opponents
+                                                                                                Armor from frame 5F (1 hit)"
+VAbi Lift,22,5,18,D,1,103,200,→ + HP (HOLD BUTTONS),"Uses 500F V-Gauge Timer
+                                                                                Will not hit crouching opponents
+                                                                                                Move will be performed if the button is released between 17F - 30F
+Armor from 5F to the active frame (1 hit)"
+VAbi Lift,35,5,18,D,GB,103,200,→ + HP (max hold button),"Uses 500F V-Gauge Timer
+                                                                                Will not hit crouching opponents
+                                                                                                Armor from 5F to 30F (1 hit)
+Armor from 31F to 34F (100 hits)
+During guard break +13F"
+VAbi Blaster,7,2,35,-3,-6,103,150,← + HP,"Can nullify projectiles (2 hits, gain 30 CA gauge upon absorption)
+Causes blowback knockdown on mid-air hit"
+VAbi Blaster,17,2,35,-3,-6,103,150,← + HP (HOLD BUTTONS),"Uses 500F V-Gauge Timer
+                                                                                                                                                                                Can reflect projectiles (up to EX)
+Causes blowback knockdown on mid-air hit
+Move will be performed if the button is released between 14F - 29F
+Armor from 5F to the active frame (1 hit)"
+VAbi Blaster,32,2,35,D,GB,103,150,← + HP (max hold button),"Uses 500F V-Gauge Timer
+                                                                                                                                                                                Can reflect projectiles (all projectiles, CA included)
+Blowback knockdown on hit
+Armor from 5F to 29F (1 hit)
+Armor from 30F to 31F (100 hits)
+During guard break +9F"
+VAbi Twist,17,2,28,D,-9,103,150,← + HP (HOLD BUTTONS) OR (max hold button) ▶ HP,Knock back amount changes depending on ground or air hit
+Red Leaf,5,3,17,D,,140,170,OR → + LP LK,None
+Hit & Run,5,3,17,D,,130,170,← + LP LK,None
+[VS1] Hungabee High,3,10,36,,,,,(WHEN SELECTING VSKILL I) MP MK,Can counter standing and mid-air only attacks
+[VS1] Hungabee Low,3,10,36,,,,,(WHEN SELECTING VSKILL I) ↓ + MP MK,Can counter crouching attacks only
+[VS1] Hungabee (upon successful parry),4,8,20,22,-6,30,70,,1F - 11F  attack invincibility
+[VS2] C'mon Spare Tire,29,,71 total frames,,,70(*100),100(*150),(WHEN SELECTING VSKILL II) MP MK,"All normal and unique attacks can be canceled on hit only.
+Tire's trajectory changes on hit
+(Tire will be destroyed after 5 hits)
+*Value when hitting the tire with the moves below; V Gauge gain also becomes 0/100
+Standing heavy punch/Standing heavy kick/Crouching heavy kick/Jumping heavy kick/Abi Scissor/M/EX Abigail Punch/Dynamite Punch/Abigail Special"
+Max Power,1,,5,,,,,HP HK,"V-Gauge Timer + 2800F
+                                                                                                                                                                                Increases damage for normal and unique moves
+HP, D+HP, F+HP, B+HP can be button held"
+Ontario Drop,17,2,24,D,-2,60,0,(DURING GUARD) → + LK,"1F - 29F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Abigail Junker,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Abigail Punch,14,2,31,D,-12,100,120,↓↘→ + LP,"CA*Only possible on the first and last hit
+V*Only possible for the final part"
+L Abigail Punch Rapid Button Press,,,,,,120,150,↓↘→ + LP (REPEAT BUTTON),"Can only be performed from L Abigail Punch
+CA*V*Only possible for the final part"
+M Abigail Punch,20,2,31,D,-19,110,120,↓↘→ + MP,"CA*Only possible on the first and last hit
+V*Only possible for the final part"
+M Abigail Punch Rapid Button Press,,,,,,130,150,↓↘→ + MP (REPEAT BUTTON),"Can only be performed from M Abigail Punch
+CA*V*Only possible for the final part"
+H Abigail Punch,16,2,31,D,-16,120,120,↓↘→ + HP,"CA*Only possible on the first and last hit
+V*Only possible for the final part"
+H Abigail Punch Rapid Button Press,,,,,,140,150,↓↘→ + HP (REPEAT BUTTON),"Can only be performed from H Abigail Punch
+CA*V*Only possible for the final part"
+EX Abigail Punch,14,2,38,D,-23,140,150,↓↘→ + P P,"Armor from 3F to 13F (1 hit)
+VS*Can be canceled with V Skill II only after final hit
+V*Only possible for the final part"
+EX Abigail Punch Rapid Button Press,,,,,,160,200,↓↘→ + P P (REPEAT BUTTON),"Can only be performed from EX Abigail Punch on hit
+VS*Can be canceled with V Skill II only after final hit
+V*Only possible for the final part"
+L Giant Flip,23,7,22,D,0,70,100,→↘↓↙← + LP,None
+M Giant Flip,33,6,22,D,1,80,100,→↘↓↙← + MP,None
+H Giant Flip,36,6,23,D,2,100,150,→↘↓↙← + HP,None
+EX Giant Flip,9,8,24,D,-2,80,150,→↘↓↙← + P P,"1F - 37F  projectile invincibility
+                                                Can hit a knocked down opponent"
+EX Giant Flip Rapid Button Press,30,6,26,D,-8,90,100,→↘↓↙← + P P (REPEAT BUTTON),Can hit a knocked down opponent
+L Abigail Smash,6,2,60,D,,180,250,→↘↓↙← + LK,None
+M Abigail Smash,6,2,60,D,,200,250,→↘↓↙← + MK,None
+H Abigail Smash,6,2,60,D,,220,250,→↘↓↙← + HK,None
+EX Abigail Smash,6,2,60,D,,100,120,→↘↓↙← + K K,None
+Nitro Charge,124  total frames,,,,,,,K K,None
+Nitro Blitz,100  total frames,,,,,,,K K ▶ (HOLD AND RELEASE),"Armor from 5F while active (1 hit)
+After 100F, Dynamite Punch will be performed"
+Dynamite Punch,15,3,29,D,-9,100,200,K K ▶ P,None
+Avalanche Press,23,7,32,D,-12,150,200,K K ▶ K,"8F - 23F  projectile invincibility
+                                                Gains armor from 12F - 22F (1 hit)
+Causes blowback knockdown on an airborne opponent if the flip portion hits
+First hit causes hard knockdown (becomes blowback knockdown if the upper portion of the hitbox connects)
+The 2nd hit can connect against grounded opponents
+Active frame 2F of the 2nd hit only hits downed opponents"
+Bay Area Sunrise,8,2,60,D,,200,250,K K ▶ LP LK,1F - 9F  throw invincibility
+Hungabee High,3,10,36,,,,,(WHEN SELECTING VSKILL I) K K ▶ MP MK,Can counter standing and mid-air only attacks
+Hungabee Low,3,10,36,,,,,(WHEN SELECTING VSKILL I) K K ▶ ↓ + MP MK,Can counter crouching attacks only
+Hungabee (upon successful parry),4,8,20,22,-6,30,70,,1F - 11F  attack invincibility
+Drop Back,37  total frames,,,,,,,K K ▶ ←,None
+EX Nitro Charge,39,8,,,,10,20,LK,"Armor from 3F while active (2 hits)
+After 100F, EX Dynamite Punch will be performed
+Opponent falls to their knees on hit
+Guard stun difference -57/-32/-7/+14"
+EX Dynamite Punch,15,3,29(*49),(crumple),-29,100,150,LK ▶ P,"Armor from 1F to 14F (1 hit)
+*on block/whiff"
+EX Avalanche Press,21,7,34,D,-11,170,200,LK ▶ K,"4F - 25F  projectile invincibility
+                                                Armor from 5F to 20F (1 hit)
+Causes blowback knockdown on an airborne opponent if the flip portion hits"
+EX Bay Area Sunrise,8,2,60,D,,240,300,LK ▶ LP LK,1F - 9F  throw invincibility
+EX Hungabee,2,10,36,,,,,(WHEN SELECTING VSKILL I) LK ▶ MP MK,"Ignores armor, counter breaks"
+EX Hungabee (upon successful parry),4,8,20,27,-6,40,70,,"1F - 5F  full invincibility
+                                                Motion changes for upper/lower hit"
+VEX Nitro Charge,39,8,,,,11,20,LK,"Armor while active (3 hits)
+After 100F, EX Dynamite Punch will be performed
+Opponent falls to their knees on hit
+Guard stun difference -57/-32/-7/+14"
+Abigail Special,1+3,4,118,D,-95,350,0,↓↘→ ↓↘→ + P,"1F - 7F  full invincibility
+                                                When canceling from Abigail Punch, startup 1+0F"

@@ -1,0 +1,125 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,2,8,5,2,30,70,,Can be rapid canceled
+VStanding LP,4,5,5,6,2,40,70,,Can be rapid canceled
+Standing MP,5,3,9,6,3,60,100,,None
+VStanding MP,5,3,9,8,3,70,100,,None
+Standing HP,11,2,18,0,-4,80,150,,None
+VStanding HP,11,4,16,2,-4,90,150,,None
+Standing LK,5,3,7,1,-3,40,70,,None
+VStanding LK,5,4,6,1,-3,50,70,,None
+Standing MK,8,3,15,2,-2,70,100,,None
+VStanding MK,8,4,14,4,-2,80,100,,None
+Standing HK,12,3,16,1,-2,90,150,,"Triggers Crush Counter (+21F)
+                                                                Will not hit crouching opponents"
+VStanding HK,12,3,16,1,-2,100,150,,"Triggers Crush Counter  (D)
+                                                                Will not hit crouching opponents"
+Crouching LP,4,3,5,5,2,30,70,,Can be rapid canceled
+VCrouching LP,4,4,4,6,2,40,70,,Can be rapid canceled
+Crouching MP,10,9,18,-3,-8,60,100,,6F - 18F  projectile invincibility
+VCrouching MP,10,9,18,-3,-8,70,100,,6F - 18F  projectile invincibility
+Crouching HP,7,4,17,2,-5,100,150,,S*CA*V*VS*Only possible during 1st attack
+VCrouching HP,7,4,14,2,-2,110,150,,S*CA*VS*Only possible during 1st attack
+Crouching LK,3,2,8,2,-1,20,70,,"Can be rapid canceled
+                                                                                                                                S*Can only be canceled into Hyakuretsukyaku"
+VCrouching LK,3,3,7,4,-1,30,70,,"Can be rapid canceled
+                                                                                                                                S*Can only be canceled into Hyakuretsukyaku"
+Crouching MK,6,2,16,2,-2,50,100,,None
+VCrouching MK,6,2,14,4,-2,60,100,,None
+Crouching HK,8,3,24,D,-12,90,150,,Triggers Crush Counter  (D)
+VCrouching HK,8,4,23,D,-12,100,150,,Triggers Crush Counter  (D)
+Jumping LP,3,5,,,,40,70,,None
+VJumping LP,3,5,,,,50,70,,None
+Jumping MP,6,4,,,,60,100,,Causes blowback knockdown on airborne hit
+VJumping MP,6,4,,,,70,100,,Causes blowback knockdown on airborne hit
+Jumping HP,6,8,,,,100,150,,None
+VJumping HP,6,8,,,,110,150,,Causes blowback knockdown on airborne hit
+Jumping LK,4,7,,,,40,70,,None
+VJumping LK,4,7,,,,50,70,,None
+Jumping MK,6,5,,,,60,100,,Can cross-up
+VJumping MK,6,5,,,,70,100,,"Can cross-up
+                                                                                                                                                Causes blowback knockdown on airborne hit"
+Diagonal Jumping HK,9,6,,,,90,150,,None
+VDiagonal Jumping HK,9,6,,,,100,150,,Causes blowback knockdown on airborne hit
+Vertical Jump HK,7,5,,,,90,150,,None
+VVertical Jump HK,7,5,,,,100,150,,Causes blowback knockdown on airborne hit
+Senenshu,26,2,16,2,-2,70,100,↘ + MK,None
+VSenenshu,26,2,16,4,-2,80,100,↘ + MK,None
+Tsuitotsuken,7,2,12,3,0,65,100,← OR → + MP,None
+VTsuitotsuken,7,3,11,4,0,75,100,← OR → + MP,None
+Hakkei,7,5,18,3,2,90,150,← + HP,Triggers Crush Counter  (D)
+VHakkei,7,7,11,6,2,100,150,← + HP,Triggers Crush Counter  (D)
+Kakurakukyaku,34,7,3+7 frame(s) after landing,8,4,80,150,↘ + HK,"Can cross-up
+                                                                                                                                                Recovery is for when the move hits on the 5th active frame against the same character"
+VKakurakukyaku,34,7,3+7 frame(s) after landing,8,6,90,150,↘ + HK,"Can cross-up
+                                                                                                                                                Recovery is for when the move hits on the 5th active frame against the same character"
+Tenkukyaku,8,5,13,2,0,80,150,← + HK,Forces stand
+VTenkukyaku,8,5,13,2,0,80,150,← + HK,Forces stand
+Yokusenkyaku,18,5,13(*18),2,-2,80,150,→ + HK,"Triggers Crush Counter (+18F)
+                                                                                                                                                                *On whiff"
+VYokusenkyaku,18,5,13(*18),4,-2,90,150,→ + HK,"Triggers Crush Counter (+18F)
+                                                                                                                                                                *On whiff"
+Yosokyaku,5,4,4 frame(s) after landing,D,,40,60,(DURING JUMP) ↓ + MK,Can cross-up
+VYosokyaku,5,4,4 frame(s) after landing,D,,50,60,(DURING JUMP) ↓ + MK,Can cross-up
+Yosokyaku (2),,,4 frame(s) after landing,D,,50,60,(DURING JUMP) ↓ + MK ▶ ↓ + MK,Can cross-up
+VYosokyaku (2),,,4 frame(s) after landing,D,,60,60,(DURING JUMP) ↓ + MK ▶ ↓ + MK,Can cross-up
+Yosokyaku (3),,,4 frame(s) after landing,D,,60,60,(DURING JUMP) ↓ + MK ▶ ↓ + MK ▶ ↓ + MK,Can cross-up
+VYosokyaku (3),,,4 frame(s) after landing,D,,70,60,(DURING JUMP) ↓ + MK ▶ ↓ + MK ▶ ↓ + MK,Can cross-up
+Wall Jump,,,,,,,,(DURING JUMP NEAR WALL) ↗,Enters special counterable state from the start of the move until landing
+Koshuto,5,3,17,,,120,150,(NEAR OPPONENT) → OR + LP LK,None
+Tenshin Shushu,5,3,17,,,140,200,(NEAR OPPONENT) ← + LP LK,None
+Ryuseiraku,5,2,6 frame(s) after landing,,,130,200,(CLOSE TO OPPONENT IN AIR) LP LK,None
+[VS1] Rankyaku,11,6,36+6 frame(s) after landing,D,-24,40(*50),50,(WHEN SELECTING VSKILL I) MP MK,"V-Gauge increase on jump attack hit/block
+EX-Gauge increase during V-Trigger
+*during V-Trigger"
+[VS1] Souseikyaku,12,6,4 frame(s) after landing,,,100(*110),120,(WHEN SELECTING VSKILL I) MP MK ▶ MP MK,*during V-Trigger
+[VS2] Hazansyu,27,3,20,4,-4,80,120,(WHEN SELECTING VSKILL II) MP MK,"Movement distance is shorter when holding backwards
+Can hit a knocked down opponent"
+V[VS2] Hazansyu,27,3,20,4,-4,90,130,(WHEN SELECTING VSKILL II) MP MK,"Movement distance is shorter when holding backwards
+Can hit a knocked down opponent"
+Renkiko,1,,4,,,,,HP HK,"V-Gauge Timer + 800F
+                                                                                                                                                                                Increases offensive abilities while active"
+Sohakkei,12,2,24,2,-2,40,0,(DURING GUARD) → + LP,"1F - 25F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Ensenbu,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Kikoken,13,70,46 total frames,0,-6,60,100,→ + LP,None
+M Kikoken,11,50,45 total frames,-1,-5,60,100,→ + MP,None
+H Kikoken,9,30,44 total frames,-1,-4,60,100,→ + HP,None
+VL Kikoken,13,140,46 total frames,0,-6,60,100,→ + LP,None
+VM Kikoken,11,100,45 total frames,-1,-5,60,100,→ + MP,None
+VH Kikoken,9,60,44 total frames,-1,-4,60,100,→ + HP,None
+EX Kikoken,11,,38 total frames,4,1,100,100,→ + P P,None
+VEX Kikoken,11,,38 total frames,4,1,120,100,→ + P P,None
+L Hyakuretsukyaku,5,8,20,4,-8,60,80,↓↘→ + LK OR LK (REPEAT BUTTON),CA*V*Only possible during 3rd attack
+M Hyakuretsukyaku,11,10,20,3,-9,80,120,↓↘→ + MK OR MK (REPEAT BUTTON),CA*V*Only possible during 4th attack
+H Hyakuretsukyaku,14,12,22,D,-12,100,120,↓↘→ + HK OR HK (REPEAT BUTTON),CA*V*Only possible during 5th attack
+VL Hyakuretsukyaku,5,8,20,4,-8,70,80,↓↘→ + LK OR LK (REPEAT BUTTON),CA*Only possible during 3rd attack
+VM Hyakuretsukyaku,11,10,20,3,-9,90,120,↓↘→ + MK OR MK (REPEAT BUTTON),CA*Only possible during 4th attack
+VH Hyakuretsukyaku,14,12,22,D,-12,110,120,↓↘→ + HK OR HK (REPEAT BUTTON),CA*Only possible during 5th attack
+EX Hyakuretsukyaku,5,20,19,D,-2,140,200,↓↘→ + K K OR K K (REPEAT BUTTON),V*Only possible during 6th attack
+VEX Hyakuretsukyaku,5,20,19,D,-2,150,200,↓↘→ + K K OR K K (REPEAT BUTTON),None
+L Airborne Hyakuretsukyaku,8,8,12 frame(s) after landing,4,-2,70,80,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + LK,None
+M Airborne Hyakuretsukyaku,10,10,12 frame(s) after landing,4,-2,80,100,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + MK,None
+H Airborne Hyakuretsukyaku,12,12,12 frame(s) after landing,0,-3,100,120,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + HK,None
+VL Airborne Hyakuretsukyaku,8,8,12 frame(s) after landing,4,-2,80,80,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + LK,None
+VM Airborne Hyakuretsukyaku,10,10,12 frame(s) after landing,4,-2,90,100,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + MK,None
+VH Airborne Hyakuretsukyaku,12,12,12 frame(s) after landing,0,-3,110,120,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + HK,None
+EX Airborne Hyakuretsukyaku,6,14,12 frame(s) after landing,-7,-10,160,210,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + K K,None
+VEX Airborne Hyakuretsukyaku,6,14,12 frame(s) after landing,-7,-10,170,210,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + K K,None
+L Spinning Bird Kick,9,10,24,D,-6,110,200,↑ + LK,First hit only forces stand
+M Spinning Bird Kick,15,14,24,D,-8,130,200,↑ + MK,First hit only forces stand
+H Spinning Bird Kick,19,18,24,D,-8,150,200,↑ + HK,First hit only forces stand
+VL Spinning Bird Kick,9,10,24,D,-6,120,200,↑ + LK,First hit only forces stand
+VM Spinning Bird Kick,15,14,24,D,-8,140,200,↑ + MK,First hit only forces stand
+VH Spinning Bird Kick,19,18,24,D,-8,160,200,↑ + HK,First hit only forces stand
+EX Spinning Bird Kick,5,17,35,D,-20,150,200,↑ + K K,"9F - 33F  projectile invincibility
+1F - 8F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+VEX Spinning Bird Kick,5,17,35,D,-20,160,200,↑ + K K,"9F - 33F  projectile invincibility
+1F - 8F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+Hoyokusen,1+4,2,35,D,-20,330,0,↓↘→ ↓↘→ + K,1F - 6F  full invincibility

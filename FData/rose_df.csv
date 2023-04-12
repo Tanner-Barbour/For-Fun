@@ -1,0 +1,87 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,7,4,2,30,70,,None
+Standing MP,6,3,12,7,3,60,100,,None
+Standing HP,14,3,20(*22),3,-6,80,150,,*On whiff
+Standing LK,4,3,11,2,1,30,70,,None
+Standing MK,10,3,2,3,-1,60,100,,5F - 20F  throw invincibility
+Standing HK,12 ,3,22,2,-2,90,150,,Triggers Crush Counter  (D)
+Crouching LP,4,2,9,3,1,30,70,,Can be rapid canceled
+Crouching MP,5,2,14,4,1,60,100,,None
+Crouching HP,8,7,24,-5,-12,90,150,,None
+Crouching LK,4,2,8,2,0,20,70,,Can be rapid canceled
+Crouching MK,7,3,15,2,-3,50,100,,None
+Crouching HK,10,3,25,D,-15,90,150,,Triggers Crush Counter  (D)
+Jumping LP,4,4,,,,40,70,,None
+Jumping MP,6,4,,,,60,100,,None
+Jumping HP,8,4,,,,90,150,,None
+Jumping LK,5,8,,,,40,70,,Can cross-up
+Jumping MK,7,5,,,,60,100,,Can cross-up
+Jumping HK,9,6,,,,90,150,,None
+Slide,10,10,17,-4,-9,50,100,↘ + MK,None
+Soul Presa,10,3,22,2,-6,70,100,→ + MK,None
+Soul Pilastro,17,3,22,2,-4,90,150,← + HK,Triggers Crush Counter  (D)
+Soul Piede,12,3,19,4,-2,90,150,→ + HK,"Triggers Crush Counter  (+24F)
+                                                                Will not hit crouching opponents"
+Soul Levare,12,3,23,D,-10,60,100,LK ▶ → + HK,"Will not hit crouching opponents
+                                                                                                S*CA*on hit"
+Soul Fall,5,3,17,D,,130,150,OR → + LP LK,None
+Soul Drain,5,3,17,D,,150,200,← + LP LK,None
+[VS1] Soul Fortune (Red),,,61 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,"Increases Rose's attack damage by 10%
+Effect canceled after 600 frames or when Rose is hit, thrown, or affected by V-Reveral or V-Shift Break."
+[VS1] Soul Fortune (White),,,61 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,Increases V-Gauge. Can hold the buttons to extend the effect duration
+[VS1] Soul Fortune (Green or Purple),25,,51 total frames,-2,-6,10,0,(WHEN SELECTING VSKILL I) MP MK,"Green - Decreases opponent's attack damage by 10%. Effect canceled after 420 frames
+Purple - Increases chip damage by 50%. Effect canceled after 600 frames or when Rose is hit"
+[VS1] Fortune Shuffle,,,41 total frames,,,,,(WHEN SELECTING VSKILL I) ↓ + MP MK,Changes the tarot card to one not currently held
+[VS2] Soul Satellite,40,240,60 total frames,,,50,50,(WHEN SELECTING VSKILL II) MP MK,Can call up to 2 at a time
+Soul Dimension,,,6 total frames,,,,,HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                                                                Soul Terrag, Soul Mare, and Soul Cielo will become available"
+Soul Reflect,17,2,24,D,-2,,,(DURING GUARD) → + LP,"1F - 31F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Soul Veloce,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Soul Spark,14,,46 total frames,0,-6,60,100,↓↘→ + LP,"S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+M Soul Spark,20,,48 total frames,2,-4,60,100,↓↘→ + MP,"S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+H Soul Spark,27,,53 total frames,4,-2,60,100,↓↘→ + HP,"S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+EX Soul Spark,14,,46 total frames,D,3,100,150,↓↘→ + P P,"S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+L Soul Spark (Airborne),16,,10 frame(s) after landing,,,80,100,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + LP,"S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+M Soul Spark (Airborne),16,,10 frame(s) after landing,,,80,100,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + MP,"S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+H Soul Spark (Airborne),16,,10 frame(s) after landing,,,80,100,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + HP,"S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+EX Soul Spark (Airborne),16,,7 frame(s) after landing,,,100,150,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + P P,"Angle of the projectile differs based on the 2 buttons pressed simultaneously
+S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+L Soul Bind,7,9,51,D,,130,200,→↓↘ + LP,"Will not hit grounded opponents
+                                                7F - 15F  invincible to mid-air attacks
+                                1F - 6F head to torso invincible to airborne attacks"
+M Soul Bind,7,9,51,D,,130,200,→↓↘ + MP,"Will not hit grounded opponents
+                                                7F - 15F  invincible to mid-air attacks
+                                1F - 6F head to torso invincible to airborne attacks"
+H Soul Bind,11,9,51,D,,130,200,→↓↘ + HP,"Will not hit grounded opponents
+                                                11F - 19F  invincible to mid-air attacks
+                                1F - 10F head to torso invincible to airborne attacks"
+EX Soul Bind,7,9,51,D,,110,160,→↓↘ + P P,"Will not hit grounded opponents
+                                                7F - 15F  invincible to mid-air attacks
+                                1F - 6F head to torso invincible to airborne attacks
+S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo
+ VS*Can only be canceled V-Skill I"
+L Soul Spiral,11,7,21,D,-10,80,150,↓↘→ + LK,"S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+M Soul Spiral,14,7,21,D,-10,90,150,↓↘→ + MK,"S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+H Soul Spiral,21,7,23,D,-10,100,150,↓↘→ + HK,"S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+EX Soul Spiral,13,7,39,D,-26,140,200,↓↘→ + K K,"1F - 13F  attack & projectile invincibility
+                                                S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+Soul Punish,132,7,50 total frames,(*D),,70(*90),120,↓↙← + P,"Projectile appears on frame 38
+Projectile placement differs based on button input
+When present, attack hitbox appears on contact with an opponent's projectile
+S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo
+*When the projectile hits"
+EXSoul Punish,38,83,50 total frames,D,34,80,150,↓↙← + P P,"Projectile placement differs based on the 2 buttons pressed simultaneously
+S*Can be canceled with Soul Terrag, Soul Mare, and Soul Cielo"
+VSoul Terra,,,35 total frames,,,-,-,HP HK (CAN BE DONE IN AIR),"Uses 1000F V-Gauge Timer
+                                                                                                                                11F - 18F  full invincibility"
+VSoul Mare,,,45 total frames,,,,,← + HP HK (CAN BE DONE IN AIR),"Uses 1000F V-Gauge Timer
+                                                                                                                                11F - 18F  full invincibility"
+VSoul Cielo,,,29 total frames,,,,,↓ + HP HK (CAN BE DONE IN AIR),"Uses 1000F V-Gauge Timer
+                                                                                                                                11F - 18F  full invincibility"
+Fate Aura Spark,9,14,52,D,-28,320,0,↓↘→ ↓↘→ + K,1F - 13F  full invincibility

@@ -1,0 +1,97 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,5,2,8,5,2,30,70,,None
+Standing MP,7,3,14,3,0,60,100,,None
+Standing HP,10,2,24,0,-6,80,150,,Triggers Crush Counter (+15F)
+Standing LK,4,4,8,4,3,30,70,,None
+Standing MK,7,4,13,3,2,60,100,,S*Can only be canceled into V-Electric Thunder
+Standing HK,10,5,22,6,-4,80,150,,Forces stand
+Crouching LP,4,3,7,4,2,30,70,,None
+Crouching MP,6,4,18,0,-3,60,100,,None
+Crouching HP,13,3,20,1,-3,90,150,,"Triggers Crush Counter (D)
+                                                Forces stand"
+Crouching LK,4,3,8,4,1,20,70,,S*Only Electric Thunder can be special move canceled
+Crouching MK,6,2,16,5,-1,50,100,,None
+Crouching HK,8,3,27,D,-12,100,150,,Triggers Crush Counter (D)
+Jumping LP,4,4,,,,40,70,,None
+Jumping MP,6,3,,,,70,100,,None
+Diagonal Jumping HP,7,5,,,,90,150,,None
+Vertical Jumping HP,8,4,,,,90,150,,None
+Jumping LK,3,5,,,,40,70,,None
+Jumping MK,7,5,,,,70,100,,Can cross-up
+Jumping HK,9,4,,,,90,150,,None
+Rock Crusher,21,3,17,2,-7,70,100,→ + MP,None
+Rock Crusher (Charge Attack),34,3,13,4,-2,90,120,→ + MP (HOLD BUTTONS),None
+Amazon River Run,11,10,25,D,-14,80,150,↘ + HP,None
+Raging Bash (2),7,5,36,D,-19,60,70,MK ▶ HK,The second hit only can be canceled into Surprise Forward/Surprise Back
+Raging Bash (3),26,2,30,D,,70,100,MK ▶ HK ▶ (ON HIT) HP,None
+Lightning Dance,36-*1(*223),7,27,D,,80(*2100),100(*2150),(WHEN SELECTING VSKILL II) MK ▶ HK ▶ (ON HIT) MP MK,"*1When buttons not held at startup frame
+*2Denotes value when LV2 available; V Gauge increase becomes 0/80"
+Surprise Forward,,,28 total frames,,,,,→ + LK,"Can be canceled into with regular moves that can cancel into Special Moves, as well as standing heavy kick"
+Surprise Back,,,29 total frames,,,,,← + LK,"Can be canceled into with regular moves that can cancel into Special Moves, as well as standing heavy kick"
+Wild Fang,5,3,17,,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Jungle Wheel,5,3,17,,,130,200,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Coward Crouch,,,56 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,Move duration can be extended by a max of 48F (total 104F) by continuing to hold in the down direction.
+[VS1] Wild Lift,13,4,24,D,-8,60,100,(WHEN SELECTING VSKILL I) MP MK ▶ P,S*Only on hit
+[VS1] Raid Jump,,,45+4 frame(s) after landing,,,,,(WHEN SELECTING VSKILL I) MP MK ▶ K,50 V-Gauge meter gain on hit for a regular jump attack from Raid Jump.
+[VS2] Shout Of Earth Lv1,36-*,7,27,D,-4,80,100,(WHEN SELECTING VSKILL II) MP MK,"*When buttons not held at startup frame
+Holding the buttons beyond frame 50 makes the attack LV2
+Can be canceled into a forward or backward dash from button hold 22F
+Upon holding the buttons to Lv. 2 and then canceling into a forward or backwards dash, the Lv. 2 version can be performed instantly without holding the buttons"
+[VS2] Shout Of Earth Lv2,74-*,7,27,D,4,100,150,(WHEN SELECTING VSKILL II) MP MK (HOLD BUTTONS),"*Denotes shortest startup possible after making attack LV2
+Can cancel into a forward or backwards dash while holding the buttons
+Upon canceling into a forward or backwards dash, the Lv. 2 version can be performed instantly without holding the buttons"
+[VS2] Shout Of Earth Lv2 (Instant Activation Version),23,7,27,D,4,100,150,(WHEN SELECTING VSKILL II) MP MK,None
+Jungle Dynamo,1,,6,,,,,HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                1F  full invincibility
+                                                While active, the applicable special moves become stronger
+Gains the special move Ground Shave Rolling while active
+No charge time required for charge moves used from a special move cancel"
+Quick Rolling,17,3,23,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Anaconda's Maw,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Rolling Attack,9,22,6+6 frame(s) after landing,D,-21,100,150,→ + LP,CA*Only possible during startup hit
+M Rolling Attack,9,30,8+7 frame(s) after landing,D,-21,110,150,→ + MP,CA*Only possible during startup hit
+H Rolling Attack,9,29,4+23 frame(s) after landing,D,-21,120,150,→ + HP,CA*Only possible during startup hit
+VRolling Attack,7,32,10 frame(s) after landing,D,-18,100,180,→ + P,"Uses 600F V-Gauge Timer
+                                                                                                                                1F - 41F  projectile invincibility
+                                                CA*Only possible during startup hit"
+EX Rolling Attack,8,31,6+4 frame(s) after landing,D,-18,100,150,→ + P P,None
+L Vertical Rolling,8,21,25+17 frame(s) after landing,D,-36,120,150,↑ + LK,CA*Only possible during startup hit
+M Vertical Rolling,7,16,32+20 frame(s) after landing,D,-36,120,150,↑ + MK,CA*Only possible during startup hit
+H Vertical Rolling,5,16,30+29 frame(s) after landing,D,-34,120,150,↑ + HK,CA*Only possible during startup hit
+VVertical Rolling,5,16,33+36 frame(s) after landing,D,-36,120,180,↑ + K,"Uses 600F V-Gauge Timer
+                                                                                                                                1F - 16F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)
+CA*Only possible during 1st attack"
+EX Vertical Rolling,5,16,33+36 frame(s) after landing,D,-30,150,200,↑ + K K,"1F - 16F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+L Back Step Rolling,27,Until landing,11 frame(s) after landing,,,80,150,→ + LK,21F - Until landing  projectile invincibility
+M Back Step Rolling,29,Until landing,11 frame(s) after landing,,,80,150,→ + MK,22F - Until landing  projectile invincibility
+H Back Step Rolling,31,Until landing,11 frame(s) after landing,,,80,150,→ + HK,25F - Until landing  projectile invincibility
+VBack Step Rolling,21,Until landing,11 frame(s) after landing,D,,100,200,→ + K,"Uses 600F V-Gauge Timer
+                                Can cross-up
+                                                                                                3F - 17F  attack invincibility
+                                                Projectile invincibility from 1F until landing"
+EX Back Step Rolling,27,Until landing,5 frame(s) after landing,,,100,150,→ + K K,"3F - 21F  attack invincibility
+                                                Projectile invincibility from 1F until landing"
+Electric Thunder,10,10,17,D,4,80,150,P (REPEAT BUTTON) (RAPID PRESS FOR ADDITIONAL INPUTS),None
+VElectric Thunder,12,12,12,D,-2,100,200,P (REPEAT BUTTON),Uses 600F V-Gauge Timer
+EX Electric Thunder,10,10,14,D,6,80,150,P P (REPEAT BUTTON) (RAPID PRESS FOR ADDITIONAL INPUTS),None
+L Wild Hunt,40,2,30,D,,170,200,→↘↓↙← + LP,None
+M Wild Hunt,43,2,30,D,,180,200,→↘↓↙← + MP,None
+H Wild Hunt,46,2,30,D,,190,200,→↘↓↙← + HP,None
+EX Wild Hunt,36,2,30,D,,190,200,→↘↓↙← + P P,3F - 36F  projectile invincibility
+Ground Shave Rolling,6,31,25,D,-8,155,240,(DURING V-TRIGGER I) HP HK,"Uses 600F V-Gauge Timer
+                                                                                                                                5F - 56F  projectile invincibility
+                                                Can be canceled into from V-Trigger-cancelable moves"
+Ground Shave Rolling (Charge Attack),6,97,10,D,GB,30+170,50+250,(DURING V-TRIGGER I) HP HK (HOLD BUTTONS),"5F - 134F  projectile invincibility
+                                                The startup of the second part of the attack can be charged a max of 92F
+Damage and stun are calculated for the max charge attack and forward-advancing attack (total of 6 hits)
+Can be canceled into from V-Trigger-cancelable moves"
+Dynamic Rolling,1+7,3,,D,,340,0,↓↘→ ↓↘→ + P,1F - 10F  full invincibility
+Dynamic Rolling (1st Hit Blocked or Miss),1+7,5,60,D,-37,120,0,↓↘→ ↓↘→ + P,1F - 10F  full invincibility

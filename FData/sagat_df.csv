@@ -1,0 +1,96 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,10,5,4,30,70,,Will not hit crouchers at maximum range
+Standing MP,6,2,15,7,3,60,100,,None
+Standing HP,13,3,20(*18),4,-2,90,150,,*On whiff
+Standing LK,5,3,10,2,1,40,70,,None
+Standing MK,11,3,16,2,-2,70,100,,None
+Standing HK,8,4,17(*21),8,-1,90(*280),150,,"Second hit triggers Crush Counter (D)
+                                                First hit only forces stand
+                Second hit will not hit crouching opponents
+                                                                                                First hit causes blowback knockdown
+*On whiff
+*2For the 2nd hit"
+Crouching LP,4,2,11,3,1,30,70,,Can be rapid canceled
+Crouching MP,7,3,15(*14),3,1,65,100,,*On whiff
+Crouching HP,10,4,18,2,-1,90,150,,Triggers Crush Counter (D)
+Crouching LK,5,3,9,3,2,30,70,,Crouching LP can be rapid canceled
+Crouching MK,9,3,16,1,-4,60,100,,None
+Crouching HK,12,2,23,D,-14,100,150,,Triggers Crush Counter (D)
+Jumping LP,5,4,,,,40,70,,None
+Jumping MP,5,4,,,,60,80,,Causes blowback knockdown on airborne hit
+Jumping HP,9,4,,,,90,150,,None
+Jumping LK,4,6,,,,40,70,,Can cross-up
+Jumping MK,6,6,,,,60,100,,None
+Jumping HK,12,5,,,,90,150,,None
+Tiger Heavy Elbow,24,2,21,1,-7,80,150,→ + HP,Causes knockdown on airborne hit
+Step High Kick,16,3,22(*23),5,3,90,150,→ + HK,"Triggers Crush Counter (+26F)
+                                                                Will not hit crouching opponents
+                                                                                                Causes blowback knockdown on airborne hit
+S*Move startup can be canceled
+*On whiff"
+Step Low Kick,19,2,23,3,-2,70,100,→ + MK,S*Move startup can be canceled
+Tiger Hang,5,3,17,,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Tiger Swing,5,3,17,,,130,200,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Angry Charge,,,50 total frames,,,0,0,(WHEN SELECTING VSKILL I) MP MK,Next Tiger Uppercut performed will be strengthened
+[VS2] Hanuman Charge,,,50 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,Strengthens the next Tiger Knee Crush
+Tiger Charge,1,,4,,,0,0,HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                Gains the special move Tiger Cannon while active"
+Tiger Revenge,17,2,24,D,-2,60,0,(DURING GUARD) → + LK,"1F - 32F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Tiger Tornado,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Tiger Shot,13,,40 total frames,2,1,70,100,↓↘→ + LP,Will not hit crouching opponents
+M Tiger Shot,13,,40 total frames,2,1,70,100,↓↘→ + MP,Will not hit crouching opponents
+H Tiger Shot,13,,40 total frames,2,1,70,100,↓↘→ + HP,Will not hit crouching opponents
+EX Tiger Shot,11,,38 total frames,D,6,100,150,↓↘→ + P P,Will not hit crouching opponents
+L Grand Tiger Shot,13,,44 total frames,0,-4,60,100,↓↘→ + LK,None
+M Grand Tiger Shot,13,,44 total frames,0,-4,60,100,↓↘→ + MK,None
+H Grand Tiger Shot,13,,44 total frames,0,-4,60,100,↓↘→ + HK,None
+EX Grand Tiger Shot,11,,42 total frames,D,-2,80,150,↓↘→ + K K,None
+L Tiger Uppercut,4,9,48,D,-39,130(*110),150(*120),→↓↘ + LP,"1F - 12F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 3F"
+M Tiger Uppercut,6,9,48,D,-39,130(*110),150(*120),→↓↘ + MP,"3F - 7F  attack & projectile invincibility
+                                                Subject to counter hit during move duration
+*From active frame 3F"
+H Tiger Uppercut,8,9,48,D,-39,130(*110),150(*120),→↓↘ + HP,"1F - 9F  throw invincibility
+                1F - 16F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 3F"
+L Tiger Uppercut (VS1 Ver.),4,9,43,D,-34,160(*140),180(*150),(DURING V-SKILL) →↓↘ + LP,"1F - 12F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 3F"
+M Tiger Uppercut (VS1 Ver.),6,9,43,D,-34,160(*140),180(*150),(DURING V-SKILL) →↓↘ + MP,"3F - 7F  attack & projectile invincibility
+                                                Subject to counter hit during move duration
+*From active frame 3F"
+H Tiger Uppercut (VS1 Ver.),8,9,43,D,-34,160(*140),180(*150),(DURING V-SKILL) →↓↘ + HP,"1F - 9F  throw invincibility
+                1F - 16F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*From active frame 3F"
+EX Tiger Uppercut,4,9,52,D,-36,160,200,→↓↘ + P P,"1F - 10F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+EX Tiger Uppercut (VS1 Ver.),4,9,52,D,-36,180,230,(DURING V-SKILL) →↓↘ + P P,"1F - 10F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+L Tiger Knee Crush,12(*17),7,20(*223),D,-5,80,150,→↓↘ + LK,"*1Denotes values when canceled from Step Low Kick/Step High Kick
+*2On whiff"
+M Tiger Knee Crush,14(*19),9,18(*220),D,-7,90,150,→↓↘ + MK,"*1Denotes values when canceled from Step Low Kick/Step High Kick
+*2On whiff"
+H Tiger Knee Crush,20(*115),11,17(*221),D,-7,100,150,→↓↘ + HK,"*1Denotes values when canceled from Step Low Kick/Step High Kick
+*2On whiff"
+L Tiger Knee Crush (VS2 Ver.),12(*17),7,19(*223),D,0,80,150,(DURING V-SKILL II) →↓↘ + LK,"*1Denotes values when canceled from Step Low Kick/Step High Kick
+*2On whiff"
+M Tiger Knee Crush (VS2 Ver.),14(*19),9,16(*220),D,-2,90,150,(DURING V-SKILL II) →↓↘ + MK,"*1Denotes values when canceled from Step Low Kick/Step High Kick
+*2On whiff"
+H Tiger Knee Crush (VS2 Ver.),20(*115),11,15(*221),D,-2,100,150,(DURING V-SKILL II) →↓↘ + HK,"*1Denotes values when canceled from Step Low Kick/Step High Kick
+*2On whiff"
+EX Tiger Knee Crush,14(*9),9,18,D,-4,160,200,→↓↘ + K K,"*Denotes values when canceled from Step Low Kick/Step High Kick
+Second hit is automatic after the first hit"
+EX Tiger Knee Crush (VS2 Ver.),14(*9),9,16,D,0,160,200,(DURING V-SKILL II) →↓↘ + K K,"*Denotes values when canceled from Step Low Kick/Step High Kick
+Second hit is automatic after the first hit"
+Tiger Cannon,17,,49 total frames,D,10,120,150,(DURING V-TRIGGER I) HP HK,"Uses 1500F V-Gauge Timer
+                                                                                                                                                                                Can be canceled into from V-Trigger cancelable normal and unique moves"
+Tiger Rampage,1+6,6,61,D,-42,340,0,↓↘→ ↓↘→ + K,1F - 13F  full invincibility

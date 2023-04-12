@@ -1,0 +1,90 @@
+ryu_df = pd.DataFrame(columns = headers)
+chunli_df = pd.DataFrame(columns = headers)
+nash_df = pd.DataFrame(columns = headers)
+mbison_df = pd.DataFrame(columns = headers)
+cammy_df = pd.DataFrame(columns = headers)
+birdie_df = pd.DataFrame(columns = headers)
+ken_df = pd.DataFrame(columns = headers)
+necalli_df = pd.DataFrame(columns = headers)
+vega_df = pd.DataFrame(columns = headers)
+rmika_df = pd.DataFrame(columns = headers)
+rashid_df = pd.DataFrame(columns = headers)
+karin_df = pd.DataFrame(columns = headers)
+zangief_df = pd.DataFrame(columns = headers)
+laura_df = pd.DataFrame(columns = headers)
+dhalsim_df = pd.DataFrame(columns = headers)
+fang_df = pd.DataFrame(columns = headers)
+alex_df = pd.DataFrame(columns = headers)
+guile_df = pd.DataFrame(columns = headers)
+ibuki_df = pd.DataFrame(columns = headers)
+balrog_df = pd.DataFrame(columns = headers)
+juri_df = pd.DataFrame(columns = headers)
+urien_df = pd.DataFrame(columns = headers)
+akuma_df = pd.DataFrame(columns = headers)
+kolin_df = pd.DataFrame(columns = headers)
+ed_df = pd.DataFrame(columns = headers)
+abigail_df = pd.DataFrame(columns = headers)
+menat_df = pd.DataFrame(columns = headers)
+zeku_df = pd.DataFrame(columns = headers)
+sakura_df = pd.DataFrame(columns = headers)
+blanka_df = pd.DataFrame(columns = headers)
+falke_df = pd.DataFrame(columns = headers)
+cody_df = pd.DataFrame(columns = headers)
+sagat_df = pd.DataFrame(columns = headers)
+g_df = pd.DataFrame(columns = headers)
+kage_df = pd.DataFrame(columns = headers)
+poison_df = pd.DataFrame(columns = headers)
+lucia_df = pd.DataFrame(columns = headers)
+ehonda_df = pd.DataFrame(columns = headers)
+gill_df = pd.DataFrame(columns = headers)
+seth_df = pd.DataFrame(columns = headers)
+dan_df = pd.DataFrame(columns = headers)
+rose_df = pd.DataFrame(columns = headers)
+oro_df = pd.DataFrame(columns = headers)
+akira_df = pd.DataFrame(columns = headers)
+luke_df = pd.DataFrame(columns = headers)
+ryu_df,
+chunli_df,
+nash_df,
+mbison_df,
+cammy_df,
+birdie_df,
+ken_df,
+necalli_df,
+vega_df,
+rmika_df,
+rashid_df,
+karin_df,
+zangief_df,
+laura_df,
+dhalsim_df,
+fang_df,
+alex_df,
+guile_df,
+ibuki_df,
+balrog_df,
+juri_df,
+urien_df,
+akuma_df,
+kolin_df,
+ed_df,
+abigail_df,
+menat_df,
+zeku_df,
+sakura_df,
+blanka_df,
+falke_df,
+cody_df,
+sagat_df,
+g_df,
+kage_df,
+poison_df,
+lucia_df,
+ehonda_df,
+gill_df,
+seth_df,
+dan_df,
+rose_df,
+oro_df,
+akira_df,
+luke_df,

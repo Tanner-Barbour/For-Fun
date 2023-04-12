@@ -1,0 +1,134 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,3,2,8,2,1,30,70,,None
+Standing MP,5,3,10,4,2,60,100,,None
+Standing HP,10,2,19,0,-5,80,150,,None
+Standing LK,4,3,9,0,-2,30,70,,None
+Standing MK,6,2,14,5,2,60,100,,None
+Standing HK,10,3,16(*19),3,-2,90,150,,"Triggers Crush Counter (+22F)
+                                                                Will not hit crouching opponents
+                                                                                                *On whiff"
+Crouching LP,4,3,7,3,2,30,70,,Standing/Crouching LP can be rapid canceled
+Crouching MP,6,3,16,3,-1,60,100,,None
+Crouching HP,9,4,16,2,-3,90(*70),150,,"Forces stand
+                                                                                                                *During airborne hit"
+Crouching LK,4,2,8,3,1,20,70,,Crouching LP can be rapid canceled
+Crouching MK,6,3,16,3,-2,60,100,,None
+Crouching HK,8,2,24,D,-12,100,150,,Triggers Crush Counter  (D)
+Jumping LP,3,5,,,,40,70,,None
+Jumping LP (from H Kasumigake),4,4,,,,40,70,,Causes knockdown on mid-air hit
+Jumping MP,5,6,,,,60,100,,None
+Jumping HP,9,5,,,,90,150,,None
+Jumping HP (from H Kasumigake),9,5,,,,90,150,,Causes knockdown on mid-air hit
+Jumping LK,3,6,,,,40,70,,Can cross-up
+Jumping MK,6,6,,,,60,100,,Can cross-up
+Jumping HK,8,4,,,,90,150,,None
+Agemen,7,3,11,4,0,70,120,← + MP,S*CA*Only possible during 1st attack
+Kobekudaki,28,2,16,3,-2,70,100,→ + MK,None
+Sazan,7,11,14,-6,-10,50,100,↘ + MK,None
+Bonshogeri,14,4,19,2,-3,90,150,→ + HK,Triggers Crush Counter  (D)
+Nobusuma,,,,,,,,(DURING VERTICAL OR FORWARD JUMP) + K K,Enters special counterable state from the start of the move until landing
+Shinten (2),5,3,15,-5,-8,40,50,LP ▶ MP,None
+Shinten (3),6,3,20,-4,-9,50,70,LP ▶ MP ▶ HP,S*CA*Only on hit
+Yagurakuzushi,4,2,15,1,-2,30,50,LP ▶ MP ▶ LK,None
+Gogasha (2),7,2,23,D,-12,60,60,MK ▶ ↓ + HK,None
+Gogasha (3),7,2,17,1,-4,40,60,MK ▶ ↓ + HK ▶ HK,"Triggers Crush Counter (+15F)
+                                                                Will not hit crouching opponents"
+Shakunage,14,2,23,2,-5,70,100,(WHILE CROUCHING) MP ▶ → + MK,Triggers Crush Counter  (D)
+Sasanaki,27,2,13,6,-2,70,100,MP ▶ → + MK,None
+Tobikura,4,6,,,,70,50,(DURING JUMP) LP ▶ MK,None
+Aoji,5,4,,,,50,80,(DURING JUMP) HP ▶ HK,None
+Yamikazura,5,3,17,D,,130,120,(NEAR OPPONENT) → OR LP LK,None
+Kubiori,5,3,17,D,,150,200,(NEAR OPPONENT) ← + LP LK,None
+Tobizaru,5,2,6 frame(s) after landing,D,,140,200,(CLOSE TO OPPONENT IN AIR) LP LK,None
+[VS1] Tenrai,15,5,20,D,-7,60,100,(WHEN SELECTING VSKILL I) MP MK,None
+[VS1] Tenrai (Hold Button),25,7,18,D,-2,80,150,(WHEN SELECTING VSKILL I) MP MK (HOLD BUTTONS),None
+[VS2] Makibishi,78,240,102 total frames,1,-3,60,0,(WHEN SELECTING VSKILL II) MP MK,Can be canceled with light/medium/heavy Kunai and Kunai Ikkinage after hit or block
+[VS2] Makibishi,39,240,64 total frames,0,-4,20,0,(WHEN SELECTING VSKILL II) MP MK ▶ P,"Placement differs based on button strength
+Can be canceled with light/medium/heavy Kunai and Kunai Ikkinage after hit or block"
+Rokushaku Horokudama (Akebono),9,29(*19),27 total frames,8,3,20(*1100*2160),80,OR ↓ + HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                                                                Explodes after 1 seconds
+Gains Rokushaku Horokudama as a special move while active
+*1Denotes values of the explosion part
+*2Damage if explosion is triggered from EX Kunai"
+Rokushaku Horokudama (Hizakari),9,29(*19),27 total frames,8,3,20(*1100*2160),80,← + HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                                                                Explodes after 3 seconds
+Gains Rokushaku Horokudama as a special move while active
+*1Denotes values of the explosion part
+*2Damage if explosion is triggered from EX Kunai"
+Rokushaku Horokudama (Tasogare),9,29(*19),27 total frames,8,3,20(*1100*2160),80,↑ + HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                                                                Explodes after 5 seconds
+Gains Rokushaku Horokudama as a special move while active
+*1Denotes values of the explosion part
+*2Damage if explosion is triggered from EX Kunai"
+Rokushaku Horokudama (Reimei),9,29(*9),27 total frames,8,3,20(*100),80,→ + HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                                                                Explodes immediately
+Gains Rokushaku Horokudama as a special move while active
+*Denotes values of the explosion part"
+Hanagasumi,17,4,52 total frames,D,-2,60,0,(DURING GUARD) → + LP,"1F - 13F, 38F - 41F  attack & projectile invincibility
+14F - 37F  full invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Chizuri Hayabusa,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Kazekiri,3,13,34,D,-27,120(*70),150,→↓↘ + LK,"CA*Only possible during 2nd attack
+*Only for the final hit"
+M Kazekiri,4,13,34,D,-27,120(*70),150,→↓↘ + MK,"CA*Only possible during 2nd attack
+*Only for the final hit"
+H Kazekiri,5,13,34,D,-27,120(*70),150,→↓↘ + HK,"CA*Only possible during 2nd attack
+*Only for the final hit"
+EX Kazekiri,4,12(*13),37,D,-31,140,200,→↓↘ + K K,"1F - 8F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)
+Can perform the follow-up motion up to active frame 3F of the second hit
+S*On hit, can cancel into EX Airborne Kunai, Airborne Kunai Ikkinage from attack active frames 7-17F 
+*on block/whiff"
+L Raida,7,2,30,D,-12,100,200,→↘↓↙← + LP,None
+M Raida,7,2,30,D,-12,110,200,→↘↓↙← + MP,None
+H Raida,7,2,30,D,-12,120,200,→↘↓↙← + HP,None
+EX Raida,7,3,27,D,-11,150,200,→↘↓↙← + P P,1F - 9F  projectile invincibility
+L Kunai,10,11,33 total frames,2,-2,40,50,↓↘→ + LP,VS*Can only be canceled V-Skill II
+M Kunai,10,16,33 total frames,2,-2,40,50,↓↘→ + MP,VS*Can only be canceled V-Skill II
+H Kunai,10,21,33 total frames,2,-2,40,50,↓↘→ + HP,VS*Can only be canceled V-Skill II
+EX L Kunai,10,14,44 total frames,D,14,60,100,↓↘→ + LP MP,"Recovery values are for on contact
+Rokushaku Horokudama will explode upon V-cancel
+The second hit can cause Rokushaku Horokudama to explode.
+VS*Can only be canceled V-Skill II"
+EX M Kunai,10,18,44 total frames,-4,-2,60,100,↓↘→ + LP HP,"Recovery values are for on contact
+Regular 2nd hit will not hit the bomb, during V-cancel it will make Rokushaku Horokudama explode
+The second hit can cause Rokushaku Horokudama to explode.
+VS*Can only be canceled V-Skill II"
+EX H Kunai,10,22,44 total frames,-4,-2,60,100,↓↘→ + MP HP,"Recovery values are for on contact
+The 2nd hit will not hit the bomb
+The second hit can cause Rokushaku Horokudama to explode.
+VS*Can only be canceled V-Skill II"
+Airborne Kunai,7,,13 frame(s) after landing,,,40,50,(DURING FORWARD JUMP) ↓↘→ + P,None
+EX Airborne Kunai,7,-/3,13 frame(s) after landing,,,70,100,(DURING FORWARD JUMP) ↓↘→ + P P,The second hit can cause Rokushaku Horokudama to explode.
+Kunai Ikkinage,11,,37 total frames,D,*9,*120,*120,P (HOLD AND RELEASE),"Number of hits changes depending on the number of Kunai stored (1 - 6 hits)
+S*Can be canceled into special moves except for Kunai and EX Kunai
+VS*Can only be canceled V-Skill II
+*Value displayed is for 6 Kunai in stock (for every Kunai less than 6, -2F from recovery, -20 from damage, -10 from Meter Gain on hit)
+During V-cancel, from the 6th to the 5th the recovery is -3F, for the rest it's -2F"
+Airborne Kunai Ikkinage,16,,13 frame(s) after landing,D,,*120,*120,(DURING JUMP) K (HOLD AND RELEASE),"Number of hits changes depending on the number of Kunai stored (1 - 6 hits)
+*Value displayed is for 6 Kunai in stock (for every Kunai less than 6, -20 from damage, -10 from Meter Gain on hit)"
+L Kasumigake,,,23 total frames,,,,,↓↘→ + LK,None
+M Kasumigake,,,26 total frames,,,,,↓↘→ + MK,None
+H Kasumigake,,,57 total frames,,,,,↓↘→ + HK,"Can perform regular moves, Airborne Kunai, and Nobusuma"
+Kunai Hoju,,,*51 total frames,,,,,→↘↓↙← + K,"Hold the buttons to increase the refill amount (1 - 6)
+*Smallest amount is displayed. 109F for the max refill"
+EX KunaiHoju,,,*51 total frames,,,,,→↘↓↙← + K K,"Hold the buttons to increase the refill amount (3 - 6)
+*Smallest amount is displayed. 87F for the max refill"
+VRokushaku Horokudama (Akebono),25,29(*9),42 total frames,8,2,20(*100),80,OR ↓ + HP HK,"Uses all of the V-Gauge Timer
+                                                                                                                                                                                Explodes after 1 seconds
+*Denotes values of the explosion part"
+VRokushaku Horokudama (Hizakari),25,29(*9),42 total frames,,,20(*100),80,← + HP HK,"Uses all of the V-Gauge Timer
+                                                                                                                                                                                Explodes after 3 seconds
+*Denotes values of the explosion part"
+VRokushaku Horokudama (Tasogare),25,29(*9),42 total frames,8,2,20(*100),80,↑ + HP HK,"Uses all of the V-Gauge Timer
+                                                                                                                                                                                Explodes after 5 seconds
+*Denotes values of the explosion part"
+VRokushaku Horokudama (Reimei),25,29(*9),42 total frames,8,2,20(*100),80,→ + HP HK,"Uses all of the V-Gauge Timer
+                                                                                                                                                                                Explodes immediately
+*Denotes values of the explosion part"
+Kachofugetsu,1+4,17,17,D,-20,340,0,↓↘→ ↓↘→ + K,1F - 6F  full invincibility

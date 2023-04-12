@@ -1,0 +1,93 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,3,2,9,3,1,30,70,,None
+Standing MP,6,5,11,4,3,60,100,,None
+Standing HP,8,3,18,4,-2,80,150,,Triggers Crush Counter (+16F)
+Standing LK,4,3,9,4,3,30,70,,None
+Standing MK,7,4,14,4,-2,60,100,,None
+Standing HK,12,3,19,1,-4,90,150,,Triggers Crush Counter (+16F)
+Crouching LP,4,2,8,4,2,30,70,,Can be rapid canceled
+Crouching MP,5,2,15,3,2,60,100,,None
+Crouching HP,7,4,17,2,-2,90,150,,None
+Crouching LK,4,2,8,2,0,20,70,,Can be rapid canceled
+Crouching MK,7,3,13,2,-1,50,100,,None
+Crouching HK,9,3,22,D,-14,90,150,,Triggers Crush Counter  (D)
+Jumping LP,3,5,,,,40,70,,None
+Jumping MP,4,3,,,,60,100,,None
+Jumping HP,7,5,,,,90,150,,None
+Jumping LK,4,10,,,,40,70,,Can cross-up
+Jumping MK,5,7,,,,60,100,,Can cross-up
+Jumping HK,5,6,,,,90,150,,None
+Step Elbow,17,2,17,4,-2,80,120,→ + HP,None
+Twist Barrage,9,3,19,D,-8,60,100,→ + HP ▶ HP,S*CA*VS*Only on hit
+Dual Crash,7,3,16,D,-6,60,70,MP ▶ MK,S*CA*VS*Only on hit
+Seoi Throw,5,3,17,,,120,150,(NEAR OPPONENT) → OR + LP LK,None
+Pullback Hold,5,3,17,,,120,150,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Volty Line,20,6,22,2,-7,70,130,(WHEN SELECTING VSKILL I) MP MK,"Triggers Crush Counter  (D)
+                                                                                Frames 1F – 2F will not hit grounded opponents"
+V[VS1] Volty Line,20,6,21,4,-6,90,160,(WHEN SELECTING VSKILL I) MP MK,"Triggers Crush Counter  (D)
+                                                                                Frames 1F – 2F will not hit grounded opponents
+                                                                                Can be canceled into from Thunder Clap (uses 1,000 V-Timer)"
+[VS1] Linear Movement - Avante (Movement),,,21 total frames,,,,,(WHEN SELECTING VSKILL I) → + MP MK,"Can be canceled into from Thunder Clap during V-Trigger (uses 1,500 V-Timer)"
+[VS1] Linear Movement - Avante (Attack),30,6,22,2,-7,70,130,(WHEN SELECTING VSKILL I) → + MP MK (HOLD BUTTONS),"Triggers Crush Counter  (D)
+                                                                                Frames 1F – 2F will not hit grounded opponents"
+V[VS1] Linear Movement - Avante (Attack),30,6,21,4,-6,90,160,(WHEN SELECTING VSKILL I) → + MP MK (HOLD BUTTONS),"Triggers Crush Counter  (D)
+                                                                                Frames 1F – 2F will not hit grounded opponents"
+[VS1] Linear Movement - Esquiva (Movement),,,26 total frames,,,,,(WHEN SELECTING VSKILL I) ← + MP MK,"Can be canceled into from Thunder Clap during V-Trigger (uses 1,500 V-Timer)"
+[VS1] Linear Movement - Esquiva (Attack),32,6,22,2,-7,70,130,(WHEN SELECTING VSKILL I) ← + MP MK (HOLD BUTTONS),"Triggers Crush Counter  (D)
+                                                                                Frames 1F – 2F will not hit grounded opponents"
+V[VS1] Linear Movement - Esquiva (Attack),32,6,21,4,-6,90,160,(WHEN SELECTING VSKILL I) ← + MP MK (HOLD BUTTONS),"Triggers Crush Counter  (D)
+                                                                                Frames 1F – 2F will not hit grounded opponents"
+[VS1] Linear Movement - Finta (Movement),,,17 total frames,,,,,(WHEN SELECTING VSKILL I) ← + MP MK ▶ MP MK,None
+[VS1] Linear Movement - Finta (Attack),43,6,22,2,-7,70,130,(WHEN SELECTING VSKILL I) ← + MP MK ▶ MP MK (HOLD BUTTONS),"Triggers Crush Counter  (D)
+                                                                                Frames 1F – 2F will not hit grounded opponents"
+V[VS1] Linear Movement - Finta (Attack),43,6,21,4,-6,90,160,(WHEN SELECTING VSKILL I) ← + MP MK ▶ MP MK (HOLD BUTTONS),"Triggers Crush Counter  (D)
+                                                                                Frames 1F – 2F will not hit grounded opponents"
+[VS2] Volty Sprink,11,2,25+14 frame(s) after landing,D,,60,100,(WHEN SELECTING VSKILL II) MP MK,Will not hit grounded opponents
+[VS2] Thunder Spike,13,,10 frame(s) after landing,,,60,60,(WHEN SELECTING VSKILL II) MP MK ▶ P,Button strength changes projectile speed
+[VS2] Heavy Heel,16,2,10 frame(s) after landing,3,-2,70,100,(WHEN SELECTING VSKILL II) MP MK ▶ K,None
+V[VS2] Thunder Spike Lv.1,14,,10 frame(s) after landing,,,60,60,(WHEN SELECTING VSKILL II) MP MK ▶ P,Button strength changes projectile speed
+V[VS2] Thunder Spike Lv.2,28,,10 frame(s) after landing,,,90,90,(WHEN SELECTING VSKILL II) MP MK ▶ P (HOLD BUTTONS),Button strength changes projectile speed
+V[VS2] Heavy Heel,16,2,10 frame(s) after landing,4,1,70,100,(WHEN SELECTING VSKILL II) MP MK ▶ K,None
+Spark Show,1,,4,,,,,HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                While active, special moves, V-Skill, and the CA are strengthened
+V-Skill can be canceled into from V-Thunder Clap"
+Double Slap,17,2,24,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Neutralize,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+Thunder Clap (Lv1),19,45,45 total frames,2,-5,60,60,↓↙← + P,None
+Thunder Clap (Lv2),36,80,61 total frames,11,2,90,90,↓↙← + P (HOLD BUTTONS),None
+Thunder Clap (Lv3),70,100,83 total frames,31,18,120,120,↓↙← + P (max hold button),None
+VThunder Clap (Lv1),19,80,45 total frames,2,-5,60,60,(DURING V-TRIGGER I) ↓↙← + P,None
+VThunder Clap (Lv2),26,80,53 total frames,11,2,90,90,(DURING V-TRIGGER I) ↓↙← + P (HOLD BUTTONS),None
+VThunder Clap (Lv3),40,100,53 total frames,31,18,120,120,(DURING V-TRIGGER I) ↓↙← + P (max hold button),None
+EX Thunder Clap,17,170(*40),41 total frames,D,3,90,90,↓↙← + P P,"Button strength changes projectile speed
+*Value in case of weakest button strength"
+VEX Thunder Clap,17,190(*80),41 total frames,D,7,120,120,↓↙← + P P,"Button strength changes projectile speed
+*Value in case of weakest button strength"
+L Bolt Charge,12,3,18,2,-2,60,100,↓↘→ + LP,None
+M Bolt Charge,15,3,20,2,-7,60,50,↓↘→ + MP,None
+H Bolt Charge,7,8,17+13 frame(s) after landing,D,,150,200,↓↘→ + HP,Will not hit grounded opponents
+VL Bolt Charge,12,3,18,2,-2,70,150,↓↘→ + LP,None
+VM Bolt Charge,15,3,20,2,-7,70,100,↓↘→ + MP,None
+VH Bolt Charge,7,8,17+13 frame(s) after landing,D,,180,250,↓↘→ + HP,Will not hit grounded opponents
+EX Bolt Charge,12,3,22,0,-17,80,50,↓↘→ + P P,Armor from 3F to 16F
+VEX Bolt Charge,12,3,22,0,-17,90,100,↓↘→ + P P,Armor from 3F to 16F
+Split River,,,,D,,70,150,↓↘→ + MP OR P P ▶ P,Recovery shortened by one frame when using Ex Bolt Charge
+Rodeo Break,,,,D,,70,150,↓↘→ + MP OR P P ▶ K,Recovery shortened by one frame when using Ex Bolt Charge
+VSplit River,,,,D,,90,150,↓↘→ + MP OR P P ▶ P,Recovery shortened by one frame when using Ex Bolt Charge
+VRodeo Break,,,,D,,90,150,↓↘→ + MP OR P P ▶ K,Recovery shortened by one frame when using Ex Bolt Charge
+L Sunset Wheel,9,2,60,D,,160,200,(NEAR OPPONENT) →↘↓↙← + LK,None
+M Sunset Wheel,5,2,60,D,,170,200,(NEAR OPPONENT) →↘↓↙← + MK,None
+H Sunset Wheel,5,2,60,D,,190,200,(NEAR OPPONENT) →↘↓↙← + HK,None
+VL Sunset Wheel,9,2,60,D,,180,230,(NEAR OPPONENT) →↘↓↙← + LK,None
+VM Sunset Wheel,5,2,60,D,,190,230,(NEAR OPPONENT) →↘↓↙← + MK,None
+VH Sunset Wheel,5,2,60,D,,210,230,(NEAR OPPONENT) →↘↓↙← + HK,None
+EX Sunset Wheel,18,2,60,D,,180,250,(NEAR OPPONENT) →↘↓↙← + K K,1F - 20F  projectile invincibility
+VEX Sunset Wheel,18,2,60,D,,210,280,(NEAR OPPONENT) →↘↓↙← + K K,1F - 20F  projectile invincibility
+Inazuma Spin Hold,1+3,2,52,D,,350,0,↓↘→ ↓↘→ + K,1F - 5F  full invincibility
+VInazuma Spin Hold,1+3,2,52,D,,370,0,↓↘→ ↓↘→ + K,1F - 5F  full invincibility

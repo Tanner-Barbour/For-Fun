@@ -1,0 +1,97 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,6,4,2,30,70,,None
+Standing MP,6,3,13,4,2,60,100,,None
+Standing HP,8,3,19,5,-4,80,150,,Triggers Crush Counter (+18F)
+Standing LK,5,3,9,1,-2,40,70,,None
+Standing MK,5,3,14,3,-2,50,100,,None
+Standing HK,11,3,20,6,-2,80,150,,"Triggers Crush Counter (+23F)
+                                                                Will not hit crouching opponents"
+Crouching LP,3,2,8,4,1,20,70,,None
+Crouching MP,6,3,13,5,2,60,100,,None
+Crouching HP,7,3,23,0,-3,80,150,,None
+Crouching LK,4,2,8,3,1,20,70,,Can be rapid canceled
+Crouching MK,8,3,15,3,1,50,100,,None
+Crouching HK,10,4,24,D,-12,100,150,,"Triggers Crush Counter  (D)
+                                                                                                                                                                S*CA*Only possible for 1st attack on hit
+V*Only possible during 1st attack"
+Jumping LP,3,5,,,,40,70,,None
+Jumping MP,5,6,,,,70,100,,None
+Jumping HP,7,4,,,,90,150,,None
+Jumping LK,4,5,,,,40,70,,Can cross-up
+Jumping MK,6,5,,,,70,100,,None
+Jumping HK,9,4,,,,90,150,,None
+Blizzard Heel,23,5,18,1,-7,60,100,→ + MK,None
+Sniping Kick,14,3,19,3,-2,90,150,← + HK,Triggers Crush Counter  (D)
+Isicle Stamp,18,Until landing,4 frame(s) after landing,,,30,70,(DURING JUMP) ↓ + MK,Enters special counterable state from the start of the move until landing
+Frost Spike (2),6,3,17,0,-6,40,60,LP ▶ MP,None
+Frost Spike (3),8,,,1,-9,60,80,LP ▶ MP ▶ HP,S*CA*Only on hit
+White Out (2),8,3,23,-1,-9,50,70,MK ▶ HP,None
+White Out (3),10,,,D,-12,60,100,(WHEN SELECTING VSKILL I) MK ▶ HP ▶ MP MK,None
+White Pressure,14,1,49,D,,100,150,(WHEN SELECTING VSKILL II) MK ▶ HP ▶ MP MK,Opponent takes ice damage on hit
+Cold Low (2),4,2,8,3,1,20,70,(DURING M Vanity Step) ↓ + LK,None
+Cold Low (3),10,4,24,D,-12,100,150,(DURING M Vanity Step) ↓ + LK ▶ ↓ + HK,"S*CA*Only possible for 1st attack on hit
+V*Only possible during 1st attack"
+Brinicle (2),4,2,8,3,1,20,70,(DURING M Vanity Step) ↓ + LK,None
+Brinicle (3),8,3,21,D,-2,90,150,(DURING M Vanity Step) ↓ + LK ▶ ↓ + HP,S*CA*Only on hit
+Snow Grain (2),6,3,13,5,2,60,100,(DURING M Vanity Step) ↓ + MP,None
+Snow Grain (3),8,3,19,5,-8,90,150,(DURING M Vanity Step) ↓ + MP ▶ HP,S*CA*Only on hit
+White Spear (2),4,5,,,,40,70,(DURING H Vanity Step) (DURING JUMP) LK,Can cross-up
+White Spear (3),3,5,,,,70,100,(DURING H Vanity Step) (DURING JUMP) LK ▶ MK,Can cross-up
+Pressure Ridge,5,3,17,D,,130,120,OR → + LP LK,None
+Sublimation,5,3,17,D,,120,150,← + LP LK,None
+Avalance Rock,5,2,6 frame(s) after landing,D,,120,200,(CLOSE TO OPPONENT IN AIR) LP LK,None
+[VS1] Inside Slash,15,2,23,2,-8,50,100,(WHEN SELECTING VSKILL I) MP MK,Counter for all hit levels from 8F to 16F
+[VS1] Inside Slash (upon successful parry),1,5,31,D,,150,200,,1F - 54F  full invincibility
+[VS2] Glacier Throw,26,3,47,D,,100,150,(WHEN SELECTING VSKILL II) MP MK,Opponent takes ice damage on hit
+Diamond Dust,17,24,30 total frames,D,32,120,360,HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                                                                While active, Kolin gains the Diamond Dust special move
+Holding forward after a Forward Dash performed immediately after this move will result in a dash
+Opponent takes ice damage on hit
+While under the ice effect, the opponent's stun gauge will not recover. Effect is released if Kolin is hit
+Can hit a knocked down opponent"
+Third Eye,,,33 total frames,,,,,(DURING GUARD) → + LK,"1F - 25F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Cold Snap,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+Frost Touch - Low,2,11,34,D,,200,250,↓↙← + LP,Counter for low attacks
+Frost Touch - Mid,2,11,34,D,,180,250,↓↙← + MP,Can counter high and mid grounded attacks
+Frost Touch - High,2,11,34,D,,180,250,↓↙← + HP,Can counter airborne attacks
+EX Frost Touch - Low,1,12,29,D,,260,300,↓↙← + LP MP,Counter for low attacks
+EX Frost Touch - Mid,1,12,29,D,,240,300,↓↙← + LP HP,Can counter high and mid grounded attacks
+EX Frost Touch - High,1,12,29,D,,240,300,↓↙← + MP HP,Can counter airborne attacks
+L Parabellum,9,8,17,2,-4,70,150,↓↘→ + LP OR LP (REPEAT BUTTON),None
+M Parabellum,14,10,21,4,-6,80,150,↓↘→ + MP OR MP (REPEAT BUTTON),None
+H Parabellum,18,12,31,D,-9,100,150,↓↘→ + HP OR HP (REPEAT BUTTON),None
+EX Parabellum,9,10,22,D,-7,100,150,↓↘→ + P P OR P P (REPEAT BUTTON),"Stops after the 5th attack on block and whiff
+S*The final attack can be canceled into Vanity Step, Hailstorm"
+L Vanity Step,,,43 total frames,,,,,↓↙← + LK,"7F - 14F  attack & projectile invincibility
+                                                VS*Can only be canceled V-Skill II"
+M Vanity Step,,,46 total frames,,,,,↓↙← + MK,"6F - 14F  attack & projectile invincibility
+                                                Can cancel into normal and unique moves from 39F"
+H Vanity Step,,,4 frame(s) after landing,,,,,↓↙← + HK,"7F - 14F  attack & projectile invincibility
+                                                Can perform normal moves and her air throw during the jump"
+EX L Vanity Step,,,32 total frames,,,,,↓↙← + LK MK,"17F - 32F  projectile invincibility
+1F - 16F  attack & projectile invincibility
+                                                VS*Can only be canceled V-Skill II"
+EX M Vanity Step,,,38 total frames,,,,,↓↙← + LK HK,"15F - 45F  projectile invincibility
+1F - 14F  attack & projectile invincibility
+                                                Can cancel into normal and unique moves from 33F"
+EX H Vanity Step,,,4 frame(s) after landing,,,,,↓↙← + MK HK,"18F - 55F  projectile invincibility
+1F - 17F  attack & projectile invincibility"
+Silver Edge,8,9,23,D,-12,100,150,(DURING L Vanity Step) P,1F - 11F  projectile invincibility
+EX Silver Edge,5,9,18,D,-9,160,200,(DURING EX L Vanity Step) P,1F - 13F  projectile invincibility
+L Hailstorm,12,5/Until landing,25,D,-8,50,100,→↓↘ + LP,The startup motion and the projectile itself nullify projectiles
+M Hailstorm,12,5/Until landing,28,D,-11,50,100,→↓↘ + MP,The startup motion and the projectile itself nullify projectiles
+H Hailstorm,12,5/Until landing,28,D,-11,50,100,→↓↘ + HP,The startup motion and the projectile itself nullify projectiles
+EX Hailstorm,12,5/Until landing,25,D,-8,50+100,100+200,→↓↘ + P P,"The startup motion and the projectile itself nullify projectiles
+If the first attack hits the enemy while airborne, the projectile's stun value becomes 50"
+VDiamond Dust,17,24,36 total frames,D,26,120,360,HP HK,"Uses 2000F V-Gauge Timer
+                                                                                                                                                                                Holding forward after a Forward Dash performed immediately after this move will result in a dash
+Opponent takes ice damage on hit
+While under the ice effect, the opponent's stun gauge will not recover. Effect is released if Kolin is hit
+Puts the opponent in a knocked down juggle state"
+Frost Tower,7,3,52,D,-37,330,0,↓↘→ ↓↘→ + P,1F - 9F  full invincibility

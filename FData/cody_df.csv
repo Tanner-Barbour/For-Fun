@@ -1,0 +1,102 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,7,3,1,30,70,,"Can rapid cancel into crouching LP, standing LK, and crouching LK"
+Standing MP,7,2,16,4,0,60,100,,None
+Standing HP,6,5,21,3,-10,120(*70),170(*120),,*Only for the 2nd hit
+Standing LK,5,3,10,4,3,40,70,,None
+Standing MK,7,3,12,7,3,60,100,,None
+Standing HK,15,3,21,2,-4,80,150,,Triggers Crush Counter (+22F)
+Crouching LP,4,2,10,4,2,30,70,,Can be rapid canceled
+Crouching MP,6,3,15,5,2,60,100,,None
+Crouching HP,9,2,21,0,-4,90,150,,Triggers Crush Counter (+19F)
+Crouching LK,4,3,8,3,1,20,70,,Can be rapid canceled
+Crouching MK,7,3,15,3,1,60,100,,None
+Crouching HK,9,4,23,D,-14,90,150,,Triggers Crush Counter  (D)
+Jumping LP,4,5,,,,40,70,,None
+Jumping MP,7,5,,,,70,100,,Causes blowback knockdown on airborne hit
+Jumping HP,9,5,,,,90,150,,None
+Jumping LK,5,5,,,,40,70,,None
+Jumping MK,7,5,,,,60,100,,Can cross-up
+Jumping HK,10,5,,,,90,150,,None
+(WHILE HOLDING KNIFE) Standing LP,4,3,8,6,2,30,70,,"Can rapid cancel into crouching LP, standing LK, and crouching LK
+Uses 50 V-Timer gauge on hit (25 on block)"
+(WHILE HOLDING KNIFE) Standing MP,8,3,15,5,4,60,100,,"Uses 80 V-Timer gauge on hit (40 on block)
+S*Can be canceled into Snipe Shot, Anti-Air Snipe Shot, and Rapid Fire"
+(WHILE HOLDING KNIFE) Standing HP,13,3,19(*20),7,-2,90,150,,"Uses 150 V-Timer gauge on hit (75 on block)
+*On whiff"
+(WHILE HOLDING KNIFE) Crouching LP,4,3,7,5,3,30,70,,"Can be rapid canceled
+                                                                                                                                Uses 50 V-Timer gauge on hit (25 on block)"
+(WHILE HOLDING KNIFE) Crouching MP,6,2,13,5,4,60,100,,"Uses 80 V-Timer gauge on hit (40 on block)
+S*Can be canceled into Snipe Shot, Anti-Air Snipe Shot, and Rapid Fire"
+(WHILE HOLDING KNIFE) Crouching HP,11,5,20,4,-5,90,150,,Uses 150 V-Timer gauge on hit (75 on block)
+(WHILE HOLDING KNIFE) Jumping LP,4,5,,,,40,70,,Uses 50 V-Timer gauge on hit (25 on block)
+(WHILE HOLDING KNIFE) Jumping MP,6,4,,,,70,100,,"Uses 80 V-Timer gauge on hit (40 on block)
+Causes blowback knockdown on airborne hit"
+(WHILE HOLDING KNIFE) Jumping HP,9,3,,,,90,150,,Uses 150 V-Timer gauge on hit (75 on block)
+Axel Knuckle,25,2,21,1,-7,80,150,→ + HP,None
+Hammer Kick,19,3,21,2,-2,100,150,→ + HK,S*CA*V*Only possible during 1st attack
+Crack Combination,9,6,10+15 frame(s) after landing,D,-18,80,70,(WHEN SELECTING VSKILL I) → + HK ▶ MP MK,"4F - 15F  full invincibility
+                                                Subject to counter hit during move duration
+Takes 40 of recoverable damage"
+Crime Combination,16,3,26,D,-11,80,150,(WHEN SELECTING VSKILL II) → + HK ▶ MP MK,None
+Air Raid Punch,9,5,,,,70,120,(DURING JUMP) MP ▶ HP,Causes knockdown on airborne hit
+Air Raid Kick,3,5,,,,40,70,(DURING JUMP) MK ▶ LK,Can cross-up
+Burst Shot,13,4,27,-3,-14,80,120,(DURING V-TRIGGER I) (WHILE HOLDING KNIFE) MP ▶ HP,Uses 300 V-Timer gauge on hit
+Slip Jab,4,2,17,-2,-6,30,50,LP ▶ LP,None
+Crime Blow,6,3,26,-4,-7,50,80,LP ▶ LP ▶ LP,None
+Final Combination,9,2,33,D,-13,80,120,LP ▶ LP ▶ LP ▶ LP,None
+Final Combo Throw,5,3,27,D,-16,110,150,LP ▶ LP ▶ LP ▶ ↓ + LP,Throw counts as part of the combo
+Bad Spray,3,4,14,5,-2,40,50,(WHEN RECOVERING IN PLACE) ↑ + P,Strength treated as a hard attack
+Trash Out,5,3,17,D,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Crime Throw,5,3,17,D,,150,200,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Double Kick,14,6,10+15 frame(s) after landing,D,-18,80,70,(WHEN SELECTING VSKILL I) MP MK,"3F - 26F  full invincibility
+                                                Subject to counter hit during move duration
+Takes 40 of recoverable damage"
+[VS2] Crime Sway (High),,,36 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,"Invulnerable to standing/airborne attacks and projectiles from frames 2 to 25
+Can transition into Wrench Fist from frame 13
+Subject to counter hit during move duration"
+[VS2] Crime Sway (Low),,,36 total frames,,,,,(WHEN SELECTING VSKILL II) ↓ + MP MK,"Invulnerable to crouching attacks and projectiles from frames 2 to 25
+Can transition into Lumber Sweep from frame 15
+Subject to counter hit during move duration"
+[VS2] Wrench Fist,9,2,23,D,-7,80,150,(WHEN SELECTING VSKILL II) MP MK ▶ P,"1F - 8F  projectile invincibility
+                                                S*Only on hit"
+[VS2] Lumber Sweep,11,2,22,D,-6,80,150,(WHEN SELECTING VSKILL II) ↓ + MP MK ▶ K,1F - 10F  projectile invincibility
+Side Arm,1,,4,,,,,HP HK,V-Gauge Timer + 2000F
+Prison Breaker,17,2,23(*33),D,-2,60,0,(DURING GUARD) → + LK,"1F - 29F  attack invincibility
+                                                Recover 200 stun upon activation
+*on hit"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Payback,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Tornado Sweep,18,50,49 total frames,2,-7,50,100,(WHILE EMPTY-HANDED) ↓↘→ + LP,"Not available when holding a weapon during VT
+S*Can be whiff canceled into Reload"
+M Tornado Sweep,18,70,49 total frames,2,-7,50,100,(WHILE EMPTY-HANDED) ↓↘→ + MP,"Not available when holding a weapon during VT
+S*Can be whiff canceled into Reload"
+H Tornado Sweep,18,55,49 total frames,2,-7,50,100,(WHILE EMPTY-HANDED) ↓↘→ + HP,"Not available when holding a weapon during VT
+S*Can be whiff canceled into Reload"
+EXTornado Sweep,18,,45 total frames,4,2,80,120,(WHILE EMPTY-HANDED) ↓↘→ + P P,"Not available when holding a weapon during VT
+S*Can be whiff canceled into Reload"
+L Ruffian Kick,18,5,23,D,-8,100,150,↓↘→ + LK,None
+M Ruffian Kick,12,5,27,D,-8,120,150,↓↘→ + MK,None
+H Ruffian Kick,10,7,23,D,-10,130,150,↓↘→ + HK,"Will not hit crouching opponents
+                                                                                                Invincible to mid-air attacks at the head until 8F"
+EX Ruffian Kick,16,5,25,D,-12,80,150,↓↘→ + K K,"Will not hit airborne opponents
+                                                                Second hit is automatic after the first hit"
+Zonk Knuckle,20,3,21(*22),3,-2,80,150,P (HOLD AND RELEASE),*On whiff
+Zonk Knuckle Lv.2,20,3,20,5,-2,80,150,P (HOLD AND RELEASE),None
+EX Zonk Knuckle,15,5,18(*23),D,3,130,200,P P (HOLD AND RELEASE),"*On whiff
+V*Only possible during 1st attack"
+EX Zonk Knuckle Lv.2,15,5,18(*23),D,5,130,200,P P (HOLD AND RELEASE),"*On whiff
+V*Only possible during 1st attack"
+Snipe Shot,14,,37 total frames,D,3,60,100,(DURING V-TRIGGER I) (WHILE HOLDING KNIFE) HP HK,"Can be hit out of the air with a physical attack
+S*Can be whiff canceled into Reload"
+Anti-Air Snipe Shot,14,,35 total frames,D,0,60,100,(DURING V-TRIGGER I) (WHILE HOLDING KNIFE) ↓ + HP HK,"Can be hit out of the air with a physical attack
+S*Can be whiff canceled into Reload"
+Reload,,,29 total frames,,,,,(DURING V-TRIGGER I) (BEFORE GETTING KNIFE) HP HK,Uses 300F V-Gauge Timer
+Rapid Fire,13,2,20,D,3,140,180,(DURING V-TRIGGER I) (WHILE HOLDING KNIFE) ↓↙← + P,"Uses 600F V-Gauge Timer
+                                                                                                                                                                                Cannot be performed when the V-Timer is at 0
+Final attack changes if V Timer is 0 at finish"
+Criminal Punisher,7,27,59,D,-35,330,0,↓↘→ ↓↘→ + P,"1F - 11F  full invincibility
+                                                Actual damage until attack active frame 13F"

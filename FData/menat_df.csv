@@ -1,0 +1,59 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,5,4,8(*11),5,3,30,70,,*On whiff
+Standing MP,6,6,20,-2,-8,60,100,,None
+Standing HP,12,9,19,-6,-10,80,150,,Triggers Crush Counter  (D)
+Standing LK,3,3,10,4,1,30,70,,None
+Standing MK,8,3,16,2,-2,60,100,,S*Can only be canceled into Soul Sphere - Ankh and Soul Spark
+Standing HK,11,6,23,-4,-8,90,150,,"Triggers Crush Counter  (crumple)
+                                                Forces stand"
+Crouching LP,4,4,8(*11),4,2,30,70,,*On whiff
+Crouching MP,7,6,13,2,-3,60,100,,None
+Crouching HP,9,5,19,-1,-5,80(*70),150,,"Triggers Crush Counter  (D)
+                                                Forces stand
+                                                                                                                *From active frame 2F"
+Crouching LK,4,2,9,4,1,20,70,,"S*Can only be canceled into Soul Sphere - Ankh and Soul Spark
+Standing/Crouching LP can be rapid canceled"
+Crouching MK,7,3,14,3,2,50,100,,None
+Crouching HK,11,3,33,D,-16,90,150,,Triggers Crush Counter  (D)
+Jumping LP,4,5,,,,40,70,,None
+Jumping MP,8,4,,,,70,100,,None
+Jumping HP,13,4,,,,90,150,,None
+Jumping LK,4,6,,,,40,70,,None
+Jumping MK,7,4,,,,60,100,,None
+Jumping HK,9,4,,,,90,150,,None
+Divine Retribution,27,2,23,1,-7,60,100,→ + MK,S*The first hit only can only be canceled into Soul Sphere - Ankh and Soul Spark
+Judgment Of Anubis,11,11,18,-6,-10,50,100,↘ + MK,Area around her head is projectile invincible from 11F - 35F
+Khamun Kick,12,Until landing,9 frame(s) after landing,,,60,70,(DURING JUMP) ↓ + K,None
+Overflowing Nile,5,3,17,D,,120,170,(NEAR OPPONENT) → OR + LP LK,None
+Pyramid Hopscotch,5,3,17,D,,140,200,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Soul Reflect: Kamal,9,3(*8),37,D,-18,80,150,(WHEN SELECTING VSKILL I) MP MK,"*Value while refrection projectile
+Can reflect projectiles. Cannot reflect EX or stronger projectiles"
+[VS1] Soul Reflect: Stella,14,3(*15),35,D,-16,80,150,(WHEN SELECTING VSKILL I) ↓ + MP MK,"*Value while refrection projectile
+Can reflect projectiles. Cannot reflect EX or stronger projectiles"
+[VS2] Soul Spiral,19,10,24,D,-14,70,120,(WHEN SELECTING VSKILL II) MP MK,None
+Wisdom Of Thoth,1,,4,,,,,HP HK,V-Gauge Timer + 2000F
+Wisdom Of Thoth (Projectile),10,,,,,20,20,,"Press and release a button to fire the projectile. Each button corresponds to a projectile
+Standing/crouching/airborne states change the projectile's trajectory
+Projectiles cannot be fired while blocking, during hit stun, while knocked down, at the beginning of a normal move, and during certain conditions"
+Left Eye Of The Lion,,,43 total frames,,,,,(DURING GUARD) → + LP,"1F - 22F  attack & projectile invincibility
+23F - 39F  full invincibility
+                                                Teleports to the other side of the opponent regardless of distance
+Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Sistrum Of Fortune,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Soul Sphere,14,26,38 total frames,2,-8,40,70,(WITH THE CRYSTAL BALL) ↓↘→ + LP,CA cancel can only be performed in close range on base hit
+M Soul Sphere,14,33,43 total frames,1,-11,40,70,(WITH THE CRYSTAL BALL) ↓↘→ + MP,CA cancel can only be performed in close range on base hit
+H Soul Sphere,14,33,36 total frames,4,-4,40,70,(WITH THE CRYSTAL BALL) ↓↘→ + HP,Will not hit crouching opponents
+EX L Soul Sphere,19,21,47 total frames,7,3,60,0,(WITH THE CRYSTAL BALL) ↓↘→ + LP MP,None
+EX M Soul Sphere,10,21,51 total frames,D,-10,150,200,(WITH THE CRYSTAL BALL) ↓↘→ + LP HP,None
+EX H Soul Sphere,10,21,40 total frames,0,-9,150(*40),200(*70),(WITH THE CRYSTAL BALL) ↓↘→ + MP HP,"Locks if it hits an airborne opponent
+*On grounded hit"
+L Guardian Of The Sun,6,15,21+30 frame(s) after landing,D,,100,150,(WITH THE CRYSTAL BALL) →↓↘ + LK,None
+M Guardian Of The Sun,8,15,21+30 frame(s) after landing,D,,120,150,(WITH THE CRYSTAL BALL) →↓↘ + MK,None
+H Guardian Of The Sun,10,15,21+30 frame(s) after landing,D,,140,200,(WITH THE CRYSTAL BALL) →↓↘ + HK,None
+EX Guardian Of The Sun,6,15,21+30 frame(s) after landing,D,,150,200,(WITH THE CRYSTAL BALL) →↓↘ + K K,5F - 20F  full invincibility
+The Nefertem,1+3,16,65,D,-46,330,0,↓↘→ ↓↘→ + P,1F - 20F  full invincibility

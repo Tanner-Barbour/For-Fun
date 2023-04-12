@@ -1,0 +1,104 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,2,7,4,3,30,70,,Can be rapid canceled
+Standing MP,5,2,14,6,3,60,100,,None
+Standing HP,8,2,19,2,-3,80,150,,Triggers Crush Counter (+17F)
+Standing LK,3,3,9,2,1,30,70,,None
+Standing MK,8,3,17,1,-4,60,100,,None
+Standing HK,16,2,22,2,-4,90,150,,Triggers Crush Counter  (D)
+Crouching LP,4,3,5,4,2,30,70,,Can be rapid canceled
+Crouching MP,6,3,15,2,-2,60,100,,Forces stand
+Crouching HP,10,4,22(*26),6,-2,80,150,,"Second hit triggers Crush Counter (+20F)
+                                                                                                                                                                S*CA*VS*Only possible during 1st attack
+*On whiff"
+Crouching LK,4,2,8,2,0,20,70,,Can be rapid canceled
+Crouching MK,6,2,15,1,-3,50,100,,None
+Crouching HK,7,2,25,D,-12,90,150,,Triggers Crush Counter  (D)
+Jumping LP,4,4,,,,40,70,,None
+Jumping MP,7,6,,,,50,100,,"Causes blowback knockdown on airborne hit
+VS*Can only be canceled V-Skill II"
+Jumping HP,7,3,,,,90,150,,None
+Jumping LK,4,4,,,,40,70,,None
+Jumping MK,5,5,,,,60,100,,Can cross-up
+Jumping HK,8,5,,,,90,150,,None
+Flap Spin,8,5,14,2,-2,70,100,→ + MP,S*CA*V*VS*Only possible during 1st attack
+Beak Assault,23,2,18,0,-7,80,150,→ + HP,7F - 20F  throw invincibility
+Wall Jump,,,,,,,,(DURING JUMP NEAR WALL) ↗ OR ↘,Enters special counterable state from the start of the move until landing
+Riding Glider,5,3,17,D,,130,150,(NEAR OPPONENT) → OR + LP LK,None
+Rising Sun,5,3,17,D,,140,150,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Front Flip,,,42+13 frame(s) after landing,,,,,(WHEN SELECTING VSKILL I) MP MK,None
+[VS1] L Airborne Eagle Spike (from V-Skill),18,Until landing,20 frame(s) after landing,D,,120,200,(WHEN SELECTING VSKILL I) MP MK ▶ LK,"If the attack just before landing is blocked, +3F to the recovery"
+[VS1] M Airborne Eagle Spike (from V-Skill),20,Until landing,20 frame(s) after landing,D,,120,200,(WHEN SELECTING VSKILL I) MP MK ▶ MK,"If the attack just before landing is blocked, +3F to the recovery"
+[VS1] H Airborne Eagle Spike (from V-Skill),22,Until landing,20 frame(s) after landing,D,,120,200,(WHEN SELECTING VSKILL I) MP MK ▶ HK,"If the attack just before landing is blocked, +3F to the recovery"
+[VS1] EX Airborne Eagle Spike (from V-Skill),15,Until landing/11 frame(s) after landing,31+16 frame(s) after landing,D,,140,200,(WHEN SELECTING VSKILL I) MP MK ▶ K K,"1F - Until landing, 1 frame(s) after landing - 29F  projectile invincibility"
+[VS1] Rolling Assault,,,32 total frames,,,,,(WHEN SELECTING VSKILL I) ↓ + MP MK,5F - 18F  projectile invincibility
+[VS1] Nail Assault,6,5,21,D,-6,80,100,(WHEN SELECTING VSKILL I) ↓ + MP MK ▶ K,None
+[VS2] Wing Stroke,,,58+6 frame(s) after landing,,,,,(WHEN SELECTING VSKILL II) MP MK,"Can be canceled from all forms of Whirlwind Shot
+V Gauge increases if the move's jumping attack hits or is blocked
+Can transition to Wing Spike after frame 27
+Can transition to any jumping attack after frame 48
+Enters special counterable state from the start of the move until landing"
+[VS2] Wing Spike,6,11,13+19 frame(s) after landing,D,-22,100,150,(WHEN SELECTING VSKILL II) MP MK ▶ K,"Will not hit crouching opponents
+                                                1F - 29F  projectile invincibility"
+[VS2]EX Wing Spike,6,11,12+19 frame(s) after landing,D,-20,110,150,(WHEN SELECTING VSKILL II) MP MK ▶ K K,"Will not hit crouching opponents
+                                                1F - 28F  projectile invincibility
+                                                Second attack only triggers when the first one hits or is blocked"
+[VS2] Airborne Wing Stroke,,,10 frame(s) after landing,,,,,(WHEN SELECTING VSKILL II) (DURING VERTICAL OR FORWARD JUMP) MP MK,"V Gauge increases if the move's jumping attack hits or is blocked
+Can transition to Wing Spike after frame 24
+Can transition to any jumping attack after frame 41
+Enters special counterable state from the start of the move until landing"
+[VS2] Airborne Wing Spike,13,Until landing,25 frame(s) after landing,D,,120,200,(WHEN SELECTING VSKILL II) (DURING VERTICAL OR FORWARD JUMP) MP MK ▶ LK,"If the attack just before landing is blocked, -2F to the recovery"
+[VS2] Airborne Wing Spike,15,Until landing,25 frame(s) after landing,D,,120,200,(WHEN SELECTING VSKILL II) (DURING VERTICAL OR FORWARD JUMP) MP MK ▶ MK,"If the attack just before landing is blocked, -2F to the recovery"
+[VS2] Airborne Wing Spike,17,Until landing,25 frame(s) after landing,D,,120,200,(WHEN SELECTING VSKILL II) (DURING VERTICAL OR FORWARD JUMP) MP MK ▶ HK,"If the attack just before landing is blocked, -2F to the recovery"
+[VS2]EX Airborne Wing Spike,10,Until landing/11 frame(s) after landing,31+16 frame(s) after landing,D,,140,200,(WHEN SELECTING VSKILL II) (DURING VERTICAL OR FORWARD JUMP) MP MK ▶ K K,"1F - Until landing, 1 frame(s) after landing - 29F  projectile invincibility"
+Ysaar,16,250,26 total frames,D,32,120,150,HP HK,Rashid will gain inertia upon coming into contact with his V-Trigger
+Sliding Roll,,,33 total frames,,,,,(DURING GUARD) → + LP,"1F - 25F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Eagle Slash,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Spinning Mixer,8,4,26,0,-2,44,51,↓↘→ + LP,"CA*Only possible during 1st, 2nd attack"
+L S2pinning Mixer (Rapid Inputs),8,6,21,1,-5,62,81,↓↘→ + LP (REPEAT BUTTON),"CA*Only possible during 1st, 2nd attack"
+L Spinning Mixer (Additional Rapid Inputs),8,8,29,D,-10,80,125,↓↘→ + LP (REPEAT BUTTON),"CA*Only possible during 1st, 2nd attack"
+M Spinning Mixer,8,5,20+13 frame(s) after landing,D,-31,55,81,↓↘→ + MP,"CA*Only possible during 1st, 2nd attack"
+M Spinning Mixer (Rapid Inputs),8,7,28+13 frame(s) after landing,D,,79,113,↓↘→ + MP (REPEAT BUTTON),"CA*Only for the 1st, 2nd hits, and recovery"
+M Spinning Mixer (Additional Rapid Inputs),8,9,32+13 frame(s) after landing,D,,100,150,↓↘→ + MP (REPEAT BUTTON),"CA*Only possible during 1st, 2nd attack"
+H Spinning Mixer,5,7,24+18 frame(s) after landing,D,-36,64,79,↓↘→ + HP,None
+H Spinning Mixer (Rapid Inputs),5,13,28+18 frame(s) after landing,D,-50,100,137,↓↘→ + HP (REPEAT BUTTON),None
+H Spinning Mixer (Additional Rapid Inputs),5,18,33+18 frame(s) after landing,D,-64,140,200,↓↘→ + HP (REPEAT BUTTON),None
+Dash Spinning Mixer,8,6,23,1,-2,83,89,(DURING DASH) → + P,"CA*Only possible during 1st, 2nd attack"
+Dash Spinning Mixer (Rapid Inputs),8,8,25,-1,-4,119,181,(DURING DASH) → + P (REPEAT BUTTON),"CA*Only possible during 1st, 2nd attack"
+Dash Spinning Mixer (Additional Rapid Inputs),8,10,30,D,-11,140,225,(DURING DASH) → + P (REPEAT BUTTON),"CA*Only possible during 1st, 2nd attack"
+VSpinning Mixer,8,12,21,D,0,167,220,(within the range of V-Trigger) ↓↘→ + P,"CA*Only possible during 1st, 2nd attack"
+EX Spinning Mixer,8,5,25+26 frame(s) after landing,D,-39,80,104,↓↘→ + P P,"1F - 12F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+EX Spinning Mixer (Rapid Inputs),8,9,33+26 frame(s) after landing,D,,127,169,↓↘→ + P P (REPEAT BUTTON),"1F - 12F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+EX Spinning Mixer (Additional Rapid Inputs),8,11,34+26 frame(s) after landing,D,,150,200,↓↘→ + P P (REPEAT BUTTON),"1F - 12F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+VEX Spinning Mixer,8,12,26+26 frame(s) after landing,D,-57(*-19),170,220,(within the range of V-Trigger) ↓↘→ + P P,"1F - 12F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)
+Can be canceled into airborne movement upon landing
+*During airborne cancel
+The value for landing without a cancel is for connecting on the same character, standing block"
+L Eagle Spike,15(*11),8,5+12 frame(s) after landing,D,-20,100,150,↓↙← + LK,*When performed at close range
+M Eagle Spike,21,9,6+14 frame(s) after landing,D,-20,120,150,↓↙← + MK,None
+H Eagle Spike,22,16,6+20 frame(s) after landing,D,-20,130,200,↓↙← + HK,None
+VL Eagle Spike,13,8,5+17 frame(s) after landing,D,-20,150,200,↓↙← + LK,None
+VM Eagle Spike,21,8,5+9 frame(s) after landing,D,-20,150,200,↓↙← + MK,None
+VH Eagle Spike,22,8,5+8 frame(s) after landing,D,-20,150,200,↓↙← + HK,None
+Dash Eagle Spike,13,8,5+19 frame(s) after landing,D,-21,140,200,(DURING DASH) + → K,None
+EX Eagle Spike,19,6,5+19 frame(s) after landing,D,-23,100,150,↓↙← + K K,None
+VEX Eagle Spike,19,6,5+19 frame(s) after landing,D,-3,160,200,↓↙← + K K,14F - 27F  projectile invincibility
+VEX Airborne Eagle Spike,15,Until landing/11 frame(s) after landing,31+16 frame(s) after landing,D,,170,200,(during VEX Spinning Mixer) ↓↙← + K,"1F - Until landing, 1 frame(s) after landing - 29F  projectile invincibility"
+L Airborne Eagle Spike,18,Until landing,20 frame(s) after landing,D,,120,200,(DURING FORWARD JUMP) ↓↙← + LK,"If the attack just before landing is blocked, +3F to the recovery"
+M Airborne Eagle Spike,20,Until landing,20 frame(s) after landing,D,,120,200,(DURING FORWARD JUMP) ↓↙← + MK,"If the attack just before landing is blocked, +3F to the recovery"
+H Airborne Eagle Spike,22,Until landing,20 frame(s) after landing,D,,120,200,(DURING FORWARD JUMP) ↓↙← + HK,"If the attack just before landing is blocked, +3F to the recovery"
+EX Airborne Eagle Spike,15,Until landing/11 frame(s) after landing,31+16 frame(s) after landing,D,,140,200,(DURING FORWARD JUMP) ↓↙← + K K,"1F - Until landing, 1 frame(s) after landing - 29F  projectile invincibility"
+L Whirlwind Shot,17,,52 total frames,-2,-5,60,100,↓↘→ + LK,VS*Can only be canceled V-Skill II
+M Whirlwind Shot,23,,60 total frames,1,-2,60,140,↓↘→ + MK,VS*Can only be canceled V-Skill II
+H Whirlwind Shot,34,,70 total frames,4,1,60,140,↓↘→ + HK,None
+EX Whirlwind Shot,23,,58 total frames,12,9,90,180,↓↘→ + K K,None
+Altair,1+7,30,43,D,-51,340,0,↓↘→ ↓↘→ + P,1F - 17F  full invincibility

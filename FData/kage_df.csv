@@ -1,0 +1,106 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,5,4,3,30,70,,Can be rapid canceled
+Standing MP,6,3,12,4,-1,60,100,,None
+Standing HP,6,2,23,-3,-5,80,120,,None
+Standing LK,4,3,10,1,1,30,70,,None
+Standing MK,9,3,17,3,-3,70,100,,None
+Standing HK,11,2,19,4,-2,80,150,,"Triggers Crush Counter (+23F)
+                                                                Will not hit crouching opponents"
+Crouching LP,3,2,8,3,1,30,70,,Can be rapid canceled
+Crouching MP,5,3,12,6,3,60,100,,None
+Crouching HP,8,6,20,3,-4,80(*70),120,,"Active frames 1F – 3F forces stand
+Active frames 3F – 6F cannot be canceled
+*From active frame 4F"
+Crouching LK,4,2,8,2,1,20,70,,Can be rapid canceled
+Crouching MK,7,2,15,2,-2,50,100,,None
+Crouching HK,8,2,24,D,-11,90,150,,Triggers Crush Counter (D)
+Jumping LP,4,5,,,,40,70,,None
+Jumping MP,7,3,,,,60,100,,Causes blowback knockdown on airborne hit
+Jumping HP,8,5,,,,90,150,,None
+Jumping LK,4,5,,,,40,70,,None
+Jumping MK,8,5,,,,60,100,,Can cross-up
+Jumping HK,10,4,,,,90,150,,None
+Zugaihasatsu,22,3,22,1,-7,70,100,→ + MP,None
+Tenmakujinkyaku,16,Until landing,6 frame(s) after landing,,,60,100,(DURING FORWARD JUMP) ↓ + MK,"Properties change when used from Airborne Ashura Senku
+(When an airborne opponent is hit, the effect may change from mid-air recovery to a blow back, etc.)"
+Kikokuduki,9,4,20,2,-4,80,150,→ + HP,"Triggers Crush Counter (D)
+                                                Forces stand"
+Kikokuduki,14,2,26,D,-12,70,100,→ + HP ▶ HK,Will not hit crouching opponents
+Sekiei Gozanken,27,2,29,D,,60,100,(WHEN SELECTING VSKILL II) → + HP ▶ HK ▶ (ON HIT) MP MK,None
+VSekiei Gozanken,24,6,24,D,,100,150,(WHEN SELECTING VSKILL II) (DURING V-TRIGGER II) → + HP ▶ HK ▶ (ON HIT) MP MK,None
+Shoulder Throw,5,3,17,D,,130,170,(NEAR OPPONENT) → OR + LP LK,None
+Somersault Throw,5,3,17,D,,150,170,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Senha Kassatsu,22,4,21,2,-6,60,100,(WHEN SELECTING VSKILL I) MP MK,"Triggers Crush Counter (D)
+                                                                                                                                                                High/mid hit and projectile armor from 5F to 12F."
+[VS1] Senha Kassatsu (Hold Button),42,4,21,D,-2,90,150,(WHEN SELECTING VSKILL I) MP MK (HOLD BUTTONS),"Triggers Crush Counter (+24F)
+                                                                                                                                                                High/mid hit and projectile armor from 5F to 42F.
+Can be canceled with special forward dash (20 frames total) on hit or block"
+[VS2] Sekieiken,30,2,23,1,-2,60,100,(WHEN SELECTING VSKILL II) MP MK,Forward movement distance can be controlled with directional input
+Taigyaku Mudo,1,,5,,,,,HP HK,"V-Gauge Timer + 3000F
+                                                                                                                                                                                Strengthens the properties of V-Skill, can use Ashura Senku"
+V[VS1] Senha Kassatsu,18,3,20,D,0,100,100,(WHEN SELECTING VSKILL I) (DURING V-TRIGGER I) MP MK,"High/mid hit and projectile armor from 2F to 9F.
+Can be canceled into from normal and unique moves."
+V[VS1] Senha Kassatsu (Hold Button),39,3,17,(crumple),6,120,150,(WHEN SELECTING VSKILL I) (DURING V-TRIGGER I) MP MK (HOLD BUTTONS),"High/mid hit and projectile armor from 2F to 29F.
+Hit and projectile armor from 30F to 39F.
+Can be canceled into from normal and unique moves."
+V[VS2] Sekieiken,24,6,24,D,-2,100,150,(WHEN SELECTING VSKILL II) (DURING V-TRIGGER I) (After a move canceled into V Trigger hits or is blocked) MP MK,None
+V[VS2] Sekieiken (Airbone),24,Until landing/2 frame(s) after landing,26,D,-4,130,150,(WHEN SELECTING VSKILL II) (DURING V-TRIGGER I) After EX Kurekijin/EX Airborne Kurekijin/EX Airborne Hadoken hits or is blocked MP MK,None
+Senbugeki,12,2,24,2,-2,40,0,(DURING GUARD) → + LP,"1F - 25F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Yashazuki,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+Hadoken,13,5,23,2,-3,60,100,↓↘→ + P,None
+EX Hadoken,17,6,53 total frames,(crumple),2,70,120,↓↘→ + P P,None
+Airborne Hadoken,10,23,7 frame(s) after landing,,,90,100,(DURING JUMP) ↓↘→ + P,None
+EX Airborne Hadoken,9,,11 frame(s) after landing,,,100,100,(DURING JUMP) ↓↘→ + P P,None
+L Shakunetsu Hadoken,18,,52 total frames,D,-6,60,100,→↘↓↙← + LP,None
+M Shakunetsu Hadoken,21,,61 total frames,D,-6,70,120,→↘↓↙← + MP,None
+H Shakunetsu Hadoken,25,,67 total frames,D,-6,80,150,→↘↓↙← + HP,None
+EX Shakunetsu Hadoken,21,,55 total frames,D,6,120,150,→↘↓↙← + P P,None
+L Shoryuken,3,12,18+19 frame(s) after landing,D,-27,80,120,→↓↘ + LP,"1F - 3F  throw invincibility
+                                                Subject to counter hit during move duration"
+M Shoryuken,4,12,25+19 frame(s) after landing,D,-33,120,150,→↓↘ + MP,"1F - 6F  invincible to mid-air attacks
+                                Subject to counter hit during move duration"
+H Shoryuken,5,12,29+19 frame(s) after landing,D,-36,120,150,→↓↘ + HP,"4F - 7F  attack & projectile invincibility
+                                                Subject to counter hit during move duration"
+EX Shoryuken,3,31,32+15 frame(s) after landing,D,-41,160,200,→↓↘ + P P,"1F - 15F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+L Kurekijin,10,2,26,D,-10,50,100,↓↙← + LK,None
+M Kurekijin,17,2,26,D,-10,50,100,↓↙← + MK,None
+H Kurekijin,20,2,26,D,-10,60,100,↓↙← + HK,None
+EX Kurekijin,11,2,26,D,-10,80,120,↓↙← + K K,None
+Airborne Kurekijin,10(*16),4,12 frame(s) after landing,*2D,,90(*370),150,(DURING JUMP) ↓↙← + K,"Can cross-up
+                                                Will not hit crouching opponents
+                                                                                                *1Value if used at low point of upward movement
+*2Grounded hit stun on cross-up hit
+*3Parameters for cross-up part"
+EX Airborne Kurekijin,12,4,12 frame(s) after landing,*1D,,100(*270),150,(DURING JUMP) ↓↙← + K K,"Can cross-up
+                                                Will not hit crouching opponents
+                                                                                                *1Grounded hit stun on cross-up hit
+*2Parameters for cross-up part"
+L Ryusokyaku,15,3,20,2,-4,60,100,←↙↓↘→ + LK,None
+M Ryusokyaku,18,3,18,2,-2,60,100,←↙↓↘→ + MK,None
+H Ryusokyaku,26,3,16,5,3,60,100,←↙↓↘→ + HK,None
+EX Ryusokyaku,20,2,26,D,-8,120,200,←↙↓↘→ + K K,None
+VAshura Senku (Forward),,,32 total frames,,,,,(DURING V-TRIGGER I) HP HK,"Uses 500F V-Gauge Timer
+                                                                                                                                3F - 23F  projectile invincibility
+                                                Can be canceled into from each normal move/unique move/Senha Kassatsu. Uses 1,200F of V-Timer gauge on cancel."
+VAshura Senku (Back),,,32 total frames,,,,,(DURING V-TRIGGER I) ← + HP HK,"Uses 500F V-Gauge Timer
+                                                                                                                                3F - 23F  projectile invincibility
+                                                Can be canceled into from each normal move/unique move/Senha Kassatsu. Uses 1,200F of V-Timer gauge on cancel."
+VAirborne Ashura Senku (Forward),,,30 total frames,,,,,(DURING V-TRIGGER I) (DURING JUMP) HP HK,"Uses 500F V-Gauge Timer
+                                                                                                                                3F - 23F  projectile invincibility
+                                                Cancelable by Airborne Ashura Senku (Forward/Back) (one time only)
+Uses 1,200F V-Timer gauge when canceled into from a special move cancelable normal move, and each special move
+Cancelable by Tenmakujinkyaku from frame 22 of the move"
+VAirborne Ashura Senku (Back),,,30 total frames,,,,,(DURING V-TRIGGER I) (DURING JUMP) ← + HP HK,"Uses 500F V-Gauge Timer
+                                                                                                                                3F - 23F  projectile invincibility
+                                                Cancelable by Airborne Ashura Senku (Forward/Back) (one time only)
+Uses 1,200F V-Timer gauge when canceled into from a special move cancelable normal move, and each special move
+Cancelable by Tenmakujinkyaku from frame 22 of the move"
+Metsu Shoryuken,1+3,8,53,D,-38,280(*340),0,↓↘→ ↓↘→ + P,"1F - 7F  full invincibility
+                                                *During release hit"

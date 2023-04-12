@@ -1,0 +1,168 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,3,2,7,4,2,30,70,,Can be rapid canceled
+VStanding LP,3,2,7,4,2,30,70,,Can be rapid canceled
+VStanding LP (Chain Combo),3,2,7,4,2,20,40,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                S*Only Fuharenkyaku"
+Standing MP,5,3,11,5,2,60,100,,None
+VStanding MP,5,3,11,5,2,60,100,,None
+VStanding MP (Chain Combo),5,3,11,5,-1,50,60,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                S*Only Fuharenkyaku"
+Standing HP,8,3,17,4,-3,80,150,,None
+VStanding HP,8,3,17,4,-3,80,150,,None
+VStanding HP (Chain Combo),8,3,17,D,-6,65,80,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                S*Only Fuharenkyaku"
+Standing LK,4,4,8,4,1,30,70,,None
+VStanding LK,4,4,8,4,1,30,70,,None
+VStanding LK (Chain Combo),4,4,8,4,1,20,40,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                S*Only Fuharenkyaku"
+Standing MK,5,4,15,1,-4,70(*60),100(*100),,"S*CA*VS*Only possible during 1st attack
+V*Only possible during 2nd attack
+*On max-distance hit"
+VStanding MK,5,4,15,1,-4,70(*60),100(*100),,"S*VS*Only possible during 1st attack
+(2nd hit possible only during Fuharenkyaku)
+CA*Only possible during 2nd attack
+*On max-distance hit"
+VStanding MK (Chain Combo),6,4,15,1,-7,60(*50),60(*60),,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                S*Only Fuharenkyaku
+*On max-distance hit"
+Standing HK,14,3,20,1,-4,80,150,,Triggers Crush Counter (+20F)
+VStanding HK,14,3,20,1,-4,80,150,,"Triggers Crush Counter (+20F)
+                                                                                                                                                                S*Only Fuharenkyaku"
+VStanding HK (Chain Combo),14,3,20,1,-7,65,80,,"Uses 250F V-Gauge Timer
+                Triggers Crush Counter (+20F)
+                                                                                                                                                                S*Only Fuharenkyaku"
+Crouching LP,4,3,6,4,2,30,70,,Can be rapid canceled
+VCrouching LP,4,3,6,4,2,30,70,,Can be rapid canceled
+VCrouching LP (Chain Combo),4,3,6,4,2,20,40,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                S*Only Fuharenkyaku"
+Crouching MP,6,3,16,2,0,60,100,,None
+VCrouching MP,6,3,16,2,0,60,100,,None
+VCrouching MP (Chain Combo),6,3,16,4,-1,50,60,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                S*Only Fuharenkyaku"
+Crouching HP,10,2,21,3,-5,90(*70),150,,"Triggers Crush Counter (+21F)
+                                                Forces stand
+                                                                                                                *During airborne hit"
+VCrouching HP,10,2,21,3,-5,90(*70),150,,"Triggers Crush Counter (+21F)
+                                                Forces stand
+                                                                                                                *During airborne hit"
+VCrouching HP (Chain Combo),10,2,21,D,-8,75,80,,"Uses 250F V-Gauge Timer
+                Triggers Crush Counter (+21F)
+                                                                                                                                                                Does not knock down only for Crush Counter
+S*Only Fuharenkyaku"
+Crouching LK,3,2,10,2,0,20,70,,Can be rapid canceled
+VCrouching LK,3,2,10,2,0,20,70,,"Can be rapid canceled
+                                                                                                                                S*Only Fuharenkyaku"
+VCrouching LK (Chain Combo),3,2,10,2,0,10,40,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                S*Only Fuharenkyaku"
+Crouching MK,6,2,14,2,-2,50,100,,None
+VCrouching MK,6,2,14,2,-2,50,100,,None
+VCrouching MK (Chain Combo),6,2,14,2,-5,40,60,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                S*Only Fuharenkyaku"
+Crouching HK,8,2,23,D,-12,100,150,,Triggers Crush Counter  (D)
+VCrouching HK,8,2,23,D,-12,100,150,,"Triggers Crush Counter  (D)
+                                                                                                                                                                S*Only Fuharenkyaku"
+VCrouching HK (Chain Combo),8,2,23,D,-15,85,80,,"Uses 250F V-Gauge Timer
+                Triggers Crush Counter  (D)
+                                                                                                                                                                S*Only Fuharenkyaku"
+Jumping LP,4,5,,,,40,70,,None
+VJumping LP,4,5,,,,40,70,,Causes blowback knockdown on airborne hit
+Jumping MP,6,4,,,,60,100,,Causes blowback knockdown on airborne hit
+VJumping MP,6,4,,,,60,100,,Causes blowback knockdown on airborne hit
+VJumping MP (Chain Combo),6,4,,,,45,60,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                Causes blowback knockdown on airborne hit"
+Jumping HP,9,5,,,,90,150,,None
+VJumping HP,9,5,,,,90,150,,Causes blowback knockdown on airborne hit
+VJumping HP (Chain Combo),9,5,,,,75,80,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                Causes blowback knockdown on airborne hit"
+Jumping LK,4,7,,,,40,70,,Can cross-up
+VJumping LK,4,7,,,,40,70,,"Can cross-up
+                                                                                                                                                Causes blowback knockdown on airborne hit"
+Jumping MK,7,5,,,,60,100,,Can cross-up
+VJumping MK,7,5,,,,60,100,,"Can cross-up
+                                                                                                                                                Causes blowback knockdown on airborne hit"
+VJumping MK (Chain Combo),7,5,,,,50,60,,"Uses 250F V-Gauge Timer
+                                Can cross-up
+                                                                                                                                                Causes blowback knockdown on airborne hit"
+Jumping HK,8,5,,,,90,150,,None
+VJumping HK,8,5,,,,90,150,,Causes blowback knockdown on airborne hit
+VJumping HK (Chain Combo),8,5,,,,75,80,,"Uses 250F V-Gauge Timer
+                                                                                                                                                                                Causes blowback knockdown on airborne hit"
+Senkaikyaku,22,2,19,0,-7,60,100,→ + MK,16F - 21F  throw invincibility
+Korenzan,7,5,15,4,-2,80,150,← + HK,"First hit only forces stand
+                                                                                                                V*Only possible during 2nd attack"
+Kyoretsushu,8,3,25,D,-12,60,100,MP ▶ ← OR → + HP,S*CA*VS*Only on hit
+Enkushu,5,5,,,,70,100,(DURING JUMP) MP ▶ HK,None
+Chisenkyaku,5,3,17,D,,120,120,(NEAR OPPONENT) → OR + LP LK,None
+Kaeikyaku,5,3,17,D,,140,200,(NEAR OPPONENT) ← + LP LK,None
+Zankasen,5,2,8 frame(s) after landing,D,,140,200,(CLOSE TO OPPONENT IN AIR) LP LK,None
+[VS1] Kasatushu (Whiff),46,2,25,D,-10,,,(WHEN SELECTING VSKILL I) MP MK,None
+[VS1] Kasatushu Lv.1,*37,2,25,D,-10,80,150,(WHEN SELECTING VSKILL I) MP MK,"*When in contact
+Attack powers up to Lv. 2 upon holding the button for 32F or longer
+Can be canceled into a forward or backward dash from button hold 22F
+Upon holding the buttons to Lv. 2 and then canceling into a forward or backwards dash, the Lv. 2 version can be performed instantly without holding the buttons"
+[VS1] Kasatushu Lv.2,*39-80,During forward movement + +2,33,D,-18,100,200,(WHEN SELECTING VSKILL I) MP MK,"*changes on button hold
+39F - Projectile invincibility while moving forward
+Can cancel into a forward or backwards dash while holding the buttons
+Upon canceling into a forward or backwards dash, the Lv. 2 version can be performed instantly without holding the buttons"
+[VS1] Kasatushu Lv.2 (Instant Activation Version),*10-61,During forward movement + +2,33,D,-18,100,200,(WHEN SELECTING VSKILL I) MP MK,"*changes on button hold
+6F - Projectile invincibility while moving forward
+Can be canceled into a forward or backward dash from button hold 22F"
+[VS2] Fuha Enzan (Charge),,,50 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,"After completing charge, inputting command again will fire Fuha Enzan (Attack)"
+[VS2] Fuha Enzan (Attack),18,74,46 total frames,D,-2,50,80,(WHEN SELECTING VSKILL II) (DURING V-SKILL II) MP MK,None
+Feng Shui Enngine Type Alpha,1,,5,,,,,HP HK,"V-Gauge Timer + 2700F
+                                                                                                                                                                                (1)Can use Fuharenkyaku without storing it first, and strengthened properties
+(2)
+Can perform grounded and mid-air chain combos
+Grounded: Can cancel into a P or K of the same or higher strength, cannot cancel into a lower strength
+Airborne: Can cancel into a P or K of greater strength (cannot cancel into the same strength)
+(3)All normal moves can be canceled into Fuharenkyaku"
+Kaisenrenkyaku,17,2,24,D,-2,60,0,(DURING GUARD) → + LK,"1F - 29F  attack & projectile invincibility
+                                                Recover 200 stun upon activation
+Transitions into a unique motion on hit"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Kuboshu,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+Fuharenkyaku (Charge Kick),10,3,18,D,-2,30,30,↓↘→ + K,"Can stock Fuharenkyaku on 10F of each strength
+VS*Can only be canceled V-Skill II"
+L Fuharenkyaku,14,90,37 total frames,2,-2,50,80,↓↘→ + LK,"VS*Can only be canceled into V-Skill I on hit 
+S*Can cancel into a Fuharenkyaku of different strength"
+M Fuharenkyaku,23,2,19,6,-4,70,80,↓↘→ + MK,"VS*Can only be canceled into V-Skill I on hit 
+S*Can cancel into a Fuharenkyaku of different strength"
+H Fuharenkyaku,10,4,21,D,-6,90,150,↓↘→ + HK,"VS*Can only be canceled into V-Skill I when the 2nd hit connects 
+S*Can cancel into a Fuharenkyaku of different strength"
+VL Fuharenkyaku,14,90,39 total frames,D,-1,60,100,↓↘→ + LK,"Uses 800F V-Gauge Timer
+                                                                                                                                                                                VS*Can only be canceled into V-Skill I on hit
+S*Can cancel into a Fuharenkyaku of different strength
+(Cannot use the same strength twice)"
+VM Fuharenkyaku,23,2,19,6,-4,70,100,↓↘→ + MK,"Uses 600F V-Gauge Timer
+                                                                                                                                                                                VS*Can only be canceled into V-Skill I on hit
+S*Can cancel into a Fuharenkyaku of different strength
+(Cannot use the same strength twice)"
+VH Fuharenkyaku,10,4,21,D,-6,90,170,↓↘→ + HK,"Uses 600F V-Gauge Timer
+                                                                                                                                                                                VS*Can only be canceled into V-Skill I when the 2nd hit connects
+S*Can cancel into a Fuharenkyaku of different strength
+(Cannot use the same strength twice)"
+EX Fuharenkyaku,7,8,15,D,-2,140,150,↓↘→ + K K,V*Only possible on the 2nd and last hit
+L Tensenrin,7,5,22,2,-3 (*-8),80,150,→↓↘ + LP,"First hit only forces stand
+                Second hit will not hit crouching opponents
+                                                1F - 8F  throw invincibility
+                                                *when opponent is crouching
+CA*Only possible during 2nd attack"
+M Tensenrin,6,7,22+16 frame(s) after landing,D,-29,120,150,→↓↘ + MP,"1F - 8F  invincible to mid-air attacks
+                                3rd attack will not hit grounded opponents
+Subject to counter hit during move duration"
+H Tensenrin,7,8,22+16 frame(s) after landing,D,-32,120,150,→↓↘ + HP,"3F - 8F  attack & projectile invincibility
+                                                Attacks from the 3rd onward will not hit grounded opponents"
+EX Tensenrin,7,8,22+18 frame(s) after landing,D,-31,150,200,→↓↘ + P P,"1F - 12F  full invincibility
+                                                Transitions into finishing kick attack if all 4 attacks connect
+Attacks from the 3rd onward will not hit grounded opponents
+Subject to counter hit during move duration (1.2x damage)"
+L Ryodansatsu,19,3,24,D,-6,70,150,↓↙← + LK,None
+M Ryodansatsu,20,3,24,D,-6,80,150,↓↙← + MK,None
+H Ryodansatsu,25,3,24,D,-6,100,200,↓↙← + HK,None
+EX Ryodansatsu,25,3,20,D,-2,80,150,↓↙← + K K,1F - 27F  projectile invincibility
+Sakkai Fuhazan,1+8,,67 total frames(*77),D,-25,330,0,↓↙← ↓↙← + K,"1F - 8F  full invincibility
+                                                *on block/whiff"

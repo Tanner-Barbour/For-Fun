@@ -1,0 +1,87 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,5,2,9,7,1,30,70,,Will not hit crouching opponents
+Standing MP,8,2,14,6,2,70,100,,S*Can only be canceled into Switch Claw
+Standing HP,8,2,21,7,-2,80,150,,None
+Standing LK,3,2,9,4,2,30,70,,None
+Standing MK,7,3,12,4,2,60,100,,None
+Standing HK,11,3,16,4,-1,80,150,,"Triggers Crush Counter (+18F)
+                                                                Will not hit crouching opponents"
+Crouching LP,4,3,6,5,2,30,70,,None
+Crouching MP,6,2,15,3,1,60,100,,S*Can only be canceled into Switch Claw
+Crouching HP,9,3,18,5,3,80,150,,"Forces stand
+                                                                                                                S*Can only be canceled into Switch Claw"
+Crouching LK,4,2,9,4,0,20,70,,None
+Crouching MK,8,2,16,7,2,50,100,,None
+Crouching HK,9,9,18,D,-13,80,150,,Triggers Crush Counter  (D)
+Jumping LP,4,5,,,,40,70,,None
+Jumping MP,5,5,,,,70,100,,None
+Jumping HP,7,4,,,,90,150,,None
+Jumping LK,4,6,,,,40,70,,Can cross-up
+Jumping MK,7,7,,,,70,100,,None
+Jumping HK,9,5,,,,90,150,,None
+Mercury Shard,22,3,15,0,-7,60,100,→ + MK,13F - 19F  throw invincibility
+Buster Claw,13,2,24,-3,-14,80,150,→ + HP,Triggers Crush Counter  (D)
+Reverse claw,10,3,22,D,-10,60,80,HP ▶ HP,S*CA*Only on hit
+Matador Flash,,,35,,,,,(WHEN SELECTING VSKILL I) HP ▶ HP ▶ (ON HIT) MP MK,"6F - 30F  projectile invincibility
+                                6F - 31F  upper body invincibility
+                Subject to counter hit during move duration"
+Matador Flash (Attack),22,2,31,D,,60,80,(WHEN SELECTING VSKILL I) HP ▶ HP ▶ (ON HIT) MP MK (HOLD BUTTONS),"6F - 19F  projectile invincibility
+                                6F - 19F  upper body invincibility"
+Wall Jump,,,18,,,,,(DURING JUMP NEAR WALL) ↗,"Can perform jump attacks from 19F
+Enters special counterable state from the start of the move until landing"
+Rainbow Suplex,5,3,17,,,140,170,(NEAR OPPONENT) → OR + LP LK,None
+Crescent Line,5,3,17,,,150,200,(NEAR OPPONENT) ← + LP LK,None
+Stardust Shot,5,2,6 frame(s) after landing,,,140,200,(CLOSE TO OPPONENT IN AIR) LP LK,None
+[VS1] Matador Turn,,,35,,,,,(WHEN SELECTING VSKILL I) MP MK,"7F - 31F  projectile invincibility
+                                7F - 32F  upper body invincibility
+                Subject to counter hit during move duration"
+[VS1] Matador Turn (Hold Button),22,2,31,D,-13,90,100,(WHEN SELECTING VSKILL I) MP MK (HOLD BUTTONS),"6F - 19F  projectile invincibility
+                                6F - 19F  upper body invincibility"
+[VS2] Matador Flip,,,48,,,,,(WHEN SELECTING VSKILL II) MP MK,1F - 18F  attack & projectile invincibility
+[VS2] Cosmic Smart,8,4,20,D,-6,70,100,(WHEN SELECTING VSKILL II) MP MK ▶ K,None
+Bloody Kiss - Torero (Projectile),1+9,,44 total frames,,,30,0,HP HK,None
+Bloody Kiss - Torero (Attack),,5,4 frame(s) after landing,D,-2,110,150,HP HK,"Completely invincible from the 7th active frame through the attack motion
+Given Armor Break attribute"
+Bloody Kiss - Rojo (Projectile),1+9,,37 total frames,,,30,0,↓ + HP HK,Will not hit crouching opponents
+Bloody Kiss - Rojo (Attack),,5,4 frame(s) after landing,D,-23,150,200,↓ + HP HK,"Projectile invincibility while moving forward
+Completely invincible from the 7th active frame through the attack motion
+Given Armor Break attribute"
+Bloody Kiss - Azul (Projectile),1+9,,10 frame(s) after landing,,,30,0,(DURING FORWARD JUMP) HP HK,Projectile invincible until landing
+Bloody Kiss - Azul (Attack),,5,25 frame(s) after landing,D,2,110,150,(DURING FORWARD JUMP) HP HK,"Fully invincible during attack active frames
+Given Armor Break attribute"
+Backslash,,,41 total frames,,,,,(DURING GUARD) → + LP,"1F - 40F  full invincibility
+                                                Recover 200 stun upon activation"
+Short Backlash,,,31 total frames,,,,,(DURING GUARD) → + LK,"1F - 30F  full invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Beautiful Severance,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+Flying Barcelona,,,31 frame(s) after landing,,,,,→↓↘ OR ←↓↙ + K,None
+EX Flying Barcelona,9,Until the corner,31 frame(s) after landing,D,,40,0,→↓↘ OR ←↓↙ + K K,Will not hit crouching opponents
+Flying Barcelona Attack,3,6,31 frame(s) after landing(*9 frame(s) after landing),D,,120,150,→↓↘ OR ←↓↙ + K ▶ P,*On hit or block
+EX Flying Barcelona Attack,9,Until landing,31 frame(s) after landing(*9 frame(s) after landing),D,,120,200,→↓↘ OR ←↓↙ + K K ▶ P,*On hit or block
+Izuna Drop,4,2,31 frame(s) after landing,D,,150,200,→↓↘ OR ←↓↙ + K ▶ LP LK,None
+EX Izuna Drop,4,2,31 frame(s) after landing,D,,160,250,→↓↘ OR ←↓↙ + K K ▶ LP LK,None
+L Crimson Terror,8,8,12,2,-6,80,150,↓↘→ + LK,CA*Final part only cannot be canceled
+M Crimson Terror,17,9,14,2,-7,100,150,↓↘→ + MK,CA*Final part only cannot be canceled
+H Crimson Terror,19,15,16,D,-8,120,200,↓↘→ + HK,CA*Final part only cannot be canceled
+EX Crimson Terror,16,13,10,D,-2,80,120,↓↘→ + K K,"1F - 49F  projectile invincibility
+                                                Only happens if the 3rd hit onwards connects
+V*Only possible for 4th attack on hit"
+L Aurora Spin Edge,12,6,20,D,-7,100,200,↓↙← + LP,None
+M Aurora Spin Edge,15,6,18,D,-6,100,200,↓↙← + MP,None
+H Aurora Spin Edge,12,6,16,D,-4,100,200,↓↙← + HP,None
+EX Aurora Spin Edge,12,11,21,D,-3,150,200,↓↙← + P P,1F - 18F  throw invincibility
+Switch Claw,,,23 total frames,,,,,↓↘→ + P,None
+Bloody Garden,,,31 frame(s) after landing,,,,,↑ + K K,"Complete invincibility from 9F
+Can only be used on the Flamenco Tavern stage"
+Bloody Garden Attack,9,Until landing,31 frame(s) after landing(*9 frame(s) after landing),D,,120,200,↑ + K K ▶ P,*On hit or block
+Bloody Garden Drop,4,2,31 frame(s) after landing(*9 frame(s) after landing),D,,160,250,↑ + K K ▶ LP LK,None
+Sky High Claw,18-31,19-22,8-22+1 frame(s) after landing,D,-20,100,120,↑ + P P,"Will not hit crouching opponents
+                                                                                                Startup time and duration differ depending on character positioning
+Invulnerable to projectiles while hitbox is active"
+EX Sky High Claw,20-30,14,5-19+1 frame(s) after landing,D,-15,120,150,↑ + P P P,Invulnerable to projectiles while hitbox is active
+Bloody Rain,9,Until the corner/8,40,D,-25,330,0,↓↘→ ↓↘→ + P,Throw and projectile invincible from 1F until the screen goes dark

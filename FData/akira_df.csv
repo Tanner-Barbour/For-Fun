@@ -1,0 +1,113 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,6,4,2,30,70,,Can be rapid canceled
+Standing MP,5,3,15,4,2,60,100,,None
+Standing HP,8,3,21(*24),1,-6,80,150,,*On whiff
+Standing LK,5,3,10,1,-2,40,70,,None
+Standing MK,8,3,18,3,-2,60,100,,Forces stand
+Standing HK,13 ,3,24,2,-6,80,150,,Triggers Crush Counter (D)
+Crouching LP,3,3,6,4,2,20,70,,Can be rapid canceled
+Crouching MP,6,3,13,6,3,50,100,,None
+Crouching HP,7,4,22,-1,-7,80,150,,Forces stand
+Crouching LK,4,2,8,3,1,30,70,,Can be rapid canceled
+Crouching MK,7,2,15,1,-2,50,100,,None
+Crouching HK,8,3,23,D,-14,90,150,,Triggers Crush Counter (D)
+Jumping LP,3,3,,,,40,70,,None
+Jumping MP,6,6,,,,60,100,,None
+Jumping HP,7,5,,,,90,150,,None
+Jumping LK,5,6,,,,40,70,,None
+Jumping MK,7,8,,,,60,100,,None
+Jumping HK,9,5,,,,90,150,,None
+VS2 Jumping LP,3,3,,,,30,50,,Can chain with a light attack once
+VS2 Jumping MP,6,6,,,,45,80,,None
+VS2 Jumping HP,7,5,,,,50,100,,None
+VS2 Jumping LK,5,6,,,,40,60,,Can chain with a light attack once
+VS2 Jumping MK,7,8,,,,45,80,,None
+VS2 Jumping HK,9,5,,,,60,100,,S*Can only be canceled into EX Airborne Kiko Kai
+Kaihosho,14,3,23,1,-5,90,150,→ + HP,Triggers Crush Counter (crumple)
+Kutenshu,25,4,22,1,-7,60,100,→ + MK,18F - 28F  throw invincibility
+Totenshu,13,4,41,D,-23,60,80,→ + MK ▶ HK,None
+Shintenshu,13,3,,,,70,100,(WHEN SELECTING VSKILL II) (DURING JUMP AFTER Tsutenda HITS) → + HK,"The hit effect changes when this hits high in the air
+(The ground impact has a special bound property, deals a fixed 10 damage that is unaltered by combo scaling, and cannot KO)"
+Ressenda,5,3,19,-1,-6,60,100,LP ▶ MP,S*CA*on hit
+Tsuten Rengeki,15,3,37,D,-18,50,120,(WHEN SELECTING VSKILL II) LP ▶ MP ▶ MP MK,"Can be canceled into a special vertical or forward jump (Short Air Burst) on hit
+Adds one additional move's worth of combo scaling"
+Renkan Ko (2),13,3,27,-2,-8,40,60,HP ▶ → + HP,None
+Renkan Ko (3),16,3,45,D,-16,50,80,HP ▶ → + HP ▶ → + HP,None
+Renkan Renkiko,,,50 total frames,,,,,(WHEN SELECTING VSKILL I) HP ▶ → + HP ▶ → + HP ▶ MP MK,Powered-up state active from frame 49. The powered-up state strengthens Kiko Kai while active
+Renkan Tsutenda,16,3,37,D,-18,50,120,(WHEN SELECTING VSKILL II) HP ▶ → + HP ▶ MP MK,"Can be canceled into a special vertical or forward jump (Short Air Burst) on hit
+Adds one additional move's worth of combo scaling"
+Shin'Iha,5,3,17,D,,130,120,(NEAR OPPONENT) → OR + LP LK,None
+Yoshisenrin,5,3,17,D,,150,200,(NEAR OPPONENT) ← + LP LK,None
+Kurakusho,5,2,,D,,130,120,(CLOSE TO OPPONENT IN AIR) LP LK,None
+[VS1] Kiko Rensei,,,50 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,Powered-up state active from frame 49. The powered-up state strengthens Kiko Kai while active
+[VS2] Tsutenda,16,3,27,D,-8,90,150,(WHEN SELECTING VSKILL II) MP MK,Can be canceled into a special jump (Air Burst) by inputting up on hit
+Otoko no Senaka (For Akira),1,,5,,,,,HP HK,None
+Otoko no Senaka (For Daigo),1+37,39,,(crumple)・D,,120,150,HP HK,None
+Gutsy Counter,17,2,24,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Genkorichu,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Kiko Kai,14,10,21,1,-3,60,100,↓↘→ + LP,None
+M Kiko Kai,19,12,23,2,-2,70,100,↓↘→ + MP,None
+H Kiko Kai,25,14,30,3,1,90,100,↓↘→ + HP,None
+EX Kiko Kai,13,6,30,D,-2,120,150,↓↘→ + P P,None
+[VS1] L Kiko Kai,14,10,21,5,-3,60,100,(DURING V-SKILL I) ↓↘→ + LP,None
+[VS1] M Kiko Kai,19,12,22,6,-2,70,100,(DURING V-SKILL I) ↓↘→ + MP,None
+[VS1] H Kiko Kai,25,14,30,9,1,90,100,(DURING V-SKILL I) ↓↘→ + HP,None
+[VS1] EX Kiko Kai,12,6,31,D,-2,120,100,(DURING V-SKILL I) ↓↘→ + P P,None
+L Airborne Kiko Kai,14,19,9 frame(s) after landing,,,60,100,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + LP,None
+M Airborne Kiko Kai,14,19,9 frame(s) after landing,,,70,100,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + MP,None
+H Airborne Kiko Kai,14,19,9 frame(s) after landing,,,90,120,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + HP,None
+EX Airborne Kiko Kai,17,19,6 frame(s) after landing,D,,110,150,(DURING VERTICAL OR FORWARD JUMP) ↓↘→ + P P,None
+[VS1] L Airborne Kiko Kai,14,14,15 frame(s) after landing,,,70,110,(DURING V-SKILL I) (DURING VERTICAL OR FORWARD JUMP) ↓↘→ + LP,None
+[VS1] M Airborne Kiko Kai,14,17,15 frame(s) after landing,,,80,120,(DURING V-SKILL I) (DURING VERTICAL OR FORWARD JUMP) ↓↘→ + MP,None
+[VS1] H Airborne Kiko Kai,14,19,15 frame(s) after landing,,,100,130,(DURING V-SKILL I) (DURING VERTICAL OR FORWARD JUMP) ↓↘→ + HP,None
+[VS1] EX Airborne Kiko Kai,17,19,14 frame(s) after landing(*8),(crumple),,120,150,(DURING V-SKILL I) (DURING VERTICAL OR FORWARD JUMP) ↓↘→ + P P,*on hit
+[VS2] L Airborne Kiko Kai,14,19,9 frame(s) after landing,,,60,100,(WHEN SELECTING VSKILL II) (DURING Air Burst / Short Air Burst) ↓↘→ + LP,None
+[VS2] M Airborne Kiko Kai,14,19,9 frame(s) after landing,,,70,100,(WHEN SELECTING VSKILL II) (DURING Air Burst / Short Air Burst) ↓↘→ + MP,None
+[VS2] H Airborne Kiko Kai,14,19,9 frame(s) after landing,,,90,120,(WHEN SELECTING VSKILL II) (DURING Air Burst / Short Air Burst) ↓↘→ + HP,None
+[VS2] EX Airborne Kiko Kai,22,19,9 frame(s) after landing,D,,120,160,(WHEN SELECTING VSKILL II) (DURING Air Burst / Short Air Burst) ↓↘→ + P P,Guaranteed to deal at least 30% of its damage
+L Urarimon,10,4,20,2,-4,80,100,↓↙← + LP,None
+M Urarimon,17,4,20,3,-4,100,100,↓↙← + MP,"If opponent is close on frame 11, attack will trigger after 4 more frames"
+H Urarimon,22,4,20,D,-4,110,150,↓↙← + HP,"If opponent is close on frame 17, attack will trigger after 1 more frame"
+EX Urarimon,17,6,15,D,-2,140,200,↓↙← + P P,"If opponent is close on frame 9, attack will trigger after 1 more frame
+Second attack only triggers when the first one hits or is blocked"
+L Hotenshu,6,13,17+16 frame(s) after landing(*11),D,-38,100,150,→↓↘ + LK,"1F - 7F  throw invincibility
+                1F - 8F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*on hit"
+M Hotenshu,8,13,24+16 frame(s) after landing(*11),D,-45,110,150,→↓↘ + MK,"1F - 10F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*on hit"
+H Hotenshu,10,13,26+16 frame(s) after landing(*11),D,-47,120,150,→↓↘ + HK,"4F - 16F  projectile invincibility
+                1F - 16F  invincible to mid-air attacks
+                                Subject to counter hit during move duration
+*on hit"
+EX Hotenshu,6,13,28+21 frame(s) after landing,D,-54,140,150,→↓↘ + K K,"1F - 8F  full invincibility
+                                                Subject to counter hit during move duration (1.2x damage)"
+L Senshubu,17,3,21,1,-6,60,100,↓↙← + LK,"Akira's whole body, except for her feet, is invulnerable to projectiles from frames 12 to 34"
+M Senshubu,20,4,25,D,-8,60,100,↓↙← + MK,None
+H Senshubu,12,4,23(*25),D,-5,60,100,↓↙← + HK,"Will not hit crouching opponents
+                                                                                                Akira's head is invulnerable to mid-air attacks from frames 1 to 15
+*On whiff"
+Senshubu Additional Input (L⇒L),10,3,22,0,-10,60,80,↓↙← + LK ▶ LK,None
+Senshubu Additional Input (L⇒M),12,4,26,D,-12,60,80,↓↙← + LK ▶ MK,None
+Senshubu Additional Input (L⇒H),9,4,20(*25),D,-2,60,80,↓↙← + LK ▶ HK,"Will not hit crouching opponents
+                                                                                                *On whiff"
+Senshubu Additional Input (M⇒L),12,3,22,0,-10,60,80,↓↙← + MK ▶ LK,None
+Senshubu Additional Input (M⇒M),14,4,26,D,-12,60,80,↓↙← + MK ▶ MK,None
+Senshubu Additional Input (M⇒H),7,4,20(*25),D,-2,60,80,↓↙← + MK ▶ HK,"Will not hit crouching opponents
+                                                                                                *On whiff"
+Senshubu Additional Input (H⇒L),10,3,22,0,-10,60,80,↓↙← + HK ▶ LK,None
+Senshubu Additional Input (H⇒M),16,4,26,D,-12,60,80,↓↙← + HK ▶ MK,None
+Senshubu Additional Input (H⇒H),16,4,18(*25),D,-2,60,80,↓↙← + HK ▶ HK,"Will not hit crouching opponents
+                                                                                                *On whiff"
+EX Senshubu,10(*113),10,20,D,-7(*2-20),100,150,↓↙← + K K,"First hit only forces stand
+                                                                                                                Third hit will not hit crouching opponents
+*1Value when canceled into from crouching LP
+*2When the third attack whiffs"
+Kyoso Kiko Kai,1+5,4,46,D,-28,330,0,↓↘→ ↓↘→ + P,1F - 8F  full invincibility

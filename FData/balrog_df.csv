@@ -1,0 +1,149 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,2,7,5,3,30,70,,None
+Standing MP,5,4,13,2,0,70,100,,Forces stand
+Standing HP,12,3,18,0,-3,80,150,,Triggers Crush Counter  (D)
+Standing LK,3,2,8,2,1,30,70,,None
+Standing MK,6,3,12,5,2,60,100,,None
+Standing HK,9,3,18,7,3,80,150,,Triggers Crush Counter (+23F)
+Crouching LP,4,3,7,4,3,30,70,,Can be rapid canceled
+Crouching MP,6,3,12,4,2,60,100,,None
+Crouching HP,8,5,22,-1,-5,90(*80),150,,"Triggers Crush Counter  (D)
+                                                Forces stand
+                                                                                                                *From active frame 2F"
+Crouching LK,4,3,8,4,1,20,70,,None
+Crouching MK,7,2,17,2,-2,60,100,,None
+Crouching HK,8,2,26,D,-14,100,150,,Triggers Crush Counter  (D)
+Jumping LP,4,6,,,,40,70,,None
+Jumping MP,5,3,,,,70,100,,None
+Jumping HP,7,4,,,,90,150,,None
+Jumping LK,3,5,,,,40,70,,None
+Jumping MK,6,5,,,,70,100,,None
+Jumping HK,9,4,,,,90,150,,None
+Hard Smasher (2),6,4,20,D,-8,40,80,MK ▶ MP,None
+Hard Smasher (3),,,31 total frames,,,,,(WHEN SELECTING VSKILL I) MK ▶ MP ▶ MP MK,None
+Hard Smasher (4),21,2,23,D,-8,60,120,(WHEN SELECTING VSKILL I) MK ▶ MP ▶ MP MK ▶ P,None
+Hard Pressure (4),26,3,21,D,-8,60,120,(WHEN SELECTING VSKILL I) MK ▶ MP ▶ MP MK ▶ K,None
+OTB,,,50 total frames,,,,,(WHEN SELECTING VSKILL II) MK ▶ MP ▶ MP MK,None
+Under Impact (2),6,3,16,1,-7,40,70,LK ▶ MK,None
+Under Impact (3),8,2,21,D,-8,70,100,LK ▶ MK ▶ HK,VS*Can only be canceled V-Skill II
+Stomping Combo (2),9,2,20,2,-7,40,80,(WHILE CROUCHING) MK ▶ ↓ + MK,Forces stand
+Dirty Bomber,5,3,17,D,,140,150,(NEAR OPPONENT) → OR + LP LK,None
+Dirty Shot,5,3,17,D,,130,200,(NEAR OPPONENT) ← + LP LK,None
+[VS1] KKB,,,29 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,4F - 22F  projectile invincibility
+[VS1] KKB (Cancel),,,25 total frames,,,,,(WHEN SELECTING VSKILL I) MP MK,4F - 22F  projectile invincibility
+[VS1] Buffalo Swing,7,2,21,2,-4,60,100,(WHEN SELECTING VSKILL I) (DURING KKB) P,1F - 5F  projectile invincibility
+[VS1] Buffalo Pressure,17,3,19,5,-7,50,100,(WHEN SELECTING VSKILL I) (DURING KKB) K,1F - 14F  projectile invincibility
+[VS2] FFB,,,50 total frames,,,,,(WHEN SELECTING VSKILL II) MP MK,"Changes the properties of the next Dash Straight or Charging Buffalo to be used
+(All Straights are strengthened on rush in V-Skill I)"
+Crazy Rush,1,,6,,,,,HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                                                                While active, Balrog gains the special moves Charging Buffalo and Bursting Buffalo"
+Buffalo Headbutt,17,3,23,D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Buffalo Breaker,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Dash Straight,12 (*10),4,22,2,-4,90,150,→ + LP,"*When in contact
+VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+M Dash Straight,16 (*12),4,20,2,-4,100,150,→ + MP,"*When in contact
+VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+H Dash Straight,25 (*19),4,19,2,-4,110,150,→ + HP,"*When in contact
+VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+L Dash Straight (VS2 Ver.),12 (*10),4,22,D,2,90,100,(DURING V-SKILL II) → + LP,*When in contact
+M Dash Straight (VS2 Ver.),16 (*12),4,22,D,2,100,100,(DURING V-SKILL II) → + MP,*When in contact
+H Dash Straight (VS2 Ver.),25 (*19),4,22,D,2,110,100,(DURING V-SKILL II) → + HP,*When in contact
+EX Dash Straight,22 (*9),6,29,D,1,150,200,→ + P P,"*When in contact
+VS*Only possible during 1st attack
+VS*Can only be canceled V-Skill I"
+EX Dash Straight (VS2 Ver.),22 (*9),6,29,D,4,160,120,(DURING V-SKILL II) → + P P,*When in contact
+VCharging Buffalo (1),12,6,17,2,-2,30,100,(DURING V-TRIGGER WITH SPECIAL MOVE) → + P,"Uses 500F V-Gauge Timer
+                                                                                                                                                                                VS*Can only be canceled V-Skill I"
+VCharging Buffalo (2),12,6,16,2,-2,40,100,(DURING CHARGING BUFFALO OR BURSTING BUFFALO) → + P,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                VS*Can only be canceled V-Skill I"
+VCharging Buffalo (3),12,6,15,2,-2,50,100,(DURING CHARGING BUFFALO OR BURSTING BUFFALO) → + P,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                VS*Can only be canceled V-Skill I"
+VCharging Buffalo (4),17,6,29,D,-13,90,100,(DURING CHARGING BUFFALO OR BURSTING BUFFALO) → + P,Uses 300F V-Gauge Timer
+VEX Charging Buffalo,11,6,18,D,-2,70,100,(DURING V-TRIGGER WITH SPECIAL EX MOVE) → + P,"Uses 500F V-Gauge Timer
+                                                                                                                                                                                VS*Only for the first iteration
+VS*Can only be canceled V-Skill I"
+VCharging Buffalo (VS2 Ver.) (1),12,6,17,D,0,60,80,(DURING V-SKILL II) (DURING V-TRIGGER WITH SPECIAL MOVE) → + P,Uses 500F V-Gauge Timer
+VCharging Buffalo (VS2 Ver.) (2),12,6,16,D,1,60,80,(DURING V-SKILL II) (DURING CHARGING BUFFALO OR BURSTING BUFFALO) → + P,Uses 300F V-Gauge Timer
+VCharging Buffalo (VS2 Ver.) (3),12,6,15,D,2,70,80,(DURING V-SKILL II) (DURING CHARGING BUFFALO OR BURSTING BUFFALO) → + P,Uses 300F V-Gauge Timer
+VCharging Buffalo (VS2 Ver.) (4),17,6,29,D,-12,130,190,(DURING V-SKILL II) (DURING CHARGING BUFFALO OR BURSTING BUFFALO) → + P,Uses 300F V-Gauge Timer
+VEX Charging Buffalo (VS2 Ver.) (1),11,6,18,D,-1,70,100,(DURING V-SKILL II) (DURING V-TRIGGER WITH SPECIAL EX MOVE) → + P,Uses 500F V-Gauge Timer
+VEX Charging Buffalo (VS2 Ver.) (2),11,6,18,D,-1,70,120,(DURING V-SKILL II) (DURING V-TRIGGER WITH SPECIAL EX MOVE) → + P,Uses 500F V-Gauge Timer
+L Dash Grand Blow,17,2,26,D,-7,80,150,→ + LK,"*When in contact
+VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+M Dash Grand Blow,22 (*18),2,26,D,-7,90,150,→ + MK,"*When in contact
+VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+H Dash Grand Blow,25(*19),2,26,D,-7,100,150,→ + HK,"*When in contact
+VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+EX Dash Grand Blow,19 (*11),2,23,D,-2,140,200,→ + K K,"*When in contact
+VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+L Screw Smash,10,5,25,D,-10,100,150,→↓↘ + LK,"Will not hit crouching opponents
+                                                                                                VS*Can only be canceled V-Skill II"
+M Screw Smash,13,5,26,D,-10,100,150,→↓↘ + MK,"Will not hit crouching opponents
+                                                                                                VS*Can only be canceled V-Skill II"
+H Screw Smash,23,5,23,D,-10,100,150,→↓↘ + HK,"Will not hit crouching opponents
+                                                                                                VS*Can only be canceled V-Skill II"
+EX Screw Smash,12,5,29,D,-17,160,200,→↓↘ + K K,"Armor from 3F to 16F
+VS*Can only be canceled V-Skill II"
+VBursting Buffalo (1),14,5,21,D,-2,40,50,(DURING V-TRIGGER WITH SPECIAL MOVE) → + K,"Uses 500F V-Gauge Timer
+                                                                                                                                                                                VS*Can only be canceled V-Skill I"
+VBursting Buffalo (2),14,5,21,D,-2,50,50,(DURING CHARGING BUFFALO OR BURSTING BUFFALO) → + K,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                VS*Can only be canceled V-Skill I"
+VBursting Buffalo (3),14,5,21,D,-2,60,50,(DURING CHARGING BUFFALO OR BURSTING BUFFALO) → + K,"Uses 300F V-Gauge Timer
+                                                                                                                                                                                VS*Can only be canceled V-Skill I"
+VBursting Buffalo (4),17,5,38,D,-21,100,50,(DURING CHARGING BUFFALO OR BURSTING BUFFALO) → + K,Uses 300F V-Gauge Timer
+VEX Bursting Buffalo,12,5,19,D,-2,80,70,(DURING V-TRIGGER WITH SPECIAL EX MOVE) → + K,"Uses 450F V-Gauge Timer
+                                                                                                                                                                                VS*Only for the first iteration
+VS*Can only be canceled V-Skill I"
+Turn Punch (Lv1),30,2,22,2,-2,100,150,P OR K (HOLD ANY TWO BUTTONS AND RELEASE),"3F - 18F  projectile invincibility
+                                                VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+Turn Punch (Lv2),30,2,22,2,-2,120,150,P OR K (HOLD ANY TWO BUTTONS AND RELEASE),"3F - 18F  projectile invincibility
+                                                VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+Turn Punch (Lv3),30,2,22,2,-2,140,150,P OR K (HOLD ANY TWO BUTTONS AND RELEASE),"3F - 18F  projectile invincibility
+                                                VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+Turn Punch (Lv4),30,2,22,D,-2,160,200,P OR K (HOLD ANY TWO BUTTONS AND RELEASE),"3F - 18F  projectile invincibility
+                                3F - 18F  upper body invincibility
+                VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+Turn Punch (Lv5),30,2,22,D,-2,180,200,P OR K (HOLD ANY TWO BUTTONS AND RELEASE),"3F - 18F  projectile invincibility
+                                3F - 18F  upper body invincibility
+                VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+Turn Punch (Lv6),30,2,22,D,-2,200,200,P OR K (HOLD ANY TWO BUTTONS AND RELEASE),"3F - 18F  projectile invincibility
+                                3F - 18F  upper body invincibility
+                VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+Turn Punch (Lv7),30,2,22,D,-2,220,300,P OR K (HOLD ANY TWO BUTTONS AND RELEASE),"1F - 18F  projectile & throw invincibility
+                                1F - 18F  upper body invincibility
+                VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+Turn Punch (Lv8),30,2,22,D,-2,260,300,P OR K (HOLD ANY TWO BUTTONS AND RELEASE),"1F - 18F  projectile & throw invincibility
+                                1F - 18F  upper body invincibility
+                VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+Turn Punch (Lv9),30,2,22,D,-2,290,300,P OR K (HOLD ANY TWO BUTTONS AND RELEASE),"1F - 18F  projectile & throw invincibility
+                                1F - 18F  upper body invincibility
+                VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+Turn Punch (FINAL),30,2,22,D,7,370,400,P OR K (HOLD ANY TWO BUTTONS AND RELEASE),"1F - 18F  full invincibility
+                                                VS*Only possible before the attack
+VS*Can only be canceled V-Skill I"
+Gigaton Blow,1+7,10,60,D,-45,330(*340),0,↓↘→ ↓↘→ + P,"14F - 17F  projectile invincibility
+11F - 13F  projectile & throw invincibility
+1F - 10F  full invincibility
+                                                *For active frame 1F"

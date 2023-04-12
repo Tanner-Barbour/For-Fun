@@ -1,0 +1,99 @@
+Move_Name,Startup,Active,Recovery,On Hit,On Block,Damage,Stun,Command,Comments
+Standing LP,4,3,7,5,3,30,70,,None
+Standing MP,7,3,14,6,2,60,100,,None
+Standing HP,11,3,20,-1,-6,90,150,,None
+Standing LK,3,2,10,0,-2,30,70,,None
+Standing MK,7,3,13,2,-2,60,100,,None
+Standing HK,9,3,18,6,3,80,150,,"Triggers Crush Counter  (crumple)
+                                                Forces stand"
+Crouching LP,4,3,5,4,3,30,70,,Can be rapid canceled
+Crouching MP,6,3,12,3,1,60,100,,None
+Crouching HP,10,5,23,-5,-11,100,150,,Forces stand
+Crouching LK,4,2,7,3,2,20,70,,Can be rapid canceled
+Crouching MK,7,2,15,0,-2,50,100,,None
+Crouching HK,15,10,23,D,-12,90,150,,Triggers Crush Counter  (D)
+Jumping LP,4,6,,,,40,70,,None
+Jumping MP,7,3,,,,50,100,,Causes blowback knockdown on airborne hit
+Jumping HP,8,6,,,,90,150,,None
+Jumping LK,3,6,,,,40,70,,None
+Jumping MK,6,6,,,,60,100,,Can cross-up
+Jumping HK,8,6,,,,90,150,,None
+Hell Attack,5,4,,,,70,50,(DURING JUMP) MP ▶ MP,None
+Psycho Axe,18,3,20(*25),6,1,80,150,↘ + HP,"Triggers Crush Counter (+15F)
+                                                                                                                                                                *On whiff"
+Shadow Axe,14,3,20,2,-8,50,120,MP ▶ ↘ + HP,Triggers Crush Counter (+15F)
+Psycho Impact,5,3,17,,,140,170,(NEAR OPPONENT) → OR + LP LK,None
+Psycho Fall,5,3,17,,,130,150,(NEAR OPPONENT) ← + LP LK,None
+[VS1] Psycho Reflect,6,9(*7),28,,,,,(WHEN SELECTING VSKILL I) MP MK,"*Value while absorbing projectile
+Subject to counter hit during move duration"
+[VS1] Psycho Reflect (Shoot Projectile),16,,36 total frames,D,13,80,100,(WHEN SELECTING VSKILL I) MP MK (HOLD BUTTONS),Note: Automatically fires the projectile upon successful Psycho Reflect absorption
+[VS1] Psycho Reflect (Attack),13,5,25,D,2,100,150,,Psycho Reflect (Shoot Projectile) automatically triggers if an attack or projectile attached to a character is stopped by the counter hitbox
+[VS1] Psycho Punishment,16,,36 total frames,D,13,80,100,(WHEN SELECTING VSKILL I) (DURING THE ABSORPTION STATE) MP MK,"Can be canceled into from special move-cancelable normal moves
+Note: After a successful non-button hold Psycho Reflect absorption, the projectile can be fired by pressing MP + MK again"
+[VS2] Hell's Warp,43,4,18(*20),D,1,70,100,(WHEN SELECTING VSKILL II) MP MK,"21F - 31F  full invincibility
+                                                *On whiff"
+Psycho Power,1,,10,,,,,HP HK,"V-Gauge Timer + 2000F
+                                                                                                                                                                                Special move performance enhanced while active"
+Psycho Burst,17,2,20(*23),D,-2,60,0,(DURING GUARD) → + LP,"1F - 30F  attack & projectile invincibility
+                                                Recover 200 stun upon activation
+*on block/whiff"
+V-Shift,1,9,22,,,,,HP MK,"1F - 16F  throw invincibility
+                                                Allows you to evade strikes and projectiles from frames 1-9 (Increases the V-Gauge by 150 when the evasion triggers)
+Counterable during recovery
+17 frame move that's fully invincible until the end of recovery when evading attacks.
+Transitions to V-Shift Break when evading attacks."
+Psycho Fist,8,3,23,D,-2,60,0,HP MK ▶ (AFTER EVADING WITH V-SHIFT) HP MK,1F - 10F  full invincibility
+L Psycho Blast,12,10,40 total frames,D,-2,70,100,→ + LP,None
+M Psycho Blast,15,10,42 total frames,D,-1,70,100,→ + MP,None
+H Psycho Blast,19,10,42 total frames,D,2,70,100,→ + HP,None
+VPsycho Blast,11,14,37 total frames,D,1,100,100,→ + P,Uses 200F V-Gauge Timer
+EX Psycho Blast,15,,38 total frames,D,6,100,150,→ + P P,None
+VEX Psycho Blast,14,,36 total frames,D,7,120,150,→ + P P,Uses 200F V-Gauge Timer
+L Psycho Inferno,14,12,56 total frames,D,-12,80,150,↓↙← + LP,CA*Only possible during 3rd attack
+M Psycho Inferno,16,14,58 total frames,D,-11,90,150,↓↙← + MP,CA*Only possible during 3rd attack
+H Psycho Inferno,18,16,63 total frames,D,-10,100,150,↓↙← + HP,CA*Only possible during 3rd attack
+VPsycho Inferno,14,16,51 total frames,D,-5,100,150,↓↙← + P,"Uses 200F V-Gauge Timer
+                                                                                                                                                                                CA*Only possible during 4th attack"
+EX Psycho Inferno,15,18,54 total frames,D,-1,120,150,↓↙← + P P,None
+VEX Psycho Inferno,15,28,61 total frames,D,4,160,150,↓↙← + P P,Uses 200F V-Gauge Timer
+VEX Psycho Inferno (Cancel),16,28,62 total frames,D,4,160,150,↓↙← + P P,Uses 200F V-Gauge Timer
+L Double Knee Press,11,5,19,2,-4,80,150,→ + LK,"CA*Only possible during 1st attack
+V*Only possible during 2nd attack"
+M Double Knee Press,14,5,20,2,-3,90,150,→ + MK,"CA*Only possible during 1st attack
+V*Only possible during 2nd attack"
+H Double Knee Press,19,5,21,2,-2,100,150,→ + HK,"CA*Only possible during 1st attack
+V*Only possible during 2nd attack"
+VL Double Knee Press,13,5,19,2,-4,90,150,→ + LK,"Uses 200F V-Gauge Timer
+                                                                                                                                6F - 9F  full invincibility
+                                                CA*Only possible during 1st attack"
+VM Double Knee Press,15,5,20,2,-3,100,150,→ + MK,"Uses 200F V-Gauge Timer
+                                                                                                                                6F - 11F  full invincibility
+                                                CA*Only possible during 1st attack"
+VH Double Knee Press,19,5,22,2,-2,110,150,→ + HK,"Uses 200F V-Gauge Timer
+                                                                                                                                6F - 13F  full invincibility
+                                                CA*Only possible during 1st attack"
+EX Double Knee Press,12,6,17,D,1,150(*160)(*270),200(*1*2100),→ + K K,"V*Only for the second hit on block
+*1During airborne hit
+*2From active frame 2F"
+VEX Double Knee Press,13,6,15,D,3,160,200,→ + K K,"Uses 200F V-Gauge Timer
+                                                                                                                                4F - 12F  full invincibility"
+VEX Double Knee Press (Cancel),13,6,15,D,3,160,200,→ + K K,"Uses 200F V-Gauge Timer
+                                                                                                                                1F - 12F  full invincibility"
+Head Press,23,Until landing,7 frame(s) after landing,,,100,200,↑ + K,None
+VHead Press,24,Until landing,25 frame(s) after landing,D,1,120,200,↑ + K,"Uses 200F V-Gauge Timer
+                                                                                                                                                                                Cannot recover"
+EX Head Press,17,Until landing,16 frame(s) after landing,D,,160(*100),200(*100),↑ + K K,"Can cross-up
+                                                                                                1F - Until landing  projectile invincibility
+                                                *During airborne hit"
+VEX Head Press,35,Until landing,28 frame(s) after landing,D,-2,180,200,↑ + K K,"Uses 200F V-Gauge Timer
+                                                                                                                                1F - 25F  full invincibility
+                                                Cannot recover"
+VEX Head Press (Cancel),43,Until landing,16 frame(s) after landing,D,-2,180,200,↑ + K K,"Uses 200F V-Gauge Timer
+                                                                                                                                                                                Cannot recover"
+Somersault Skull Diver,5,10,4 frame(s) after landing,,,70,100,(AFTER HEAD PRESS HITS) P,None
+Devil Reverse,15,22,7 frame(s) after landing,D,2,70,100,(BEFORE HEAD PRESS HITS) P,None
+VDevil Reverse,32,,4 frame(s) after landing,D,8,100,150,(BEFORE HEAD PRESS HITS) P,Uses 200F V-Gauge Timer
+EX Devil Reverse,27,,10 frame(s) after landing,D,9,140,200,(BEFORE HEAD PRESS HITS) P P,1F - 16F  full invincibility
+VEX Devil Reverse,40,,4 frame(s) after landing,D,14,160,200,(BEFORE HEAD PRESS HITS) P P,Uses 200F V-Gauge Timer
+Ultimate Psycho Crusher,1+5,15,63,D,-40,340,0,↓↘→ ↓↘→ + P,1F - 20F  full invincibility
+Ultimate Psycho Crusher (Airborne),1+5,15,14 frame(s) after landing,D,,340,0,(DURING JUMP) ↓↘→ ↓↘→ + P,1F - 20F  full invincibility
